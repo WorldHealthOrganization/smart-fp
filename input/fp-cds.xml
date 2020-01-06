@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
+  <id value="dbcg.fhir.igstart"/>
+  <url value="http://hl7.org/fhir/dbcg/igstart/ImplementationGuide/dbcg.fhir.igstart"/>
+  <name value="DBCGIGStart"/>
+  <title value="IG Starting Point"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <publisher value="DBCG"/>
+  <description value="This is a test."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="dbcg.fhir.igstart"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="IG Home Page"/>
+        <generation value="html"/>
+      </page>
+    </page>
+  </definition>
+</ImplementationGuide>
