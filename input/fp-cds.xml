@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
-  <id value="dbcg.fhir.igstart"/>
-  <url value="http://hl7.org/fhir/dbcg/igstart/ImplementationGuide/dbcg.fhir.igstart"/>
+  <id value="fhir.who.fp-cds"/>
+  <url value="http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds"/>
   <name value="DBCGIGStart"/>
   <title value="IG Starting Point"/>
   <status value="draft"/>
@@ -14,7 +14,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="dbcg.fhir.igstart"/>
+  <packageId value="fhir.who.fp-cds"/>
   <fhirVersion value="4.0.1"/>
   <definition>
     <page>
