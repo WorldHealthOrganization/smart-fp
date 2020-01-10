@@ -18,13 +18,43 @@
   <fhirVersion value="4.0.1"/>
   <definition>
     <page>
-      <nameUrl value="toc.html"/>
-      <title value="Table of Contents"/>
-      <generation value="html"/>
+      <nameUrl value="toc.html" />
+      <title value="Table of Contents" />
+      <generation value="html" />
       <page>
-        <nameUrl value="index.html"/>
-        <title value="Home"/>
-        <generation value="html"/>
+        <nameUrl value="index.html" />
+        <title value="WHO Core Implementation Guide" />
+        <generation value="html" />
+      </page>
+      <!-- <page>
+        <nameUrl value="profiles.html" />
+        <title value="Profiles" />
+        <generation value="markdown" />
+      </page> -->
+      <page>
+        <nameUrl value="terminology.html" />
+        <title value="Terminology" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="examples.html" />
+        <title value="Examples" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="test.html" />
+        <title value="Test Data" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="documentation.html" />
+        <title value="Documentation" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="downloads.html" />
+        <title value="Downloads" />
+        <generation value="markdown" />
       </page>
     </page>
   </definition>
