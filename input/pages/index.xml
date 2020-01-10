@@ -10,7 +10,13 @@
   <h3>Introduction</h3>
 
   <p>
-      This implementation guide is a skeleton meant to be copied and used as a starting point for other, new IGs
+      This implementation guide provides resources and discussion in support of applying the WHO recommendations on family planning:
+  </p>
+
+  <p><a href="https://www.who.int/reproductivehealth/publications/fp-global-handbook/en/" target="_blank">Family Planning - A global handbook for providers</a></p>
+
+  <p>
+  	Note that the content of this implementation guide is draft material that has not yet been tested or validated for use in production environments.
   </p>
 
   <a name="scope"> </a>

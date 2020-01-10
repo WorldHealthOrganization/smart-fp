@@ -3,11 +3,11 @@
   <id value="fhir.who.fp-cds"/>
   <url value="http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds"/>
   <name value="DBCGIGStart"/>
-  <title value="IG Starting Point"/>
+  <title value="WHO Family Planning Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="DBCG"/>
-  <description value="This is a test."/>
+  <publisher value="World Health Organization (WHO)"/>
+  <description value="Guide for implementing World Health Organization Family Planning guidelines."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -23,7 +23,7 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="IG Home Page"/>
+        <title value="Home"/>
         <generation value="html"/>
       </page>
     </page>
