@@ -2,11 +2,10 @@
 
 The following example scenarios illustrate behavior at specific points:
 
-[First Contact](examples-first-contact.html)
 
 # Examples
 
-The following are examples for the WHO Antenatal Care Guidelines:
+The following are examples for the WHO Family Planning Guidelines:
 
 {% include list-simple-careplans.xhtml %}
 {% include list-simple-careteams.xhtml %}
