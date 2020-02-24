@@ -1,0 +1,1054 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "248957007",
+  "display" : "Days since start of last normal menses (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Menstruation",
+  "severity" : "warning",
+  "error" : "The display \"Days since start of last normal menses (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}248957007 - should be one of [Menstruation,Catamenia,\"Menstrual flow\",Menses,Periods,Menorrhea,\"Menstruation, function (observable entity)\",\"Menstruation, function\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "252161000",
+  "display" : "Sensitivity of pregnancy test (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Sensitive pregnancy test",
+  "severity" : "warning",
+  "error" : "The display \"Sensitivity of pregnancy test (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}252161000 - should be one of [\"Sensitive pregnancy test\",\"Sensitive pregnancy test (procedure)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441829007",
+  "display" : "Cardiovascular risk factor (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Assessment for risk of cardiovascular disease",
+  "severity" : "warning",
+  "error" : "The display \"Cardiovascular risk factor (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}441829007 - should be one of [\"Assessment for risk of cardiovascular disease\",\"Assessment for risk of cardiovascular disease (procedure)\"]"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "308335008",
+        "display" : "Provided on site"
+      },
+      {
+        "code" : "281100006",
+        "display" : "Referral"
+      },
+      {
+        "code" : "16076005",
+        "display" : "Prescription"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:31723b07-b075-4398-80f3-06310468ba40",
+    "timestamp" : "2020-02-21T15:58:30.068Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "308335008",
+      "display" : "Provided on site"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281100006",
+      "display" : "Referral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16076005",
+      "display" : "Prescription"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "733896006; 169743001",
+        "display" : "Partially"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:36fec9de-0436-407c-b8de-c96c83cc5d95",
+    "timestamp" : "2020-02-21T15:58:30.849Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "733896006; 169743001",
+      "display" : "Partially"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "365981007",
+        "display" : "Smoker"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes"
+      },
+      {
+        "code" : "38341003",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "414916001",
+        "display" : "Obese"
+      },
+      {
+        "code" : "55822004",
+        "display" : "Known dyslipidaemias"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:cc0c4ec2-b69a-4c04-af9b-ce3d6d8a5613",
+    "timestamp" : "2020-02-21T15:58:31.474Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "365981007",
+      "display" : "Smoker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "73211009",
+      "display" : "Diabetes"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "38341003",
+      "display" : "Hypertension"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414916001",
+      "display" : "Obese"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "55822004",
+      "display" : "Known dyslipidaemias"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "255383001",
+        "display" : "Highly sensitive"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4d87a27c-a40f-4486-8fa3-80912bd79bdd",
+    "timestamp" : "2020-02-21T15:58:32.193Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "255383001",
+      "display" : "Highly sensitive"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "454731000124108",
+        "display" : "Voluntarily refrains from sexual intercourse"
+      },
+      {
+        "code" : "445637007",
+        "display" : "Client choice to not use contraception"
+      },
+      {
+        "code" : "454361000124100",
+        "display" : "Same sex partner"
+      },
+      {
+        "code" : "74964007",
+        "display" : "No method for other reasons"
+      },
+      {
+        "code" : "182856006",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "15296000",
+        "display" : "Sterile for non-contraceptive reasons"
+      },
+      {
+        "code" : "454411000124108",
+        "display" : "Seeking pregnancy"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:51c55b8c-d0fa-486f-8abd-0259d83bbd8a",
+    "timestamp" : "2020-02-21T15:58:32.771Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "454731000124108",
+      "display" : "Voluntarily refrains from sexual intercourse"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445637007",
+      "display" : "Client choice to not use contraception"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "454361000124100",
+      "display" : "Same sex partner"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74964007",
+      "display" : "No method for other reasons"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "182856006",
+      "display" : "Out of stock"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "15296000",
+      "display" : "Sterile for non-contraceptive reasons"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "454411000124108",
+      "display" : "Seeking pregnancy"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385660001",
+        "display" : "Not done"
+      },
+      {
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "263654008",
+        "display" : "Abnormal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:f6ab8da4-1682-412b-a32d-79214b9f4818",
+    "timestamp" : "2020-02-21T15:58:33.302Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385660001",
+      "display" : "Not done"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263654008",
+      "display" : "Abnormal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "19169002; 255246003",
+        "display" : "First trimester"
+      },
+      {
+        "code" : "85116003; 255247007",
+        "display" : "Second trimester"
+      },
+      {
+        "code" : "67465009; 255248002",
+        "display" : "Immediate post-septic abortion"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4c3af9cd-de5f-4f1b-aca9-6ec3b2ccf16c",
+    "timestamp" : "2020-02-21T15:58:33.834Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "19169002; 255246003",
+      "display" : "First trimester"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "85116003; 255247007",
+      "display" : "Second trimester"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "67465009; 255248002",
+      "display" : "Immediate post-septic abortion"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "442450006",
+        "display" : "Male condom"
+      },
+      {
+        "code" : "442288006; 228479001",
+        "display" : "Female condom"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:de980c5c-3d37-436f-96bc-eb7c19c93134",
+    "timestamp" : "2020-02-21T15:58:34.662Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "442450006",
+      "display" : "Male condom"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442288006; 228479001",
+      "display" : "Female condom"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "169450001",
+        "display" : "Stopping contraception"
+      },
+      {
+        "code" : "408968008",
+        "display" : "Contraception counseling"
+      },
+      {
+        "code" : "243816001",
+        "display" : "Contraceptive continuation"
+      },
+      {
+        "code" : "275813002",
+        "display" : "Emergency contraception"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:e1992584-4896-4dda-a3ff-060bbde0fd98",
+    "timestamp" : "2020-02-21T15:58:35.896Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "169450001",
+      "display" : "Stopping contraception"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "408968008",
+      "display" : "Contraception counseling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "243816001",
+      "display" : "Contraceptive continuation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275813002",
+      "display" : "Emergency contraception"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "89164003",
+        "display" : "Undiagnosed mass"
+      },
+      {
+        "code" : "419307005",
+        "display" : "Benign breast disease"
+      },
+      {
+        "code" : "254837009",
+        "display" : "Breast cancer"
+      },
+      {
+        "code" : "429740004",
+        "display" : "Family history of cancer"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:19b7b2b2-bceb-4f8e-9b0d-7d0320a97cab",
+    "timestamp" : "2020-02-21T15:58:37.240Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "89164003",
+      "display" : "Undiagnosed mass"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419307005",
+      "display" : "Benign breast disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "254837009",
+      "display" : "Breast cancer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429740004",
+      "display" : "Family history of cancer"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "308335008",
+        "display" : "Provided on site"
+      },
+      {
+        "code" : "281100006",
+        "display" : "Referral"
+      },
+      {
+        "code" : "16076005",
+        "display" : "Prescription"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-308335008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=308335008\">308335008</a></td><td>Provided on site</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-281100006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281100006\">281100006</a></td><td>Referral</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-16076005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16076005\">16076005</a></td><td>Prescription</td><td/></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5b03d002-5b59-46b8-b726-e024d3c4430e",
+    "timestamp" : "2020-02-21T15:58:45.474Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "308335008",
+      "display" : "Provided on site"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281100006",
+      "display" : "Referral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "16076005",
+      "display" : "Prescription"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "255383001",
+        "display" : "Highly sensitive"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-255383001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255383001\">255383001</a></td><td>Highly sensitive</td><td/></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:418775f0-14e0-4a4b-a99c-c1db1f4ecb8c",
+    "timestamp" : "2020-02-21T15:58:47.146Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "255383001",
+      "display" : "Highly sensitive"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385660001",
+        "display" : "Not done"
+      },
+      {
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "263654008",
+        "display" : "Abnormal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-385660001\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385660001\">385660001</a></td><td>Not done</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17621005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17621005\">17621005</a></td><td>Normal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263654008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263654008\">263654008</a></td><td>Abnormal</td><td/></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:b5cffd27-23d3-4b45-aa27-5c22689f3520",
+    "timestamp" : "2020-02-21T15:58:47.849Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385660001",
+      "display" : "Not done"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263654008",
+      "display" : "Abnormal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "169450001",
+        "display" : "Stopping contraception"
+      },
+      {
+        "code" : "408968008",
+        "display" : "Contraception counseling"
+      },
+      {
+        "code" : "243816001",
+        "display" : "Contraceptive continuation"
+      },
+      {
+        "code" : "275813002",
+        "display" : "Emergency contraception"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:4c5e36eb-0ef7-4f24-8618-e54525cc9dc3",
+    "timestamp" : "2020-02-21T15:58:49.599Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "169450001",
+      "display" : "Stopping contraception"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "408968008",
+      "display" : "Contraception counseling"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "243816001",
+      "display" : "Contraceptive continuation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275813002",
+      "display" : "Emergency contraception"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "441829007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Assessment for risk of cardiovascular disease",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "248957007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Menstruation",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "252161000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Sensitive pregnancy test",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "315604002",
+  "display" : "Number of missed hormonal pills (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Missed contraceptive pill",
+  "severity" : "warning",
+  "error" : "The display \"Number of missed hormonal pills (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}315604002 - should be one of [\"Missed contraceptive pill\",\"Missed contraceptive pill (situation)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "315604002"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Missed contraceptive pill",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385660001",
+        "display" : "Not done"
+      },
+      {
+        "code" : "385658003",
+        "display" : "Done"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7bbc3076-2fcb-48ec-8144-b99a06f73d68",
+    "timestamp" : "2020-02-24T21:16:24.254Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "385660001",
+      "display" : "Not done"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "385658003",
+      "display" : "Done"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "263654008",
+        "display" : "Abnormal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:117fd23a-670f-41f5-b0a4-c685d232a814",
+    "timestamp" : "2020-02-24T21:16:27.269Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263654008",
+      "display" : "Abnormal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "263654008",
+        "display" : "Abnormal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:45739d80-76c7-4580-b42b-928cecc77bd4",
+    "timestamp" : "2020-02-24T21:16:30.941Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "17621005",
+      "display" : "Normal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "263654008",
+      "display" : "Abnormal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

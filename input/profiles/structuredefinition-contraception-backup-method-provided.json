@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "contraception-backup-method-provided",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/contraception-backup-method-provided",
+  "name": "Contraception backup method provided",
+  "title": "Contraception backup method provided",
+  "status": "draft",
+  "experimental": false,
+  "description": "Type of backup method provided",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/contraception-backup-method-provided-values"
+        }
+      }
+    ]
+  }
+}

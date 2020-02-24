@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "reason-for-stopping-contraception-method",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/reason-for-stopping-contraception-method",
+  "name": "Reason for stopping contraception method",
+  "title": "Reason for stopping contraception method",
+  "status": "draft",
+  "experimental": false,
+  "description": "If stopping a method, the reason why.",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 1,
+        "max": "1",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LL4579-0",
+              "display": "Reason for stopping contraception method (LOINC)"
+            }
+          ]
+        },
+        "mustSupport": true
+      }
+    ]
+  }
+}

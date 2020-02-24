@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "breast-disease",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/breast-disease",
+  "name": "Breast disease",
+  "title": "Breast disease",
+  "status": "draft",
+  "experimental": false,
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition",
+        "mustSupport": false
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/breast-disease-values"
+        }
+      }
+    ]
+  }
+}

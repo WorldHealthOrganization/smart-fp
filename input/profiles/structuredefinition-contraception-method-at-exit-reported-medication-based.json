@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "contraception-method-at-exit-reported-medication-based",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/contraception-method-at-exit-reported-medication-based",
+  "name": "Contraception Method at exit - reported - Medication-based",
+  "title": "Contraception Method at exit - reported - Medication-based",
+  "status": "draft",
+  "experimental": false,
+  "description": "Contraceptive method at exit reported.",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationStatement",
+        "path": "MedicationStatement",
+        "mustSupport": false
+      },
+      {
+        "id": "MedicationStatement.medication[x]",
+        "path": "MedicationStatement.medication[x]",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "careplan-based-contraception-method-requested",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/careplan-based-contraception-method-requested",
+  "name": "CarePlan-based Contraception Method requested",
+  "title": "CarePlan-based Contraception Method requested",
+  "status": "draft",
+  "experimental": false,
+  "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods. ",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "CarePlan",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/CarePlan",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "CarePlan",
+        "path": "CarePlan",
+        "mustSupport": false
+      },
+      {
+        "id": "CarePlan.activity.detail.code",
+        "path": "CarePlan.activity.detail.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,563 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N64.9",
+        "display" : "Current"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:09c56c5c-2912-4125-b892-10df0760d74d",
+    "timestamp" : "2020-02-21T15:58:30.334Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N64.9",
+      "display" : "Current"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "F17.1",
+        "display" : "Smoker"
+      },
+      {
+        "code" : "E14.8",
+        "display" : "Diabetes"
+      },
+      {
+        "code" : "I10",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "E66.9",
+        "display" : "Obese"
+      },
+      {
+        "code" : "E78.5",
+        "display" : "Known dyslipidaemias"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:393148ad-045a-4c4c-9087-d6322bdbd8bb",
+    "timestamp" : "2020-02-21T15:58:31.099Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "F17.1",
+      "display" : "Smoker"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E14.8",
+      "display" : "Diabetes"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "I10",
+      "display" : "Hypertension"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E66.9",
+      "display" : "Obese"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E78.5",
+      "display" : "Known dyslipidaemias"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z76.89",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "Z31.9",
+        "display" : "Sterile for non-contraceptive reasons"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7e39d9df-e62a-4673-9b55-9fe9cbda7432",
+    "timestamp" : "2020-02-21T15:58:33.037Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z76.89",
+      "display" : "Out of stock"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z31.9",
+      "display" : "Sterile for non-contraceptive reasons"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "O03.37",
+        "display" : "Immediate post-septic abortion"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7127c93b-c87d-4667-8ab8-8deb7245c101",
+    "timestamp" : "2020-02-21T15:58:34.099Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "O03.37",
+      "display" : "Immediate post-septic abortion"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N73.9",
+        "display" : "History of pelvic inflammation"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Current pelvic inflammation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:85b72edc-b7c8-400c-9152-10bd48f86e2c",
+    "timestamp" : "2020-02-21T15:58:35.459Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "History of pelvic inflammation"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Current pelvic inflammation"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z30.0",
+        "display" : "Contraception counseling"
+      },
+      {
+        "code" : "Z30.01",
+        "display" : "Starting contraception"
+      },
+      {
+        "code" : "Z30",
+        "display" : "Contraceptive continuation"
+      },
+      {
+        "code" : "Z30.012",
+        "display" : "Emergency contraception"
+      },
+      {
+        "code" : "Z30.40",
+        "display" : "Contraception Issues and concerns"
+      },
+      {
+        "code" : "Z30.46",
+        "display" : "Implant removal"
+      },
+      {
+        "code" : "Z30.432",
+        "display" : "IUD Removal"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:8845d9f2-b353-447d-8c48-3fa4c499ad85",
+    "timestamp" : "2020-02-21T15:58:36.271Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.0",
+      "display" : "Contraception counseling"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.01",
+      "display" : "Starting contraception"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30",
+      "display" : "Contraceptive continuation"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.012",
+      "display" : "Emergency contraception"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.40",
+      "display" : "Contraception Issues and concerns"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.46",
+      "display" : "Implant removal"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z30.432",
+      "display" : "IUD Removal"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N63",
+        "display" : "Undiagnosed mass"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c6bf91a0-3193-4c2c-859b-5fd125e6b723",
+    "timestamp" : "2020-02-21T15:58:36.881Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N63",
+      "display" : "Undiagnosed mass"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N64.9",
+        "display" : "Current"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p>All codes from system <code>http://hl7.org/fhir/sid/icd-10</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N64.9\"> </a>N64.9</td><td>Current</td></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:43fa04cd-5fb0-4ee8-926a-e5f840e74b6a",
+    "timestamp" : "2020-02-21T15:58:45.818Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N64.9",
+      "display" : "Current"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "F17.1",
+        "display" : "Smoker"
+      },
+      {
+        "code" : "E14.8",
+        "display" : "Diabetes"
+      },
+      {
+        "code" : "I10",
+        "display" : "Hypertension"
+      },
+      {
+        "code" : "E66.9",
+        "display" : "Obese"
+      },
+      {
+        "code" : "E78.5",
+        "display" : "Known dyslipidaemias"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:8e1ea097-a4be-4db3-8da5-042cc563d592",
+    "timestamp" : "2020-02-21T15:58:46.459Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "F17.1",
+      "display" : "Smoker"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E14.8",
+      "display" : "Diabetes"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "I10",
+      "display" : "Hypertension"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E66.9",
+      "display" : "Obese"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "E78.5",
+      "display" : "Known dyslipidaemias"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N73.9",
+        "display" : "History of pelvic inflammation"
+      },
+      {
+        "code" : "N73.9",
+        "display" : "Current pelvic inflammation"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <code>http://hl7.org/fhir/sid/icd-10</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N73.9\"> </a>N73.9</td><td>History of pelvic inflammation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N73.9\"> </a>N73.9</td><td>Current pelvic inflammation</td></tr></table></div>"
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:59d03266-2faf-41fb-bc00-a61197727f92",
+    "timestamp" : "2020-02-21T15:58:49.271Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "History of pelvic inflammation"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N73.9",
+      "display" : "Current pelvic inflammation"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N63",
+        "display" : "Undiagnosed mass"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:7deb804a-1b1d-4500-bb9a-7dad497ba4ba",
+    "timestamp" : "2020-02-21T15:58:49.990Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N63",
+      "display" : "Undiagnosed mass"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "003.9",
+  "display" : "Miscarriage or abortion stage of pregnancy (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"003.9\" not found; The code \"003.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#003.9) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "003.9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"003.9\" not found; The code \"003.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#003.9) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

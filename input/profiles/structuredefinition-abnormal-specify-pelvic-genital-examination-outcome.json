@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "abnormal-specify-pelvic-genital-examination-outcome",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/abnormal-specify-pelvic-genital-examination-outcome",
+  "name": "Abnormal (specify) - Pelvic/genital examination outcome",
+  "title": "Abnormal (specify) - Pelvic/genital examination outcome",
+  "status": "draft",
+  "experimental": false,
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure",
+        "mustSupport": false
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Annotation"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

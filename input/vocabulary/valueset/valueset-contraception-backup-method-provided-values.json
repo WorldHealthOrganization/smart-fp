@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "contraception-backup-method-provided-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/contraception-backup-method-provided-values",
+  "name": "contraception-backup-method-provided-values",
+  "title": "Contraception backup method provided values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Contraception backup method provided element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA27912-7",
+            "display": "Male condom"
+          },
+          {
+            "code": "LA27914-3",
+            "display": "Female condom"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "442450006",
+            "display": "Male condom"
+          },
+          {
+            "code": "442288006; 228479001",
+            "display": "Female condom"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other"
+          }
+        ]
+      }
+    ]
+  }
+}

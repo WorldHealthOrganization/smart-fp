@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "pregnancy-intention",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/pregnancy-intention",
+  "name": "Pregnancy intention",
+  "title": "Pregnancy intention",
+  "status": "draft",
+  "experimental": false,
+  "description": "Client's intention or desire in the next year to either become pregnant or prevent a future pregnancy. ",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 1,
+        "max": "1",
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "86645-9",
+              "display": "Pregnancy intention (LOINC)"
+            }
+          ]
+        },
+        "mustSupport": true
+      }
+    ]
+  }
+}

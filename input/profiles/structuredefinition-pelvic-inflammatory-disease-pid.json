@@ -1,0 +1,40 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "pelvic-inflammatory-disease-pid",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/pelvic-inflammatory-disease-pid",
+  "name": "Pelvic inflammatory disease (PID)",
+  "title": "Pelvic inflammatory disease (PID)",
+  "status": "draft",
+  "experimental": false,
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition",
+        "path": "Condition",
+        "mustSupport": false
+      },
+      {
+        "id": "Condition.code",
+        "path": "Condition.code",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/pelvic-inflammatory-disease-pid-values"
+        }
+      }
+    ]
+  }
+}

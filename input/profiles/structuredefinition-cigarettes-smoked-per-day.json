@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "cigarettes-smoked-per-day",
+  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/cigarettes-smoked-per-day",
+  "name": "Cigarettes smoked per day",
+  "title": "Cigarettes smoked per day",
+  "status": "draft",
+  "experimental": false,
+  "description": "If the client smokes, indicate how heavily",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

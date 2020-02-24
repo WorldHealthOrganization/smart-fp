@@ -1,0 +1,32 @@
+{
+  "resourceType": "ValueSet",
+  "id": "how-contraceptive-method-is-being-provided-values",
+  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/how-contraceptive-method-is-being-provided-values",
+  "name": "how-contraceptive-method-is-being-provided-values",
+  "title": "How contraceptive method is being provided values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the How contraceptive method is being provided element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "308335008",
+            "display": "Provided on site"
+          },
+          {
+            "code": "281100006",
+            "display": "Referral"
+          },
+          {
+            "code": "16076005",
+            "display": "Prescription"
+          }
+        ]
+      }
+    ]
+  }
+}
