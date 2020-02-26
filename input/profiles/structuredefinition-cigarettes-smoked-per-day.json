@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "cigarettes-smoked-per-day",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/cigarettes-smoked-per-day",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/cigarettes-smoked-per-day",
   "name": "Cigarettes smoked per day",
   "title": "Cigarettes smoked per day",
   "status": "draft",

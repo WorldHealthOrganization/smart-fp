@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "days-late-in-applying-patch",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/days-late-in-applying-patch",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/days-late-in-applying-patch",
   "name": "Days late in applying patch",
   "title": "Days late in applying patch",
   "status": "draft",

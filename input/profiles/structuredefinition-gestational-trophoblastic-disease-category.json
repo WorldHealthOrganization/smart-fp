@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "gestational-trophoblastic-disease-category",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/gestational-trophoblastic-disease-category",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/gestational-trophoblastic-disease-category",
   "name": "Gestational trophoblastic disease category",
   "title": "Gestational trophoblastic disease category",
   "status": "draft",

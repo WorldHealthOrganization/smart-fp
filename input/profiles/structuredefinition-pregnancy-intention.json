@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pregnancy-intention",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/pregnancy-intention",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/pregnancy-intention",
   "name": "Pregnancy intention",
   "title": "Pregnancy intention",
   "status": "draft",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "reason-for-stopping-contraception-method",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/reason-for-stopping-contraception-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/reason-for-stopping-contraception-method",
   "name": "Reason for stopping contraception method",
   "title": "Reason for stopping contraception method",
   "status": "draft",

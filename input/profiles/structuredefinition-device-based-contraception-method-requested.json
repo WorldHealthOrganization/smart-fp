@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "device-based-contraception-method-requested",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/device-based-contraception-method-requested",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/device-based-contraception-method-requested",
   "name": "Device-based Contraception Method requested",
   "title": "Device-based Contraception Method requested",
   "status": "draft",

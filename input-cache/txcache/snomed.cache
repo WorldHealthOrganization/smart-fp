@@ -1026,6 +1026,10 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2019</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-17621005\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17621005\">17621005</a></td><td>Normal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-263654008\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=263654008\">263654008</a></td><td>Abnormal</td><td/></tr></table></div>"
+  },
   "expansion" : {
     "identifier" : "urn:uuid:45739d80-76c7-4580-b42b-928cecc77bd4",
     "timestamp" : "2020-02-24T21:16:30.941Z",
@@ -1049,6 +1053,48 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "423728007",
+  "display" : "Inconsistent contraceptive use (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Inconsistent use of contraception methods (finding)",
+  "severity" : "warning",
+  "error" : "The display \"Inconsistent contraceptive use (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}423728007 - should be one of [\"Inconsistent use of contraception methods (finding)\",\"Inconsistent use of contraception methods\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "449331006",
+  "display" : "Intercourse since last normal menses (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Date of last sexual intercourse (observable entity)",
+  "severity" : "warning",
+  "error" : "The display \"Intercourse since last normal menses (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}449331006 - should be one of [\"Date of last sexual intercourse (observable entity)\",\"Date of last sexual intercourse\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "423728007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Inconsistent use of contraception methods (finding)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "449331006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Date of last sexual intercourse (observable entity)",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

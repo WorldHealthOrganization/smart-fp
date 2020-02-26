@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "quantity-of-backup-method-provided",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/quantity-of-backup-method-provided",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/quantity-of-backup-method-provided",
   "name": "Quantity of backup method provided",
   "title": "Quantity of backup method provided",
   "status": "draft",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "time-since-last-injection",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/time-since-last-injection",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/time-since-last-injection",
   "name": "Time since last injection",
   "title": "Time since last injection",
   "status": "draft",

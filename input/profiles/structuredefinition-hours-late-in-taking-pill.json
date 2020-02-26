@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "hours-late-in-taking-pill",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/hours-late-in-taking-pill",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/hours-late-in-taking-pill",
   "name": "Hours late in taking pill",
   "title": "Hours late in taking pill",
   "status": "draft",

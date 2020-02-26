@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "how-contraceptive-method-is-being-provided",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/how-contraceptive-method-is-being-provided",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided",
   "name": "How contraceptive method is being provided",
   "title": "How contraceptive method is being provided",
   "status": "draft",
@@ -28,7 +28,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/how-contraceptive-method-is-being-provided-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/how-contraceptive-method-is-being-provided-values"
         }
       }
     ]

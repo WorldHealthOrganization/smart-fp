@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "reason-for-family-planning-visit",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/reason-for-family-planning-visit",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/reason-for-family-planning-visit",
   "name": "Reason for family planning visit",
   "title": "Reason for family planning visit",
   "status": "draft",
@@ -33,7 +33,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/reason-for-family-planning-visit-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/reason-for-family-planning-visit-values"
         }
       }
     ]

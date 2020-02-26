@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "abnormal-specify-pelvic-genital-examination-outcome",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/abnormal-specify-pelvic-genital-examination-outcome",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/abnormal-specify-pelvic-genital-examination-outcome",
   "name": "Abnormal (specify) - Pelvic/genital examination outcome",
   "title": "Abnormal (specify) - Pelvic/genital examination outcome",
   "status": "draft",

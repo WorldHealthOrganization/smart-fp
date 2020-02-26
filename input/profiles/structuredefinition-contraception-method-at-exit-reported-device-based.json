@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "contraception-method-at-exit-reported-device-based",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/contraception-method-at-exit-reported-device-based",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/contraception-method-at-exit-reported-device-based",
   "name": "Contraception Method at exit - reported - Device-based",
   "title": "Contraception Method at exit - reported - Device-based",
   "status": "draft",

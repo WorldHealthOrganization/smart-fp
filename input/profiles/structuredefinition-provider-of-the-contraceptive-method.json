@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "provider-of-the-contraceptive-method",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/provider-of-the-contraceptive-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/provider-of-the-contraceptive-method",
   "name": "Provider of the contraceptive method",
   "title": "Provider of the contraceptive method",
   "status": "draft",

@@ -705,3 +705,87 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14621-9",
+  "display" : "No sexual contact since last delivery (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "No sexual activity",
+  "severity" : "warning",
+  "error" : "The display \"No sexual contact since last delivery (LOINC)\" is not a valid display for the code {http://loinc.org}LA14621-9 - should be one of [\"No sexual activity\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA 22280-4",
+  "display" : "Missed or late menses (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA 22280-4\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA 22280-4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "718-7",
+  "display" : "Blood haemoglobin test (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Hemoglobin [Mass/volume] in Blood",
+  "severity" : "warning",
+  "error" : "The display \"Blood haemoglobin test (LOINC)\" is not a valid display for the code {http://loinc.org}718-7 - should be one of [\"Hemoglobin [Mass/volume] in Blood\",\"Hgb Bld-mCnc\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14272-1; LA 14668-0",
+  "display" : "Recent miscarriage or post-abortion (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA14272-1; LA 14668-0\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA14272-1; LA 14668-0) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "718-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Hemoglobin [Mass/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA 22280-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA 22280-4\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA 22280-4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14621-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "No sexual activity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14272-1; LA 14668-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA14272-1; LA 14668-0\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA14272-1; LA 14668-0) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

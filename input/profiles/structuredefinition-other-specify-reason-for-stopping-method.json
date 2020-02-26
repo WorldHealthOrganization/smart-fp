@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "other-specify-reason-for-stopping-method",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/other-specify-reason-for-stopping-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/other-specify-reason-for-stopping-method",
   "name": "Other (specify) - Reason for stopping method",
   "title": "Other (specify) - Reason for stopping method",
   "status": "draft",

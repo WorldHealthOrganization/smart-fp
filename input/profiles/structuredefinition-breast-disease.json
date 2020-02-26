@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "breast-disease",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/breast-disease",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/breast-disease",
   "name": "Breast disease",
   "title": "Breast disease",
   "status": "draft",
@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/anc-cds/ValueSet/breast-disease-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breast-disease-values"
         }
       }
     ]

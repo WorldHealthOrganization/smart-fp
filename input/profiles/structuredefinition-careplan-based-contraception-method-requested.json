@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "careplan-based-contraception-method-requested",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/careplan-based-contraception-method-requested",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/careplan-based-contraception-method-requested",
   "name": "CarePlan-based Contraception Method requested",
   "title": "CarePlan-based Contraception Method requested",
   "status": "draft",

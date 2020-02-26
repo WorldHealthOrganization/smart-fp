@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "observations",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/observations",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/observations",
   "name": "Observations",
   "title": "Observations",
   "status": "draft",

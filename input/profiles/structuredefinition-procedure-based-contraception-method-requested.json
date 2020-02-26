@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "procedure-based-contraception-method-requested",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/procedure-based-contraception-method-requested",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/procedure-based-contraception-method-requested",
   "name": "Procedure-based Contraception Method requested",
   "title": "Procedure-based Contraception Method requested",
   "status": "draft",

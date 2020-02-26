@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "miscarriage-or-abortion-stage-of-pregnancy",
-  "url": "http://fhir.org/guides/who/anc-cds/StructureDefinition/miscarriage-or-abortion-stage-of-pregnancy",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/miscarriage-or-abortion-stage-of-pregnancy",
   "name": "Miscarriage or abortion stage of pregnancy",
   "title": "Miscarriage or abortion stage of pregnancy",
   "status": "draft",
