@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "broad-spectrum-antibiotics",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/broad-spectrum-antibiotics",
+  "name": "Broad-spectrum antibiotics",
+  "title": "Broad-spectrum antibiotics",
+  "status": "draft",
+  "experimental": false,
+  "description": "Client is currently taking Broad-spectrum antibiotics",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationStatement",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationStatement",
+        "path": "MedicationStatement",
+        "mustSupport": false
+      },
+      {
+        "id": "MedicationStatement.medication[x]",
+        "path": "MedicationStatement.medication[x]",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

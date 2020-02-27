@@ -614,3 +614,77 @@ v: {
   "error" : "Code \"Z72.0\" not found; The code \"Z72.0\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.0) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
+  "display" : "High likelihood of chlamydia (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z11.4",
+  "display" : "Date of Last HIV Screen (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z11.4\" not found; The code \"Z11.4\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
+  "display" : "High likelihood of gonorrhoea (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z11.4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z11.4\" not found; The code \"Z11.4\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z72.5; Z72.51; Z72.52; Z72.53"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N93.9; N92.6",
+  "display" : "Vaginal bleeding pattern Irregular (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"N93.9; N92.6\" not found; The code \"N93.9; N92.6\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#N93.9; N92.6) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "N93.9; N92.6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"N93.9; N92.6\" not found; The code \"N93.9; N92.6\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#N93.9; N92.6) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "no-sexual-contact-since-last-miscarriage-or-abortion",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/no-sexual-contact-since-last-miscarriage-or-abortion",
-  "name": "No sexual contact since last miscarriage or abortion",
-  "title": "No sexual contact since last miscarriage or abortion",
+  "id": "lactating",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/lactating",
+  "name": "Lactating",
+  "title": "Lactating",
   "status": "draft",
   "experimental": false,
+  "description": "The client is currently lactating",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -28,8 +29,8 @@
           "coding": [
             {
               "system": "http://loinc.org",
-              "code": "LA14621-9",
-              "display": "No sexual contact since last miscarriage or abortion (LOINC)"
+              "code": "LP190569-6",
+              "display": "Lactating (LOINC)"
             }
           ]
         },

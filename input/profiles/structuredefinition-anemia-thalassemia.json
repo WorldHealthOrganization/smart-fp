@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "gestational-trophoblastic-disease-category",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/gestational-trophoblastic-disease-category",
-  "name": "Gestational trophoblastic disease category",
-  "title": "Gestational trophoblastic disease category",
+  "id": "anemia-thalassemia",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/anemia-thalassemia",
+  "name": "Anemia - Thalassemia",
+  "title": "Anemia - Thalassemia",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -29,11 +29,7 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/gestational-trophoblastic-disease-category-values"
-        }
+        "mustSupport": true
       }
     ]
   }

@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "informed-consent-requirements",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/informed-consent-requirements",
+  "name": "Informed consent requirements",
+  "title": "Informed consent requirements",
+  "status": "draft",
+  "experimental": false,
+  "description": "Local requirements for informed consent.",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Consent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Consent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Consent",
+        "path": "Consent",
+        "mustSupport": false
+      },
+      {
+        "id": "Consent.policyRule.code",
+        "path": "Consent.policyRule.code",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      }
+    ]
+  }
+}

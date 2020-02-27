@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "other-specify-contraception-issues",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/other-specify-contraception-issues",
+  "name": "Other (Specify) - Contraception Issues",
+  "title": "Other (Specify) - Contraception Issues",
+  "status": "draft",
+  "experimental": false,
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter",
+        "path": "Encounter",
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.reasonCode",
+        "path": "Encounter.reasonCode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

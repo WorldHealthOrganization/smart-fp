@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "voluntary-informed-consent",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/voluntary-informed-consent",
+  "name": "Voluntary Informed Consent",
+  "title": "Voluntary Informed Consent",
+  "status": "draft",
+  "experimental": false,
+  "description": "Based on best practice and local laws and regulations.",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Consent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Consent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Consent",
+        "path": "Consent",
+        "mustSupport": false
+      },
+      {
+        "id": "Consent.provision.action",
+        "path": "Consent.provision.action",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

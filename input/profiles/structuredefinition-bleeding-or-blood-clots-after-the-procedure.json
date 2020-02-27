@@ -1,0 +1,36 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "bleeding-or-blood-clots-after-the-procedure",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/bleeding-or-blood-clots-after-the-procedure",
+  "name": "Bleeding or blood clots after the procedure",
+  "title": "Bleeding or blood clots after the procedure",
+  "status": "draft",
+  "experimental": false,
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation",
+        "mustSupport": false
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

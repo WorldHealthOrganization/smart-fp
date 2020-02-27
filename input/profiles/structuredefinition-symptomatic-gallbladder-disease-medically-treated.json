@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "gestational-trophoblastic-disease-category",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/gestational-trophoblastic-disease-category",
-  "name": "Gestational trophoblastic disease category",
-  "title": "Gestational trophoblastic disease category",
+  "id": "symptomatic-gallbladder-disease-medically-treated",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/symptomatic-gallbladder-disease-medically-treated",
+  "name": "Symptomatic Gallbladder disease (Medically treated)",
+  "title": "Symptomatic Gallbladder disease (Medically treated)",
   "status": "draft",
   "experimental": false,
+  "description": "Client has symptomatic gallbladder disease that is being treated medically",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -29,11 +30,7 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/gestational-trophoblastic-disease-category-values"
-        }
+        "mustSupport": true
       }
     ]
   }

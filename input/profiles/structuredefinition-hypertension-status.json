@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "gestational-trophoblastic-disease-category",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/gestational-trophoblastic-disease-category",
-  "name": "Gestational trophoblastic disease category",
-  "title": "Gestational trophoblastic disease category",
+  "id": "hypertension-status",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/hypertension-status",
+  "name": "Hypertension status",
+  "title": "Hypertension status",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -20,8 +20,8 @@
         "mustSupport": false
       },
       {
-        "id": "Condition.code",
-        "path": "Condition.code",
+        "id": "Condition.stage.summary",
+        "path": "Condition.stage.summary",
         "min": 0,
         "max": "1",
         "type": [
@@ -32,7 +32,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/gestational-trophoblastic-disease-category-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/hypertension-status-values"
         }
       }
     ]

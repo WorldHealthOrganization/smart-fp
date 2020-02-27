@@ -789,3 +789,35 @@ v: {
   "error" : "The code \"LA14272-1; LA 14668-0\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA14272-1; LA 14668-0) is not  valid in the value set All codes known to the system"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LP190569-6",
+  "display" : "Lactating (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LP190569-6\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LP190569-6) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LP190569-6"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LP190569-6\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LP190569-6) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14621-9",
+  "display" : "No sexual contact since last miscarriage or abortion (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "No sexual activity",
+  "severity" : "warning",
+  "error" : "The display \"No sexual contact since last miscarriage or abortion (LOINC)\" is not a valid display for the code {http://loinc.org}LA14621-9 - should be one of [\"No sexual activity\"]"
+}
+-------------------------------------------------------------------------------------

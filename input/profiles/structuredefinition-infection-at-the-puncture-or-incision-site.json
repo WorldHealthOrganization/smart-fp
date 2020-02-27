@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "no-sexual-contact-since-last-miscarriage-or-abortion",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/no-sexual-contact-since-last-miscarriage-or-abortion",
-  "name": "No sexual contact since last miscarriage or abortion",
-  "title": "No sexual contact since last miscarriage or abortion",
+  "id": "infection-at-the-puncture-or-incision-site",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/infection-at-the-puncture-or-incision-site",
+  "name": "Infection at the puncture or incision site",
+  "title": "Infection at the puncture or incision site",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -27,9 +27,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://loinc.org",
-              "code": "LA14621-9",
-              "display": "No sexual contact since last miscarriage or abortion (LOINC)"
+              "system": "http://snomed.info/sct",
+              "code": "58126003",
+              "display": "Infection at the puncture or incision site (SNOMED-CT)"
             }
           ]
         },

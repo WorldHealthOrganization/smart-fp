@@ -1098,3 +1098,67 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "351814001",
+  "display" : "Heavy or prolonged vaginal bleeding (including regular and irregular) (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Intermenstrual heavy bleeding",
+  "severity" : "warning",
+  "error" : "The display \"Heavy or prolonged vaginal bleeding (including regular and irregular) (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}351814001 - should be one of [\"Intermenstrual heavy bleeding\",\"Intermenstrual heavy bleeding (finding)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "58126003",
+  "display" : "Infection at the puncture or incision site (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Postoperative wound infection",
+  "severity" : "warning",
+  "error" : "The display \"Infection at the puncture or incision site (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}58126003 - should be one of [\"Postoperative wound infection\",\"Infected surgical wound\",\"Postoperative wound infection (disorder)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "351814001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Intermenstrual heavy bleeding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "58126003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Postoperative wound infection",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "351814001",
+  "display" : "Heavy or prolonged vaginal bleeding-including regular and irregular (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Intermenstrual heavy bleeding",
+  "severity" : "warning",
+  "error" : "The display \"Heavy or prolonged vaginal bleeding-including regular and irregular (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}351814001 - should be one of [\"Intermenstrual heavy bleeding\",\"Intermenstrual heavy bleeding (finding)\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "351814001",
+  "display" : "Heavy or prolonged vaginal bleeding-regular and irregular (SNOMED-CT)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Intermenstrual heavy bleeding",
+  "severity" : "warning",
+  "error" : "The display \"Heavy or prolonged vaginal bleeding-regular and irregular (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}351814001 - should be one of [\"Intermenstrual heavy bleeding\",\"Intermenstrual heavy bleeding (finding)\"]"
+}
+-------------------------------------------------------------------------------------

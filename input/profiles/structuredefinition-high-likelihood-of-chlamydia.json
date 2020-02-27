@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "no-sexual-contact-since-last-miscarriage-or-abortion",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/no-sexual-contact-since-last-miscarriage-or-abortion",
-  "name": "No sexual contact since last miscarriage or abortion",
-  "title": "No sexual contact since last miscarriage or abortion",
+  "id": "high-likelihood-of-chlamydia",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/high-likelihood-of-chlamydia",
+  "name": "High likelihood of chlamydia",
+  "title": "High likelihood of chlamydia",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -27,9 +27,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://loinc.org",
-              "code": "LA14621-9",
-              "display": "No sexual contact since last miscarriage or abortion (LOINC)"
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "Z72.5; Z72.51; Z72.52; Z72.53",
+              "display": "High likelihood of chlamydia (ICD-10-WHO)"
             }
           ]
         },
