@@ -2,8 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "heavy-or-prolonged-vaginal-bleeding-regular-and-irregular",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/heavy-or-prolonged-vaginal-bleeding-regular-and-irregular",
-  "name": "Heavy or prolonged vaginal bleeding-regular and irregular",
-  "title": "Heavy or prolonged vaginal bleeding-regular and irregular",
+  "name": "Heavy or prolonged vaginal bleeding - regular and irregular",
+  "title": "Heavy or prolonged vaginal bleeding - regular and irregular",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -29,7 +29,7 @@
             {
               "system": "http://snomed.info/sct",
               "code": "351814001",
-              "display": "Heavy or prolonged vaginal bleeding-regular and irregular (SNOMED-CT)"
+              "display": "Heavy or prolonged vaginal bleeding - regular and irregular (SNOMED-CT)"
             }
           ]
         },
