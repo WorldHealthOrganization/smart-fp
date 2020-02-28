@@ -1162,3 +1162,680 @@ v: {
   "error" : "The display \"Heavy or prolonged vaginal bleeding-regular and irregular (SNOMED-CT)\" is not a valid display for the code {http://snomed.info/sct}351814001 - should be one of [\"Intermenstrual heavy bleeding\",\"Intermenstrual heavy bleeding (finding)\"]"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "723509005",
+        "display" : "High risk of HIV"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:9775dc77-774e-4f4e-80d1-d1cdfe250186",
+    "timestamp" : "2020-02-28T03:58:19.193Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "723509005",
+      "display" : "High risk of HIV"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260371004",
+        "display" : "Decreasing or undetectable ß-hCG level"
+      },
+      {
+        "code" : "40940006",
+        "display" : "Persistently elevated ß-hCG levels or malignant disease"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:d428e4b9-c056-47f3-ae88-0e07047a0ea6",
+    "timestamp" : "2020-02-28T03:58:19.724Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260371004",
+      "display" : "Decreasing or undetectable ß-hCG level"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "40940006",
+      "display" : "Persistently elevated ß-hCG levels or malignant disease"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "95315005;44598004",
+        "display" : "With distortion of the uterine cavity"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:94c9d78e-e03a-46ca-b9d8-814695decdb9",
+    "timestamp" : "2020-02-28T03:58:20.256Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "95315005;44598004",
+      "display" : "With distortion of the uterine cavity"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "170577003",
+        "display" : "adequately controlled hypertension"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:e312c6c6-fe80-4a05-93c6-151b408c383f",
+    "timestamp" : "2020-02-28T03:58:20.521Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "170577003",
+      "display" : "adequately controlled hypertension"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "315604002",
+        "display" : "Missed pills or late injection"
+      },
+      {
+        "code" : "243818000",
+        "display" : "IUD concerns"
+      },
+      {
+        "code" : "169489007",
+        "display" : "IUD partial expulsion"
+      },
+      {
+        "code" : "169487009",
+        "display" : "IUD complete expulsion"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "301822002",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "9126005",
+        "display" : "Spotting or light bleeding"
+      },
+      {
+        "code" : "44991000119100",
+        "display" : "Change in timing of monthly bleeding"
+      },
+      {
+        "code" : "289539007",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "289530006",
+        "display" : "Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "48079002",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "365965002",
+        "display" : "Changes in sex drive"
+      },
+      {
+        "code" : "72934000",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "68566005",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "55607006",
+        "display" : "Difficulty inserting/removing/using method"
+      },
+      {
+        "code" : "74964007",
+        "display" : "Other"
+      },
+      {
+        "code" : "11381005",
+        "display" : "Acne"
+      },
+      {
+        "code" : "365921005",
+        "display" : "Weight change"
+      },
+      {
+        "code" : "53430007",
+        "display" : "Breast tenderness"
+      },
+      {
+        "code" : "422587007",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "404640003",
+        "display" : "Dizziness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:89f2c886-845a-4207-b5ac-6d88822c9ae5",
+    "timestamp" : "2020-02-28T03:58:20.771Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "315604002",
+      "display" : "Missed pills or late injection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "243818000",
+      "display" : "IUD concerns"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "169489007",
+      "display" : "IUD partial expulsion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "169487009",
+      "display" : "IUD complete expulsion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhoea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "301822002",
+      "display" : "Irregular bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9126005",
+      "display" : "Spotting or light bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "44991000119100",
+      "display" : "Change in timing of monthly bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289539007",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289530006",
+      "display" : "Unexplained vaginal bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48079002",
+      "display" : "Mood changes after start of method"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365965002",
+      "display" : "Changes in sex drive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "72934000",
+      "display" : "Candidiasis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18504008",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68566005",
+      "display" : "Urinary tract infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "55607006",
+      "display" : "Difficulty inserting/removing/using method"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74964007",
+      "display" : "Other"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11381005",
+      "display" : "Acne"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365921005",
+      "display" : "Weight change"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53430007",
+      "display" : "Breast tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422587007",
+      "display" : "Nausea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "404640003",
+      "display" : "Dizziness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "170577003",
+        "display" : "adequately controlled hypertension"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:b4b5a8ba-4985-4b2a-91d5-a3da1f0ec9d0",
+    "timestamp" : "2020-02-28T03:58:32.506Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "170577003",
+      "display" : "adequately controlled hypertension"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "315604002",
+        "display" : "Missed pills or late injection"
+      },
+      {
+        "code" : "243818000",
+        "display" : "IUD concerns"
+      },
+      {
+        "code" : "169489007",
+        "display" : "IUD partial expulsion"
+      },
+      {
+        "code" : "169487009",
+        "display" : "IUD complete expulsion"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "301822002",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "9126005",
+        "display" : "Spotting or light bleeding"
+      },
+      {
+        "code" : "44991000119100",
+        "display" : "Change in timing of monthly bleeding"
+      },
+      {
+        "code" : "289539007",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "289530006",
+        "display" : "Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "48079002",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "365965002",
+        "display" : "Changes in sex drive"
+      },
+      {
+        "code" : "72934000",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "68566005",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "55607006",
+        "display" : "Difficulty inserting/removing/using method"
+      },
+      {
+        "code" : "74964007",
+        "display" : "Other"
+      },
+      {
+        "code" : "11381005",
+        "display" : "Acne"
+      },
+      {
+        "code" : "365921005",
+        "display" : "Weight change"
+      },
+      {
+        "code" : "53430007",
+        "display" : "Breast tenderness"
+      },
+      {
+        "code" : "422587007",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "404640003",
+        "display" : "Dizziness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:e7652653-18c6-4933-9c8c-bb974e07cc0f",
+    "timestamp" : "2020-02-28T03:58:32.865Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "315604002",
+      "display" : "Missed pills or late injection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "243818000",
+      "display" : "IUD concerns"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "169489007",
+      "display" : "IUD partial expulsion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "169487009",
+      "display" : "IUD complete expulsion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14302001",
+      "display" : "Amenorrhoea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "301822002",
+      "display" : "Irregular bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "9126005",
+      "display" : "Spotting or light bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "44991000119100",
+      "display" : "Change in timing of monthly bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289539007",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "289530006",
+      "display" : "Unexplained vaginal bleeding"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "48079002",
+      "display" : "Mood changes after start of method"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365965002",
+      "display" : "Changes in sex drive"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "72934000",
+      "display" : "Candidiasis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "419760006",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "18504008",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "68566005",
+      "display" : "Urinary tract infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "55607006",
+      "display" : "Difficulty inserting/removing/using method"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "74964007",
+      "display" : "Other"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11381005",
+      "display" : "Acne"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "365921005",
+      "display" : "Weight change"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "53430007",
+      "display" : "Breast tenderness"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "422587007",
+      "display" : "Nausea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "404640003",
+      "display" : "Dizziness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

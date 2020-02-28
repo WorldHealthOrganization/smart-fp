@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "reason-for-family-planning-visit-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/reason-for-family-planning-visit-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/reason-for-family-planning-visit-values",
   "name": "reason-for-family-planning-visit-values",
   "title": "Reason for family planning visit values",
   "status": "draft",

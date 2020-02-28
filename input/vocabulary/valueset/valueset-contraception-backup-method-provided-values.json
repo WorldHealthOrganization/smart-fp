@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "contraception-backup-method-provided-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/contraception-backup-method-provided-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-backup-method-provided-values",
   "name": "contraception-backup-method-provided-values",
   "title": "Contraception backup method provided values",
   "status": "draft",

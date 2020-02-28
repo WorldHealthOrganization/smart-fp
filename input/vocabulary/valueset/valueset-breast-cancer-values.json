@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "breast-cancer-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/breast-cancer-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breast-cancer-values",
   "name": "breast-cancer-values",
   "title": "Breast cancer values",
   "status": "draft",
@@ -16,6 +16,10 @@
           {
             "code": "N64.9",
             "display": "Current"
+          },
+          {
+            "code": "z85.3 plus 5 years",
+            "display": "Past, no evidence of disease for at least 5 years"
           }
         ]
       }

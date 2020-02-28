@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pelvic-inflammatory-disease-pid-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/pelvic-inflammatory-disease-pid-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/pelvic-inflammatory-disease-pid-values",
   "name": "pelvic-inflammatory-disease-pid-values",
   "title": "Pelvic inflammatory disease (PID) values",
   "status": "draft",

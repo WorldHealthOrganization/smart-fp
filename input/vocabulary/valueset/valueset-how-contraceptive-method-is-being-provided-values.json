@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "how-contraceptive-method-is-being-provided-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/how-contraceptive-method-is-being-provided-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/how-contraceptive-method-is-being-provided-values",
   "name": "how-contraceptive-method-is-being-provided-values",
   "title": "How contraceptive method is being provided values",
   "status": "draft",

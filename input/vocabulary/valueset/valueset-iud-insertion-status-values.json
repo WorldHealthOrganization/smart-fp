@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "iud-insertion-status-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/iud-insertion-status-values",
+  "name": "iud-insertion-status-values",
+  "title": "IUD Insertion status values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the IUD Insertion status element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/event-status",
+        "concept": [
+          {
+            "code": "completed",
+            "display": "IUD Insertion completed"
+          },
+          {
+            "code": "not-done",
+            "display": "IUD Insertion not possible"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -821,3 +821,70 @@ v: {
   "error" : "The display \"No sexual contact since last miscarriage or abortion (LOINC)\" is not a valid display for the code {http://loinc.org}LA14621-9 - should be one of [\"No sexual activity\"]"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "12275-4",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "69568-4",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "LA7335-8",
+        "display" : "Used incorrectly"
+      },
+      {
+        "code" : "LP146997-4",
+        "display" : "Breast tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:75df84fa-d68c-43d4-8571-490a6d0c0b0f",
+    "timestamp" : "2020-02-28T03:58:21.318Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "12275-4",
+      "display" : "Candidiasis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "69568-4",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA7335-8",
+      "display" : "Used incorrectly"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP146997-4",
+      "display" : "Breast tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

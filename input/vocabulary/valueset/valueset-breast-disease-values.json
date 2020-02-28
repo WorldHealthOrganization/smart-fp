@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "breast-disease-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/breast-disease-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breast-disease-values",
   "name": "breast-disease-values",
   "title": "Breast disease values",
   "status": "draft",

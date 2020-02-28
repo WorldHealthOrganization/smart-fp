@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "breast-exam-result-values",
-  "url": "http://fhir.org/guides/who/anc-cds/ValueSet/breast-exam-result-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breast-exam-result-values",
   "name": "breast-exam-result-values",
   "title": "Breast Exam Result values",
   "status": "draft",

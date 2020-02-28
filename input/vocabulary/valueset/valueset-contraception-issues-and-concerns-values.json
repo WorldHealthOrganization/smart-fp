@@ -1,0 +1,223 @@
+{
+  "resourceType": "ValueSet",
+  "id": "contraception-issues-and-concerns-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+  "name": "contraception-issues-and-concerns-values",
+  "title": "Contraception Issues and concerns values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Contraception Issues and concerns element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "315604002",
+            "display": "Missed pills or late injection"
+          },
+          {
+            "code": "243818000",
+            "display": "IUD concerns"
+          },
+          {
+            "code": "169489007",
+            "display": "IUD partial expulsion"
+          },
+          {
+            "code": "169487009",
+            "display": "IUD complete expulsion"
+          },
+          {
+            "code": "14302001",
+            "display": "Amenorrhoea"
+          },
+          {
+            "code": "301822002",
+            "display": "Irregular bleeding"
+          },
+          {
+            "code": "9126005",
+            "display": "Spotting or light bleeding"
+          },
+          {
+            "code": "44991000119100",
+            "display": "Change in timing of monthly bleeding"
+          },
+          {
+            "code": "289539007",
+            "display": "Heavy or prolonged bleeding"
+          },
+          {
+            "code": "289530006",
+            "display": "Unexplained vaginal bleeding"
+          },
+          {
+            "code": "48079002",
+            "display": "Mood changes after start of method"
+          },
+          {
+            "code": "365965002",
+            "display": "Changes in sex drive"
+          },
+          {
+            "code": "72934000",
+            "display": "Candidiasis"
+          },
+          {
+            "code": "419760006",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "18504008",
+            "display": "Toxic shock syndrome"
+          },
+          {
+            "code": "68566005",
+            "display": "Urinary tract infection"
+          },
+          {
+            "code": "55607006",
+            "display": "Difficulty inserting/removing/using method"
+          },
+          {
+            "code": "74964007",
+            "display": "Other"
+          },
+          {
+            "code": "11381005",
+            "display": "Acne"
+          },
+          {
+            "code": "365921005",
+            "display": "Weight change"
+          },
+          {
+            "code": "53430007",
+            "display": "Breast tenderness"
+          },
+          {
+            "code": "422587007",
+            "display": "Nausea"
+          },
+          {
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "N91.2",
+            "display": "Amenorrhoea"
+          },
+          {
+            "code": "N93.9",
+            "display": "Irregular bleeding"
+          },
+          {
+            "code": "Z32.0",
+            "display": "Client suspects pregnancy"
+          },
+          {
+            "code": "N89.8",
+            "display": "Spotting or light bleeding"
+          },
+          {
+            "code": "N93",
+            "display": "Heavy or prolonged bleeding"
+          },
+          {
+            "code": "N89.8",
+            "display": "Unexplained vaginal bleeding"
+          },
+          {
+            "code": "F39",
+            "display": "Mood changes after start of method"
+          },
+          {
+            "code": "N99.89",
+            "display": "Pain lasting for months"
+          },
+          {
+            "code": "R10.30",
+            "display": "Severe pain in lower abdomen"
+          },
+          {
+            "code": "B37.3",
+            "display": "Candidiasis"
+          },
+          {
+            "code": "N76.0; N77.1",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "A48.3",
+            "display": "Toxic shock syndrome"
+          },
+          {
+            "code": "N39; Z87.440",
+            "display": "Urinary tract infection"
+          },
+          {
+            "code": "N98.9",
+            "display": "Irritation"
+          },
+          {
+            "code": "Z88.8",
+            "display": "Allergic reaction"
+          },
+          {
+            "code": "L70.9",
+            "display": "Acne"
+          },
+          {
+            "code": "G44.40",
+            "display": "Headaches"
+          },
+          {
+            "code": "R11.0",
+            "display": "Nausea"
+          },
+          {
+            "code": "R42",
+            "display": "Dizziness"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "12275-4",
+            "display": "Candidiasis"
+          },
+          {
+            "code": "69568-4",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "LA7335-8",
+            "display": "Used incorrectly"
+          },
+          {
+            "code": "LP146997-4",
+            "display": "Breast tenderness"
+          }
+        ]
+      },
+      {
+        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "concept": [
+          {
+            "code": "Other",
+            "display": "Other"
+          }
+        ]
+      }
+    ]
+  }
+}
