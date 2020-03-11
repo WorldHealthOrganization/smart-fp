@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-fp-consent",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-consent",
+  "name": "who-fp-consent",
+  "title": "who-fp-consent",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-fp-consent",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Consent",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Consent",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Consent",
+        "path": "Consent",
+        "mustSupport": false
+      },
+      {
+        "id": "Consent.provision.action",
+        "path": "Consent.provision.action",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

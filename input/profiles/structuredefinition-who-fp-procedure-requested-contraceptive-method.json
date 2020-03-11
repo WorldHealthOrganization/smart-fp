@@ -1,0 +1,37 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-fp-procedure-requested-contraceptive-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method",
+  "name": "who-fp-procedure-requested-contraceptive-method",
+  "title": "who-fp-procedure-requested-contraceptive-method",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-fp-procedure-requested-contraceptive-method",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure",
+        "path": "Procedure",
+        "mustSupport": false
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true
+      }
+    ]
+  }
+}

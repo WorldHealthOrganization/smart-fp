@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "hiv",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/hiv",
-  "name": "HIV",
-  "title": "HIV",
+  "id": "who-fp-observation-counseling",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-counseling",
+  "name": "who-fp-observation-counseling",
+  "title": "who-fp-observation-counseling",
   "status": "draft",
   "experimental": false,
+  "description": "who-fp-observation-counseling",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -28,8 +29,8 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z71.7",
-              "display": "HIV (ICD-10-WHO)"
+              "code": "Z72.0",
+              "display": "Smoker (ICD-10-WHO)"
             }
           ]
         },

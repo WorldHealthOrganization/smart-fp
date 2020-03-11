@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-fp-deviceusestatement-exit-contraceptive-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
+  "name": "who-fp-deviceusestatement-exit-contraceptive-method",
+  "title": "who-fp-deviceusestatement-exit-contraceptive-method",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-fp-deviceusestatement-exit-contraceptive-method",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DeviceUseStatement",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DeviceUseStatement",
+        "path": "DeviceUseStatement",
+        "mustSupport": false
+      },
+      {
+        "id": "DeviceUseStatement.device.type",
+        "path": "DeviceUseStatement.device.type",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      }
+    ]
+  }
+}

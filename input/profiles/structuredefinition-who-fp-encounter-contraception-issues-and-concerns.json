@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-fp-encounter-contraception-issues-and-concerns",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+  "name": "who-fp-encounter-contraception-issues-and-concerns",
+  "title": "who-fp-encounter-contraception-issues-and-concerns",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-fp-encounter-contraception-issues-and-concerns",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter",
+        "path": "Encounter",
+        "mustSupport": false
+      },
+      {
+        "id": "Encounter.reasonCode",
+        "path": "Encounter.reasonCode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-issues-and-concerns-values"
+        }
+      }
+    ]
+  }
+}

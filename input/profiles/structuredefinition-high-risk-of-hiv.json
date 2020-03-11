@@ -1,9 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "hiv",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/hiv",
-  "name": "HIV",
-  "title": "HIV",
+  "id": "high-risk-of-hiv",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/high-risk-of-hiv",
+  "name": "High risk of HIV",
+  "title": "High risk of HIV",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.0",
@@ -28,8 +28,8 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z71.7",
-              "display": "HIV (ICD-10-WHO)"
+              "code": "z72.51",
+              "display": "High risk of HIV (ICD-10-WHO)"
             }
           ]
         },

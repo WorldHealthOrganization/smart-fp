@@ -28,6 +28,10 @@
           {
             "code": "275813002",
             "display": "Emergency contraception"
+          },
+          {
+            "code": "424016000",
+            "display": "Contraception Method switch"
           }
         ]
       },

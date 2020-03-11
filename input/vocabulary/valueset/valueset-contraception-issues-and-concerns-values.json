@@ -62,6 +62,14 @@
             "display": "Changes in sex drive"
           },
           {
+            "code": "247347003",
+            "display": "Discomfort or pain with use"
+          },
+          {
+            "code": "12243431000119101",
+            "display": "Abscess"
+          },
+          {
             "code": "72934000",
             "display": "Candidiasis"
           },
@@ -145,6 +153,10 @@
           {
             "code": "R10.30",
             "display": "Severe pain in lower abdomen"
+          },
+          {
+            "code": "T81.4",
+            "display": "Abscess"
           },
           {
             "code": "B37.3",

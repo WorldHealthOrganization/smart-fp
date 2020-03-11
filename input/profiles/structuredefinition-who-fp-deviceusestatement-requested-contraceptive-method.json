@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "who-fp-deviceusestatement-requested-contraceptive-method",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
+  "name": "who-fp-deviceusestatement-requested-contraceptive-method",
+  "title": "who-fp-deviceusestatement-requested-contraceptive-method",
+  "status": "draft",
+  "experimental": false,
+  "description": "who-fp-deviceusestatement-requested-contraceptive-method",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "DeviceUseStatement",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DeviceUseStatement",
+        "path": "DeviceUseStatement",
+        "mustSupport": false
+      },
+      {
+        "id": "DeviceUseStatement.device.type",
+        "path": "DeviceUseStatement.device.type",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -22,13 +22,17 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "min": 0,
+        "min": 1,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
+        "fixedCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "724460004",
+              "display": "Bleeding or blood clots after the procedure (SNOMED-CT)"
+            }
+          ]
+        },
         "mustSupport": true
       }
     ]

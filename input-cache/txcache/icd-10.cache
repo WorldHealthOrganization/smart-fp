@@ -1194,3 +1194,252 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z71.7",
+  "display" : "HIV (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z71.7\" not found; The code \"Z71.7\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z71.7) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "z72.51",
+  "display" : "High risk of HIV (ICD-10-WHO)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"z72.51\" not found; The code \"z72.51\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#z72.51) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N91.2",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "Z32.0",
+        "display" : "Client suspects pregnancy"
+      },
+      {
+        "code" : "N89.8",
+        "display" : "Spotting or light bleeding"
+      },
+      {
+        "code" : "N93",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "N89.8",
+        "display" : "Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "F39",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "N99.89",
+        "display" : "Pain lasting for months"
+      },
+      {
+        "code" : "R10.30",
+        "display" : "Severe pain in lower abdomen"
+      },
+      {
+        "code" : "T81.4",
+        "display" : "Abscess"
+      },
+      {
+        "code" : "B37.3",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "N76.0; N77.1",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39; Z87.440",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "N98.9",
+        "display" : "Irritation"
+      },
+      {
+        "code" : "Z88.8",
+        "display" : "Allergic reaction"
+      },
+      {
+        "code" : "L70.9",
+        "display" : "Acne"
+      },
+      {
+        "code" : "G44.40",
+        "display" : "Headaches"
+      },
+      {
+        "code" : "R11.0",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "R42",
+        "display" : "Dizziness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:73660309-925d-482a-ab7e-adbbcdeac3e1",
+    "timestamp" : "2020-03-11T01:28:41.412Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    }],
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N91.2",
+      "display" : "Amenorrhoea"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93.9",
+      "display" : "Irregular bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z32.0",
+      "display" : "Client suspects pregnancy"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N89.8",
+      "display" : "Spotting or light bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N93",
+      "display" : "Heavy or prolonged bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N89.8",
+      "display" : "Unexplained vaginal bleeding"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "F39",
+      "display" : "Mood changes after start of method"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N99.89",
+      "display" : "Pain lasting for months"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R10.30",
+      "display" : "Severe pain in lower abdomen"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "T81.4",
+      "display" : "Abscess"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "B37.3",
+      "display" : "Candidiasis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N76.0; N77.1",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "A48.3",
+      "display" : "Toxic shock syndrome"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N39; Z87.440",
+      "display" : "Urinary tract infection"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "N98.9",
+      "display" : "Irritation"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "Z88.8",
+      "display" : "Allergic reaction"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "L70.9",
+      "display" : "Acne"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "G44.40",
+      "display" : "Headaches"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R11.0",
+      "display" : "Nausea"
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "code" : "R42",
+      "display" : "Dizziness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "z72.51"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"z72.51\" not found; The code \"z72.51\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#z72.51) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "Z71.7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"Z71.7\" not found; The code \"Z71.7\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z71.7) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

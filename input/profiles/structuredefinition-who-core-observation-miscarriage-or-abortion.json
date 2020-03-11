@@ -1,11 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "hiv",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/hiv",
-  "name": "HIV",
-  "title": "HIV",
+  "id": "who-core-observation-miscarriage-or-abortion",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-core-observation-miscarriage-or-abortion",
+  "name": "who-core-observation-miscarriage-or-abortion",
+  "title": "who-core-observation-miscarriage-or-abortion",
   "status": "draft",
   "experimental": false,
+  "description": "who-core-observation-miscarriage-or-abortion",
   "fhirVersion": "4.0.0",
   "kind": "resource",
   "abstract": false,
@@ -28,8 +29,8 @@
           "coding": [
             {
               "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z71.7",
-              "display": "HIV (ICD-10-WHO)"
+              "code": "003.9",
+              "display": "Miscarriage or abortion stage of pregnancy (ICD-10-WHO)"
             }
           ]
         },
