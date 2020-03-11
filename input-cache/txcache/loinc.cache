@@ -1,0 +1,304 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86653-3",
+  "display" : "Reason for no method at exit (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Reason for no birth control use - Reported --at exit",
+  "severity" : "warning",
+  "error" : "The display \"Reason for no method at exit (LOINC)\" is not a valid display for the code {http://loinc.org}86653-3 - should be one of [\"Reason for no birth control use - Reported --at exit\",\"Reason no birth control at exit Reported\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LL4579-0",
+  "display" : "Reason for stopping contraception method (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Reason for no birth control",
+  "severity" : "warning",
+  "error" : "The display \"Reason for stopping contraception method (LOINC)\" is not a valid display for the code {http://loinc.org}LL4579-0 - should be one of [\"Reason for no birth control\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "63895-7",
+  "display" : "Breastfeeding status (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Breastfeeding status",
+  "severity" : "warning",
+  "error" : "The display \"Breastfeeding status (LOINC)\" is not a valid display for the code {http://loinc.org}63895-7 - should be one of [\"Breastfeeding status\",\"Breastfeeding status\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86645-9",
+  "display" : "Pregnancy intention (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Pregnancy intention in the next year - Reported",
+  "severity" : "warning",
+  "error" : "The display \"Pregnancy intention (LOINC)\" is not a valid display for the code {http://loinc.org}86645-9 - should be one of [\"Pregnancy intention in the next year - Reported\",\"Pregnancy intention next year Pt Rpted\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA 22280-4",
+  "display" : "Missed or late menses (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA 22280-4\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA 22280-4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "718-7",
+  "display" : "Blood haemoglobin test (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Hemoglobin [Mass/volume] in Blood",
+  "severity" : "warning",
+  "error" : "The display \"Blood haemoglobin test (LOINC)\" is not a valid display for the code {http://loinc.org}718-7 - should be one of [\"Hemoglobin [Mass/volume] in Blood\",\"Hgb Bld-mCnc\"]"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14272-1; LA 14668-0",
+  "display" : "Recent miscarriage or post-abortion (LOINC)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA14272-1; LA 14668-0\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA14272-1; LA 14668-0) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA27912-7",
+        "display" : "Male condom"
+      },
+      {
+        "code" : "LA27914-3",
+        "display" : "Female condom"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:0a5d3a05-7629-4ec0-92ee-2436195bdc00",
+    "timestamp" : "2020-03-11T19:40:12.161Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA27912-7",
+      "display" : "Male condom"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA27914-3",
+      "display" : "Female condom"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA 27921-8",
+        "display" : "Emergency contraception"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:ca3680e0-d666-443a-91af-485fa38c42b4",
+    "timestamp" : "2020-03-11T19:40:12.896Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA 27921-8",
+      "display" : "Emergency contraception"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "12275-4",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "69568-4",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "LA7335-8",
+        "display" : "Used incorrectly"
+      },
+      {
+        "code" : "LP146997-4",
+        "display" : "Breast tenderness"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:c0cfff72-9d7c-45d5-8fd4-5d31f648566d",
+    "timestamp" : "2020-03-11T19:40:13.208Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "excludeNested",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.66"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "12275-4",
+      "display" : "Candidiasis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "69568-4",
+      "display" : "Bacterial vaginosis"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LA7335-8",
+      "display" : "Used incorrectly"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "LP146997-4",
+      "display" : "Breast tenderness"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "718-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Hemoglobin [Mass/volume] in Blood",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "63895-7"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Breastfeeding status",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA 22280-4"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA 22280-4\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA 22280-4) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86645-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Pregnancy intention in the next year - Reported",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "86653-3"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Reason for no birth control use - Reported --at exit",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LL4579-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Reason for no birth control",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "LA14272-1; LA 14668-0"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"LA14272-1; LA 14668-0\" is not valid in the system http://loinc.org; The code provided (http://loinc.org#LA14272-1; LA 14668-0) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
