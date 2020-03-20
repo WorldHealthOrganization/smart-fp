@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-core-observation-miscarriage-or-abortion",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-core-observation-miscarriage-or-abortion",
-  "name": "who-core-observation-miscarriage-or-abortion",
-  "title": "who-core-observation-miscarriage-or-abortion",
+  "id": "who-fp-observation-breastfeeding-status",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
+  "name": "who-fp-observation-breastfeeding-status",
+  "title": "who-fp-observation-breastfeeding-status",
   "status": "draft",
   "experimental": false,
-  "description": "who-core-observation-miscarriage-or-abortion",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-breastfeeding-status",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -28,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "003.9",
-              "display": "Miscarriage or abortion stage of pregnancy (ICD-10-WHO)"
+              "system": "http://loinc.org",
+              "code": "63895-7",
+              "display": "Breastfeeding status (LOINC)"
             }
           ]
         },

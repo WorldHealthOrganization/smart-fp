@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-fp-observation-counseling",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-counseling",
-  "name": "who-fp-observation-counseling",
-  "title": "who-fp-observation-counseling",
+  "id": "who-fp-observation-days-since-last-normal-menses",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses",
+  "name": "who-fp-observation-days-since-last-normal-menses",
+  "title": "who-fp-observation-days-since-last-normal-menses",
   "status": "draft",
   "experimental": false,
-  "description": "who-fp-observation-counseling",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-days-since-last-normal-menses",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -28,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "Z72.0",
-              "display": "Smoker (ICD-10-WHO)"
+              "system": "http://snomed.info/sct",
+              "code": "248957007",
+              "display": "Days since start of last normal menses (SNOMED-CT)"
             }
           ]
         },

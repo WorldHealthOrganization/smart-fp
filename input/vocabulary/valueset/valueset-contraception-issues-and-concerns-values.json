@@ -222,11 +222,19 @@
         ]
       },
       {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "system": "http://who.int/cg/CodeSystem/extended-content",
         "concept": [
+          {
+            "code": "Makes noise during sex",
+            "display": "Makes noise during sex"
+          },
           {
             "code": "Other",
             "display": "Other"
+          },
+          {
+            "code": "Difficulty persuading partner to use method",
+            "display": "Difficulty persuading partner to use method"
           }
         ]
       }

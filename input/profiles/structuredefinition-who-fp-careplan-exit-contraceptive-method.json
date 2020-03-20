@@ -7,7 +7,7 @@
   "status": "draft",
   "experimental": false,
   "description": "who-fp-careplan-exit-contraceptive-method",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "CarePlan",
@@ -31,6 +31,21 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "CarePlan.extension:how-contraceptive-method-is-being-provided",
+        "path": "CarePlan.extension",
+        "sliceName": "how-contraceptive-method-is-being-provided",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided"
+            ]
+          }
+        ]
       }
     ]
   }

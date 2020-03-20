@@ -1,0 +1,103 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Minor surgery without immobilization",
+        "display" : "Minor surgery without immobilization"
+      },
+      {
+        "code" : "Diabetes >20 years duration",
+        "display" : "Diabetes >20 years duration"
+      },
+      {
+        "code" : "Other vascular disease >20 years duration",
+        "display" : "Other vascular disease >20 years duration"
+      },
+      {
+        "code" : "Complicated Valvular heart disease",
+        "display" : "Complicated Valvular heart disease"
+      },
+      {
+        "code" : "Uncomplicated Valvular heart disease",
+        "display" : "Uncomplicated Valvular heart disease"
+      },
+      {
+        "code" : "Tuberculosis - Non-pelvic",
+        "display" : "Tuberculosis - Non-pelvic"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Makes noise during sex",
+        "display" : "Makes noise during sex"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other"
+      },
+      {
+        "code" : "Difficulty persuading partner to use method",
+        "display" : "Difficulty persuading partner to use method"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Broad-spectrum antibiotics",
+        "display" : "Broad-spectrum antibiotics"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://who.int/cg/CodeSystem/extended-content"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://who.int/cg/CodeSystem/extended-content",
+  "code" : "Cigarettes smoked per day"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://who.int/cg/CodeSystem/extended-content\" is not known (encountered paired with code = \"Cigarettes smoked per day\"); The code provided (http://who.int/cg/CodeSystem/extended-content#Cigarettes smoked per day) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

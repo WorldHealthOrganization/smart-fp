@@ -1,12 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "high-risk-of-hiv",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/high-risk-of-hiv",
-  "name": "High risk of HIV",
-  "title": "High risk of HIV",
+  "id": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "name": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "title": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
   "status": "draft",
   "experimental": false,
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -27,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://hl7.org/fhir/sid/icd-10",
-              "code": "z72.51",
-              "display": "High risk of HIV (ICD-10-WHO)"
+              "system": "http://loinc.org",
+              "code": "86653-3",
+              "display": "Reason for no method at exit (LOINC)"
             }
           ]
         },

@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "id": "observations-affecting-medical-eligibility-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/observations-affecting-medical-eligibility-values",
+  "name": "observations-affecting-medical-eligibility-values",
+  "title": "Observations affecting Medical Eligibility values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Observations affecting Medical Eligibility element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "Z72.0",
+            "display": "Smoker"
+          },
+          {
+            "code": "N93.9; N92.6",
+            "display": "Vaginal bleeding pattern Irregular"
+          },
+          {
+            "code": "z72.51",
+            "display": "High risk of HIV"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "110483000",
+            "display": "Smoker"
+          },
+          {
+            "code": "724460004",
+            "display": "Bleeding or blood clots after the procedure"
+          },
+          {
+            "code": "80182007",
+            "display": "Vaginal bleeding pattern Irregular"
+          },
+          {
+            "code": "351814001",
+            "display": "Heavy or prolonged vaginal bleeding - regular and irregular"
+          },
+          {
+            "code": "723509005",
+            "display": "High risk of HIV"
+          },
+          {
+            "code": "58126003",
+            "display": "Infection at the puncture or incision site"
+          },
+          {
+            "code": "38082009",
+            "display": "Blood haemoglobin test"
+          }
+        ]
+      },
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "718-7",
+            "display": "Blood haemoglobin test"
+          }
+        ]
+      }
+    ]
+  }
+}

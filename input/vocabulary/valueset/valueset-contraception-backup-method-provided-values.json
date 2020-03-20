@@ -37,7 +37,7 @@
         ]
       },
       {
-        "system": "http://www.who.int/fhir/CodeSystem/core-codes",
+        "system": "http://who.int/cg/CodeSystem/extended-content",
         "concept": [
           {
             "code": "Other",

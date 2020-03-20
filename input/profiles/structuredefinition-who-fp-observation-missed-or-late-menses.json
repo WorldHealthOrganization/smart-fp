@@ -1,12 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "infection-at-the-puncture-or-incision-site",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/infection-at-the-puncture-or-incision-site",
-  "name": "Infection at the puncture or incision site",
-  "title": "Infection at the puncture or incision site",
+  "id": "who-fp-observation-missed-or-late-menses",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
+  "name": "who-fp-observation-missed-or-late-menses",
+  "title": "who-fp-observation-missed-or-late-menses",
   "status": "draft",
   "experimental": false,
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-missed-or-late-menses",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -27,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://snomed.info/sct",
-              "code": "58126003",
-              "display": "Infection at the puncture or incision site (SNOMED-CT)"
+              "system": "http://loinc.org",
+              "code": "LA 22280-4",
+              "display": "Missed or late menses (LOINC)"
             }
           ]
         },

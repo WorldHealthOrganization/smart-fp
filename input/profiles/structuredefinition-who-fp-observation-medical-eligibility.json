@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "screenings-performed",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/screenings-performed",
-  "name": "Screenings performed",
-  "title": "Screenings performed",
+  "id": "who-fp-observation-medical-eligibility",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility",
+  "name": "who-fp-observation-medical-eligibility",
+  "title": "who-fp-observation-medical-eligibility",
   "status": "draft",
   "experimental": false,
-  "description": "Any screenings performed during the encounter.",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-medical-eligibility",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -30,7 +30,11 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/observations-affecting-medical-eligibility-values"
+        }
       }
     ]
   }

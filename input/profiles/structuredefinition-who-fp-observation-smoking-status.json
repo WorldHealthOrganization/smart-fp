@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "reason-for-no-method-at-exit",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/reason-for-no-method-at-exit",
-  "name": "Reason for no method at exit",
-  "title": "Reason for no method at exit",
+  "id": "who-fp-observation-smoking-status",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
+  "name": "who-fp-observation-smoking-status",
+  "title": "who-fp-observation-smoking-status",
   "status": "draft",
   "experimental": false,
-  "description": "Reason for no contraceptive method use reported –at exit",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-smoking-status",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -28,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://loinc.org",
-              "code": "86653-3",
-              "display": "Reason for no method at exit (LOINC)"
+              "system": "http://who.int/cg/CodeSystem/extended-content",
+              "code": "Cigarettes smoked per day",
+              "display": "Cigarettes smoked per day (FHIR)"
             }
           ]
         },

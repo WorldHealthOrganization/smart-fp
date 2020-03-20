@@ -5,48 +5,44 @@
     "include" : [{
       "system" : "http://hl7.org/fhir/sid/icd-10",
       "concept" : [{
-        "code" : "N64.9",
-        "display" : "Current"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:09c56c5c-2912-4125-b892-10df0760d74d",
-    "timestamp" : "2020-02-21T15:58:30.334Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N64.9",
-      "display" : "Current"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "F17.1",
-        "display" : "Smoker"
+        "code" : "Z86.7",
+        "display" : "History of hypertension"
       },
       {
-        "code" : "E14.8",
-        "display" : "Diabetes"
+        "code" : "Z87.5",
+        "display" : "Past ectopic pregnancy"
+      },
+      {
+        "code" : "I82.9",
+        "display" : "Deep venous thrombosis (DVT)"
+      },
+      {
+        "code" : "O13",
+        "display" : "History of high blood pressure during pregnancy"
+      },
+      {
+        "code" : "I82.9",
+        "display" : "History of DVT"
+      },
+      {
+        "code" : "Z92.4",
+        "display" : "Major surgery without prolonged immobilization"
+      },
+      {
+        "code" : "D68.5",
+        "display" : "Known thrombogenetic mutations"
+      },
+      {
+        "code" : "I83",
+        "display" : "Varicose veins"
+      },
+      {
+        "code" : "I64",
+        "display" : "Stroke"
+      },
+      {
+        "code" : "I24.9",
+        "display" : "Ischaemic heart disease"
       },
       {
         "code" : "I10",
@@ -57,180 +53,238 @@ e: {
         "display" : "Obese"
       },
       {
-        "code" : "E78.5",
-        "display" : "Known dyslipidaemias"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:393148ad-045a-4c4c-9087-d6322bdbd8bb",
-    "timestamp" : "2020-02-21T15:58:31.099Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "F17.1",
-      "display" : "Smoker"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E14.8",
-      "display" : "Diabetes"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "I10",
-      "display" : "Hypertension"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E66.9",
-      "display" : "Obese"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E78.5",
-      "display" : "Known dyslipidaemias"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "Z76.89",
-        "display" : "Out of stock"
+        "code" : "E14.9",
+        "display" : "Diabetes"
       },
       {
-        "code" : "Z31.9",
-        "display" : "Sterile for non-contraceptive reasons"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:7e39d9df-e62a-4673-9b55-9fe9cbda7432",
-    "timestamp" : "2020-02-21T15:58:33.037Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z76.89",
-      "display" : "Out of stock"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z31.9",
-      "display" : "Sterile for non-contraceptive reasons"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "O03.37",
-        "display" : "Immediate post-septic abortion"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:7127c93b-c87d-4667-8ab8-8deb7245c101",
-    "timestamp" : "2020-02-21T15:58:34.099Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "O03.37",
-      "display" : "Immediate post-septic abortion"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
+        "code" : "O24.0",
+        "display" : "Non-vascular Insulin-dependent diabetes"
+      },
+      {
+        "code" : "O24.1",
+        "display" : "Non-vascular non-insulin dependent diabetes"
+      },
+      {
+        "code" : "O24.4",
+        "display" : "History of diabetes in pregnancy only (Gestational diabetes)"
+      },
+      {
+        "code" : "E14.2",
+        "display" : "Nephropathy"
+      },
+      {
+        "code" : "E14.3",
+        "display" : "Retinopathy"
+      },
+      {
+        "code" : "E14.4",
+        "display" : "Neuropathy"
+      },
+      {
+        "code" : "G44.8",
+        "display" : "Client experiences Non-migrainous headache"
+      },
+      {
+        "code" : "G43.0",
+        "display" : "Client experiences Migraine without aura"
+      },
+      {
+        "code" : "G43.1",
+        "display" : "Client experiences Migraine with aura"
+      },
+      {
+        "code" : "I25.9",
+        "display" : "Current ischemic heart disease"
+      },
+      {
+        "code" : "I64",
+        "display" : "Stroke (history of cerebrovascular accident)"
+      },
+      {
+        "code" : "E78.4",
+        "display" : "Dyslipidemias"
+      },
+      {
+        "code" : "I25.9",
+        "display" : "Heart disease due to blocked or narrowed arteries"
+      },
+      {
+        "code" : "G43.9",
+        "display" : "Migraines"
+      },
+      {
+        "code" : "F32.9",
+        "display" : "Depressive disorders"
+      },
+      {
+        "code" : "N80.9; N80.0; N80.3;",
+        "display" : "Endometriosis"
+      },
+      {
+        "code" : "N83.20; N83.29",
+        "display" : "Benign ovarian tumors (including cysts)"
+      },
+      {
+        "code" : "N94.6",
+        "display" : "Severe dysmenorrhea"
+      },
+      {
+        "code" : "O01.0",
+        "display" : "Gestational trophoblastic disease"
+      },
+      {
+        "code" : "o02.81; 631.0 (ICD9)",
+        "display" : "Gestational trophoblastic disease - Decreasing or undetectable ß-hCG level"
+      },
+      {
+        "code" : "N86",
+        "display" : "Cervical ectropion"
+      },
+      {
+        "code" : "C53.0; C53.1; C53.9",
+        "display" : "Cervical neoplasia"
+      },
+      {
+        "code" : "Z03.1",
+        "display" : "Cervical cancer awaiting treatment"
+      },
+      {
+        "code" : "N63",
+        "display" : "Breast Disease - Undiagnosed mass"
+      },
+      {
+        "code" : "N64.9",
+        "display" : "Breast cancer - Current"
+      },
+      {
+        "code" : "z85.3 plus 5 years",
+        "display" : "Breast cancer - Past, no evidence of disease for at least 5 years"
+      },
+      {
+        "code" : "C54.1",
+        "display" : "Endometrial cancer"
+      },
+      {
+        "code" : "D25",
+        "display" : "Uterine fibroids - Without distortion of the uterine cavity"
+      },
+      {
+        "code" : "D25",
+        "display" : "Uterine fibroids - With distortion of the uterine cavity"
+      },
+      {
         "code" : "N73.9",
         "display" : "History of pelvic inflammation"
       },
       {
         "code" : "N73.9",
         "display" : "Current pelvic inflammation"
+      },
+      {
+        "code" : "A54.9",
+        "display" : "Current gonorrhea"
+      },
+      {
+        "code" : "A74.9",
+        "display" : "Current chlamydia"
+      },
+      {
+        "code" : "n72(non venereal); a56.09; a54.03; a59.09",
+        "display" : "Current purulent cervicitis"
+      },
+      {
+        "code" : "A64",
+        "display" : "Other STIs (excluding HIV and hepatitis)"
+      },
+      {
+        "code" : "N76.0",
+        "display" : "Vaginitis (including trichomonas and bacterial vaginosis)"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39.0",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "B65.9",
+        "display" : "Schistosomiasis - Uncomplicated"
+      },
+      {
+        "code" : "B54",
+        "display" : "Malaria"
+      },
+      {
+        "code" : "E05.5",
+        "display" : "Hyperthyroid"
+      },
+      {
+        "code" : "E03.9",
+        "display" : "Hypothyroid"
+      },
+      {
+        "code" : "K83.1",
+        "display" : "History of cholestasis"
+      },
+      {
+        "code" : "B19.9",
+        "display" : "Viral hepatitis"
+      },
+      {
+        "code" : "Z90.4",
+        "display" : "Symptomatic Gallbladder disease (Treated by cholecystectomy)"
+      },
+      {
+        "code" : "K82.9",
+        "display" : "Symptomatic Gallbladder disease (Medically treated)"
+      },
+      {
+        "code" : "K80.2",
+        "display" : "Gallbladder disease - No symptoms"
+      },
+      {
+        "code" : "O26.619",
+        "display" : "History of cholestasis - Combined oral contraceptive-related"
+      },
+      {
+        "code" : "B17.9",
+        "display" : "Viral hepatitis - Acute or flare"
+      },
+      {
+        "code" : "B18.9",
+        "display" : "Viral hepatitis - Chronic"
+      },
+      {
+        "code" : "D56.9",
+        "display" : "Anemia - Thalassemia"
+      },
+      {
+        "code" : "M32.8",
+        "display" : "Systemic lupus erythematosus - None of the above"
+      },
+      {
+        "code" : "I86.1",
+        "display" : "Large varicocele"
+      },
+      {
+        "code" : "N43.3",
+        "display" : "Large hydrocele"
+      },
+      {
+        "code" : "N45.1",
+        "display" : "Epididymitis"
+      },
+      {
+        "code" : "N45.2",
+        "display" : "Orchitis"
       }]
     }]
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:85b72edc-b7c8-400c-9152-10bd48f86e2c",
-    "timestamp" : "2020-02-21T15:58:35.459Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N73.9",
-      "display" : "History of pelvic inflammation"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N73.9",
-      "display" : "Current pelvic inflammation"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -270,57 +324,7 @@ e: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:8845d9f2-b353-447d-8c48-3fa4c499ad85",
-    "timestamp" : "2020-02-21T15:58:36.271Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.0",
-      "display" : "Contraception counseling"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.01",
-      "display" : "Starting contraception"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30",
-      "display" : "Contraceptive continuation"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.012",
-      "display" : "Emergency contraception"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.40",
-      "display" : "Contraception Issues and concerns"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.46",
-      "display" : "Implant removal"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z30.432",
-      "display" : "IUD Removal"
-    }]
-  }
-},
-  "error" : ""
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -329,371 +333,14 @@ e: {
     "include" : [{
       "system" : "http://hl7.org/fhir/sid/icd-10",
       "concept" : [{
-        "code" : "N63",
-        "display" : "Undiagnosed mass"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:c6bf91a0-3193-4c2c-859b-5fd125e6b723",
-    "timestamp" : "2020-02-21T15:58:36.881Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N63",
-      "display" : "Undiagnosed mass"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N64.9",
-        "display" : "Current"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p>All codes from system <code>http://hl7.org/fhir/sid/icd-10</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N64.9\"> </a>N64.9</td><td>Current</td></tr></table></div>"
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:43fa04cd-5fb0-4ee8-926a-e5f840e74b6a",
-    "timestamp" : "2020-02-21T15:58:45.818Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N64.9",
-      "display" : "Current"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "F17.1",
+        "code" : "Z72.0",
         "display" : "Smoker"
       },
       {
-        "code" : "E14.8",
-        "display" : "Diabetes"
+        "code" : "N93.9; N92.6",
+        "display" : "Vaginal bleeding pattern Irregular"
       },
       {
-        "code" : "I10",
-        "display" : "Hypertension"
-      },
-      {
-        "code" : "E66.9",
-        "display" : "Obese"
-      },
-      {
-        "code" : "E78.5",
-        "display" : "Known dyslipidaemias"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:8e1ea097-a4be-4db3-8da5-042cc563d592",
-    "timestamp" : "2020-02-21T15:58:46.459Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "F17.1",
-      "display" : "Smoker"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E14.8",
-      "display" : "Diabetes"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "I10",
-      "display" : "Hypertension"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E66.9",
-      "display" : "Obese"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "E78.5",
-      "display" : "Known dyslipidaemias"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N73.9",
-        "display" : "History of pelvic inflammation"
-      },
-      {
-        "code" : "N73.9",
-        "display" : "Current pelvic inflammation"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes from system <code>http://hl7.org/fhir/sid/icd-10</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N73.9\"> </a>N73.9</td><td>History of pelvic inflammation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-sid-icd-10-N73.9\"> </a>N73.9</td><td>Current pelvic inflammation</td></tr></table></div>"
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:59d03266-2faf-41fb-bc00-a61197727f92",
-    "timestamp" : "2020-02-21T15:58:49.271Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N73.9",
-      "display" : "History of pelvic inflammation"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N73.9",
-      "display" : "Current pelvic inflammation"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N63",
-        "display" : "Undiagnosed mass"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:7deb804a-1b1d-4500-bb9a-7dad497ba4ba",
-    "timestamp" : "2020-02-21T15:58:49.990Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N63",
-      "display" : "Undiagnosed mass"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "003.9",
-  "display" : "Miscarriage or abortion stage of pregnancy (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"003.9\" not found; The code \"003.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#003.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "003.9"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"003.9\" not found; The code \"003.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#003.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "E66.9",
-  "display" : "Obese (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"E66.9\" not found; The code \"E66.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E66.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "003.9",
-  "display" : "Date of miscarriage or abortion (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"003.9\" not found; The code \"003.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#003.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.0",
-  "display" : "Smoker (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.0\" not found; The code \"Z72.0\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.0) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "E66.9"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"E66.9\" not found; The code \"E66.9\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#E66.9) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.0"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.0\" not found; The code \"Z72.0\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.0) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
-  "display" : "High likelihood of chlamydia (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z11.4",
-  "display" : "Date of Last HIV Screen (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z11.4\" not found; The code \"Z11.4\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.4) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.5; Z72.51; Z72.52; Z72.53",
-  "display" : "High likelihood of gonorrhoea (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z11.4"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z11.4\" not found; The code \"Z11.4\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z11.4) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z72.5; Z72.51; Z72.52; Z72.53"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z72.5; Z72.51; Z72.52; Z72.53\" not found; The code \"Z72.5; Z72.51; Z72.52; Z72.53\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z72.5; Z72.51; Z72.52; Z72.53) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N93.9; N92.6",
-  "display" : "Vaginal bleeding pattern Irregular (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"N93.9; N92.6\" not found; The code \"N93.9; N92.6\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#N93.9; N92.6) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "N93.9; N92.6"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"N93.9; N92.6\" not found; The code \"N93.9; N92.6\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#N93.9; N92.6) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
         "code" : "z72.51",
         "display" : "High risk of HIV"
       }]
@@ -701,519 +348,7 @@ v: {
   }
 }}####
 e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:c1532eac-3d30-4faa-9bf5-18ef76d0320f",
-    "timestamp" : "2020-02-28T03:58:18.928Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "z72.51",
-      "display" : "High risk of HIV"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "o02.81; 631.0 (ICD9)",
-        "display" : "Decreasing or undetectable ß-hCG level"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:0e1ff33d-79f7-4d05-aa09-0e0ffd013391",
-    "timestamp" : "2020-02-28T03:58:19.443Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "o02.81; 631.0 (ICD9)",
-      "display" : "Decreasing or undetectable ß-hCG level"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "D25",
-        "display" : "Without distortion of the uterine cavity"
-      },
-      {
-        "code" : "D25",
-        "display" : "With distortion of the uterine cavity"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:8277700f-55a7-416e-ae55-4c430dc4f8c4",
-    "timestamp" : "2020-02-28T03:58:19.990Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "D25",
-      "display" : "Without distortion of the uterine cavity"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "D25",
-      "display" : "With distortion of the uterine cavity"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N91.2",
-        "display" : "Amenorrhoea"
-      },
-      {
-        "code" : "N93.9",
-        "display" : "Irregular bleeding"
-      },
-      {
-        "code" : "Z32.0",
-        "display" : "Client suspects pregnancy"
-      },
-      {
-        "code" : "N89.8",
-        "display" : "Spotting or light bleeding"
-      },
-      {
-        "code" : "N93",
-        "display" : "Heavy or prolonged bleeding"
-      },
-      {
-        "code" : "N89.8",
-        "display" : "Unexplained vaginal bleeding"
-      },
-      {
-        "code" : "F39",
-        "display" : "Mood changes after start of method"
-      },
-      {
-        "code" : "N99.89",
-        "display" : "Pain lasting for months"
-      },
-      {
-        "code" : "R10.30",
-        "display" : "Severe pain in lower abdomen"
-      },
-      {
-        "code" : "B37.3",
-        "display" : "Candidiasis"
-      },
-      {
-        "code" : "N76.0; N77.1",
-        "display" : "Bacterial vaginosis"
-      },
-      {
-        "code" : "A48.3",
-        "display" : "Toxic shock syndrome"
-      },
-      {
-        "code" : "N39; Z87.440",
-        "display" : "Urinary tract infection"
-      },
-      {
-        "code" : "N98.9",
-        "display" : "Irritation"
-      },
-      {
-        "code" : "Z88.8",
-        "display" : "Allergic reaction"
-      },
-      {
-        "code" : "L70.9",
-        "display" : "Acne"
-      },
-      {
-        "code" : "G44.40",
-        "display" : "Headaches"
-      },
-      {
-        "code" : "R11.0",
-        "display" : "Nausea"
-      },
-      {
-        "code" : "R42",
-        "display" : "Dizziness"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:58230b81-d159-49d7-8c76-dcf647dacf07",
-    "timestamp" : "2020-02-28T03:58:21.053Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N91.2",
-      "display" : "Amenorrhoea"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N93.9",
-      "display" : "Irregular bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z32.0",
-      "display" : "Client suspects pregnancy"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N89.8",
-      "display" : "Spotting or light bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N93",
-      "display" : "Heavy or prolonged bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N89.8",
-      "display" : "Unexplained vaginal bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "F39",
-      "display" : "Mood changes after start of method"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N99.89",
-      "display" : "Pain lasting for months"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R10.30",
-      "display" : "Severe pain in lower abdomen"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "B37.3",
-      "display" : "Candidiasis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N76.0; N77.1",
-      "display" : "Bacterial vaginosis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A48.3",
-      "display" : "Toxic shock syndrome"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N39; Z87.440",
-      "display" : "Urinary tract infection"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N98.9",
-      "display" : "Irritation"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z88.8",
-      "display" : "Allergic reaction"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "L70.9",
-      "display" : "Acne"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "G44.40",
-      "display" : "Headaches"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R11.0",
-      "display" : "Nausea"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R42",
-      "display" : "Dizziness"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : false, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N64.9",
-        "display" : "Current"
-      },
-      {
-        "code" : "z85.3 plus 5 years",
-        "display" : "Past, no evidence of disease for at least 5 years"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:9f68966d-a5fe-4b5a-8685-3c7cad64d2f9",
-    "timestamp" : "2020-02-28T03:58:21.724Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N64.9",
-      "display" : "Current"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "z85.3 plus 5 years",
-      "display" : "Past, no evidence of disease for at least 5 years"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "z72.51",
-        "display" : "High risk of HIV"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:7ebd224b-5d02-4f23-bf84-89cee0482dbf",
-    "timestamp" : "2020-02-28T03:58:31.412Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "z72.51",
-      "display" : "High risk of HIV"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "o02.81; 631.0 (ICD9)",
-        "display" : "Decreasing or undetectable ß-hCG level"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:9a225869-00c4-41a7-8635-967ee1b66e1e",
-    "timestamp" : "2020-02-28T03:58:31.740Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "o02.81; 631.0 (ICD9)",
-      "display" : "Decreasing or undetectable ß-hCG level"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "D25",
-        "display" : "Without distortion of the uterine cavity"
-      },
-      {
-        "code" : "D25",
-        "display" : "With distortion of the uterine cavity"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:0b95fe40-6a4a-442d-ab6d-a21ba3758038",
-    "timestamp" : "2020-02-28T03:58:32.037Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "D25",
-      "display" : "Without distortion of the uterine cavity"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "D25",
-      "display" : "With distortion of the uterine cavity"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "N64.9",
-        "display" : "Current"
-      },
-      {
-        "code" : "z85.3 plus 5 years",
-        "display" : "Past, no evidence of disease for at least 5 years"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:5001fd7f-96f3-4944-b45e-4870c47cbfb4",
-    "timestamp" : "2020-02-28T03:58:33.709Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N64.9",
-      "display" : "Current"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "z85.3 plus 5 years",
-      "display" : "Past, no evidence of disease for at least 5 years"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z71.7",
-  "display" : "HIV (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z71.7\" not found; The code \"Z71.7\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z71.7) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "z72.51",
-  "display" : "High risk of HIV (ICD-10-WHO)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"z72.51\" not found; The code \"z72.51\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#z72.51) is not  valid in the value set All codes known to the system"
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : false, "valueSet" :{
@@ -1305,141 +440,30 @@ v: {
   }
 }}####
 e: {
-  "valueSet" : {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
-  "expansion" : {
-    "identifier" : "urn:uuid:73660309-925d-482a-ab7e-adbbcdeac3e1",
-    "timestamp" : "2020-03-11T01:28:41.412Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueString" : "-1"
-    },
-    {
-      "name" : "excludeNested",
-      "valueString" : "-1"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N91.2",
-      "display" : "Amenorrhoea"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N93.9",
-      "display" : "Irregular bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z32.0",
-      "display" : "Client suspects pregnancy"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N89.8",
-      "display" : "Spotting or light bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N93",
-      "display" : "Heavy or prolonged bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N89.8",
-      "display" : "Unexplained vaginal bleeding"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "F39",
-      "display" : "Mood changes after start of method"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N99.89",
-      "display" : "Pain lasting for months"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R10.30",
-      "display" : "Severe pain in lower abdomen"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "T81.4",
-      "display" : "Abscess"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "B37.3",
-      "display" : "Candidiasis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N76.0; N77.1",
-      "display" : "Bacterial vaginosis"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "A48.3",
-      "display" : "Toxic shock syndrome"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N39; Z87.440",
-      "display" : "Urinary tract infection"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "N98.9",
-      "display" : "Irritation"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "Z88.8",
-      "display" : "Allergic reaction"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "L70.9",
-      "display" : "Acne"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "G44.40",
-      "display" : "Headaches"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R11.0",
-      "display" : "Nausea"
-    },
-    {
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "code" : "R42",
-      "display" : "Dizziness"
+      "concept" : [{
+        "code" : "Z72.0",
+        "display" : "Smoker"
+      },
+      {
+        "code" : "N93.9; N92.6",
+        "display" : "Vaginal bleeding pattern Irregular"
+      },
+      {
+        "code" : "z72.51",
+        "display" : "High risk of HIV"
+      }]
     }]
   }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "z72.51"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"z72.51\" not found; The code \"z72.51\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#z72.51) is not  valid in the value set All codes known to the system"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://hl7.org/fhir/sid/icd-10",
-  "code" : "Z71.7"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Code \"Z71.7\" not found; The code \"Z71.7\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#Z71.7) is not  valid in the value set All codes known to the system"
+}}####
+e: {
+  "error" : "Error from server: Access violation at address 0000000000DF302D in module 'FHIRServer.exe'. Read of address 0000000000000020"
 }
 -------------------------------------------------------------------------------------

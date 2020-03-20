@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "days-since-start-of-last-normal-menses",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/days-since-start-of-last-normal-menses",
-  "name": "Days since start of last normal menses",
-  "title": "Days since start of last normal menses",
+  "id": "who-fp-observation-pregnancy-intention",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
+  "name": "who-fp-observation-pregnancy-intention",
+  "title": "who-fp-observation-pregnancy-intention",
   "status": "draft",
   "experimental": false,
-  "description": "Count of days since her last normal period started",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-pregnancy-intention",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -28,9 +28,9 @@
         "fixedCodeableConcept": {
           "coding": [
             {
-              "system": "http://snomed.info/sct",
-              "code": "248957007",
-              "display": "Days since start of last normal menses (SNOMED-CT)"
+              "system": "http://loinc.org",
+              "code": "86645-9",
+              "display": "Pregnancy intention (LOINC)"
             }
           ]
         },

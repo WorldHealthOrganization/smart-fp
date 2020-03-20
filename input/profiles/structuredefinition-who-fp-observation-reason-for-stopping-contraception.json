@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "reason-for-stopping-contraception-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/reason-for-stopping-contraception-method",
-  "name": "Reason for stopping contraception method",
-  "title": "Reason for stopping contraception method",
+  "id": "who-fp-observation-reason-for-stopping-contraception",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+  "name": "who-fp-observation-reason-for-stopping-contraception",
+  "title": "who-fp-observation-reason-for-stopping-contraception",
   "status": "draft",
   "experimental": false,
-  "description": "If stopping a method, the reason why.",
-  "fhirVersion": "4.0.0",
+  "description": "who-fp-observation-reason-for-stopping-contraception",
+  "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
@@ -34,6 +34,18 @@
             }
           ]
         },
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
         "mustSupport": true
       }
     ]
