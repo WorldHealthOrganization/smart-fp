@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "medical-eligibility-number-classification-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medical-eligibility-number-classification-values",
+  "name": "medical-eligibility-number-classification-values",
+  "title": "Medical eligibility - number classification values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Medical eligibility - number classification element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "1",
+            "display": "1"
+          },
+          {
+            "code": "2",
+            "display": "2"
+          },
+          {
+            "code": "3",
+            "display": "3"
+          },
+          {
+            "code": "4",
+            "display": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

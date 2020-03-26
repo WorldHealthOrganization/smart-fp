@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "fp-recommended-care-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/fp-recommended-care-values",
+  "name": "fp-recommended-care-values",
+  "title": "FP Recommended Care values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the FP Recommended Care element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "35025007",
+            "display": "Pelvic/genital examination needed"
+          },
+          {
+            "code": "268607006",
+            "display": "Blood pressure screening recommended"
+          }
+        ]
+      }
+    ]
+  }
+}
