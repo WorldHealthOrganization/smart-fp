@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "cigarettes-smoked-per-day-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+  "name": "cigarettes-smoked-per-day-values",
+  "title": "Cigarettes smoked per day values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Cigarettes smoked per day element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "<15 cigarettes per day",
+            "display": "<15 cigarettes per day"
+          },
+          {
+            "code": ">= 15 cigarettes per day",
+            "display": ">= 15 cigarettes per day"
+          }
+        ]
+      }
+    ]
+  }
+}

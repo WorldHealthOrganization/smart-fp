@@ -31,7 +31,11 @@
             "display": "Male condom"
           },
           {
-            "code": "442288006; 228479001",
+            "code": "442288006",
+            "display": "Female condom"
+          },
+          {
+            "code": "228479001",
             "display": "Female condom"
           }
         ]

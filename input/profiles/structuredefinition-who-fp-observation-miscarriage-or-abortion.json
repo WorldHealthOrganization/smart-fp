@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "who-fp-observation-breastfeeding-status",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
-  "name": "who-fp-observation-breastfeeding-status",
-  "title": "who-fp-observation-breastfeeding-status",
+  "id": "who-fp-observation-miscarriage-or-abortion",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-miscarriage-or-abortion",
+  "name": "who-fp-observation-miscarriage-or-abortion",
+  "title": "who-fp-observation-miscarriage-or-abortion",
   "status": "draft",
   "experimental": false,
-  "description": "who-fp-observation-breastfeeding-status",
+  "description": "who-fp-observation-miscarriage-or-abortion",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -29,8 +29,8 @@
           "coding": [
             {
               "system": "http://loinc.org",
-              "code": "63895-7",
-              "display": "Breastfeeding status (LOINC)"
+              "code": "LA14272-1",
+              "display": "Recent miscarriage or post-abortion (LOINC)"
             }
           ]
         },
@@ -40,17 +40,13 @@
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "min": 0,
-        "max": "*",
+        "max": "1",
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "boolean"
           }
         ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breastfeeding-status-values"
-        }
+        "mustSupport": true
       }
     ]
   }

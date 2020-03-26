@@ -30,7 +30,11 @@
             "display": "History of pelvic surgery"
           },
           {
-            "code": "429098002; 128053003",
+            "code": "429098002",
+            "display": "Deep venous thrombosis (DVT)"
+          },
+          {
+            "code": "128053003",
             "display": "Deep venous thrombosis (DVT)"
           },
           {
@@ -42,7 +46,11 @@
             "display": "History of high blood pressure during pregnancy"
           },
           {
-            "code": "429098002; 128053003",
+            "code": "429098002",
+            "display": "History of DVT"
+          },
+          {
+            "code": "128053003",
             "display": "History of DVT"
           },
           {
@@ -202,7 +210,11 @@
             "display": "Ovarian cancer"
           },
           {
-            "code": "95315005;44598004",
+            "code": "95315005",
+            "display": "Uterine fibroids - With distortion of the uterine cavity"
+          },
+          {
+            "code": "44598004",
             "display": "Uterine fibroids - With distortion of the uterine cavity"
           },
           {
@@ -258,7 +270,11 @@
             "display": "Hypothyroid"
           },
           {
-            "code": "275550008; 39621005",
+            "code": "275550008",
+            "display": "Gallbladder disease"
+          },
+          {
+            "code": "39621005",
             "display": "Gallbladder disease"
           },
           {
@@ -535,11 +551,23 @@
             "display": "Depressive disorders"
           },
           {
-            "code": "N80.9; N80.0; N80.3;",
+            "code": "N80.9",
             "display": "Endometriosis"
           },
           {
-            "code": "N83.20; N83.29",
+            "code": "N80.0",
+            "display": "Endometriosis"
+          },
+          {
+            "code": "N80.3",
+            "display": "Endometriosis"
+          },
+          {
+            "code": "N83.20",
+            "display": "Benign ovarian tumors (including cysts)"
+          },
+          {
+            "code": "N83.29",
             "display": "Benign ovarian tumors (including cysts)"
           },
           {
@@ -551,7 +579,11 @@
             "display": "Gestational trophoblastic disease"
           },
           {
-            "code": "o02.81; 631.0 (ICD9)",
+            "code": "o02.81",
+            "display": "Gestational trophoblastic disease - Decreasing or undetectable ß-hCG level"
+          },
+          {
+            "code": "631.0 (ICD9)",
             "display": "Gestational trophoblastic disease - Decreasing or undetectable ß-hCG level"
           },
           {
@@ -559,7 +591,15 @@
             "display": "Cervical ectropion"
           },
           {
-            "code": "C53.0; C53.1; C53.9",
+            "code": "C53.0",
+            "display": "Cervical neoplasia"
+          },
+          {
+            "code": "C53.1",
+            "display": "Cervical neoplasia"
+          },
+          {
+            "code": "C53.9",
             "display": "Cervical neoplasia"
           },
           {
@@ -607,7 +647,19 @@
             "display": "Current chlamydia"
           },
           {
-            "code": "n72(non venereal); a56.09; a54.03; a59.09",
+            "code": "n72(non venereal)",
+            "display": "Current purulent cervicitis"
+          },
+          {
+            "code": "a56.09",
+            "display": "Current purulent cervicitis"
+          },
+          {
+            "code": "a54.03",
+            "display": "Current purulent cervicitis"
+          },
+          {
+            "code": "a59.09",
             "display": "Current purulent cervicitis"
           },
           {

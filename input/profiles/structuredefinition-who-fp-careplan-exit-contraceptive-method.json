@@ -33,9 +33,9 @@
         "mustSupport": true
       },
       {
-        "id": "CarePlan.extension:how-contraceptive-method-is-being-provided",
-        "path": "CarePlan.extension",
-        "sliceName": "how-contraceptive-method-is-being-provided",
+        "id": "CarePlan.activity.detail.extension:deliveryMethod",
+        "path": "CarePlan.activity.detail.extension",
+        "sliceName": "deliveryMethod",
         "min": 0,
         "max": "1",
         "type": [

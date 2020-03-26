@@ -163,7 +163,11 @@
             "display": "Candidiasis"
           },
           {
-            "code": "N76.0; N77.1",
+            "code": "N76.0",
+            "display": "Bacterial vaginosis"
+          },
+          {
+            "code": "N77.1",
             "display": "Bacterial vaginosis"
           },
           {
@@ -171,7 +175,11 @@
             "display": "Toxic shock syndrome"
           },
           {
-            "code": "N39; Z87.440",
+            "code": "N39",
+            "display": "Urinary tract infection"
+          },
+          {
+            "code": "Z87.440",
             "display": "Urinary tract infection"
           },
           {

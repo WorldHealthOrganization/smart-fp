@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "breastfeeding-status-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breastfeeding-status-values",
+  "name": "breastfeeding-status-values",
+  "title": "Breastfeeding status values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Breastfeeding status element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "la29254-2",
+            "display": "Fully"
+          },
+          {
+            "code": "la29255-9",
+            "display": "Partially"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "733896006",
+            "display": "Partially"
+          },
+          {
+            "code": "169743001",
+            "display": "Partially"
+          }
+        ]
+      }
+    ]
+  }
+}

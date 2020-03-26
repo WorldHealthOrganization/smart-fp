@@ -1,0 +1,86 @@
+{
+  "resourceType": "ValueSet",
+  "id": "reason-for-no-method-at-exit-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+  "name": "reason-for-no-method-at-exit-values",
+  "title": "Reason for no method at exit values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Reason for no method at exit element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "14550-0",
+            "display": "Voluntarily refrains from sexual intercourse"
+          },
+          {
+            "code": "LA 27925-9",
+            "display": "Same sex partner"
+          },
+          {
+            "code": "46-8",
+            "display": "No method for other reasons"
+          },
+          {
+            "code": "27927-5",
+            "display": "Sterile for non-contraceptive reasons"
+          },
+          {
+            "code": "LA 27928-3",
+            "display": "Seeking pregnancy"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "454731000124108",
+            "display": "Voluntarily refrains from sexual intercourse"
+          },
+          {
+            "code": "445637007",
+            "display": "Client choice to not use contraception"
+          },
+          {
+            "code": "454361000124100",
+            "display": "Same sex partner"
+          },
+          {
+            "code": "74964007",
+            "display": "No method for other reasons"
+          },
+          {
+            "code": "182856006",
+            "display": "Out of stock"
+          },
+          {
+            "code": "15296000",
+            "display": "Sterile for non-contraceptive reasons"
+          },
+          {
+            "code": "454411000124108",
+            "display": "Seeking pregnancy"
+          }
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10",
+        "concept": [
+          {
+            "code": "Z76.89",
+            "display": "Out of stock"
+          },
+          {
+            "code": "Z31.9",
+            "display": "Sterile for non-contraceptive reasons"
+          }
+        ]
+      }
+    ]
+  }
+}

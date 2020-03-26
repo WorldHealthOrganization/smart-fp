@@ -18,7 +18,11 @@
             "display": "Smoker"
           },
           {
-            "code": "N93.9; N92.6",
+            "code": "N93.9",
+            "display": "Vaginal bleeding pattern Irregular"
+          },
+          {
+            "code": "N92.6",
             "display": "Vaginal bleeding pattern Irregular"
           },
           {

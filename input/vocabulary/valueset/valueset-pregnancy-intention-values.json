@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "pregnancy-intention-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/pregnancy-intention-values",
+  "name": "pregnancy-intention-values",
+  "title": "Pregnancy intention values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Pregnancy intention element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "LA28438-4",
+            "display": "Yes, I want to become pregnant"
+          },
+          {
+            "code": "LA26439-2",
+            "display": "I'm OK either way"
+          },
+          {
+            "code": "LA26440-0",
+            "display": "No, I don't want to become pregnant"
+          },
+          {
+            "code": "LA14072-5",
+            "display": "Unsure"
+          }
+        ]
+      }
+    ]
+  }
+}
