@@ -1,0 +1,36 @@
+{
+  "resourceType": "ValueSet",
+  "id": "medical-eligibility-text-classification-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+  "name": "medical-eligibility-text-classification-values",
+  "title": "Medical eligibility - text classification values",
+  "status": "draft",
+  "experimental": false,
+  "description": "Codes representing possible values for the Medical eligibility - text classification element",
+  "immutable": true,
+  "compose": {
+    "include": [
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Accept",
+            "display": "Accept"
+          },
+          {
+            "code": "Caution",
+            "display": "Caution"
+          },
+          {
+            "code": "Delay",
+            "display": "Delay"
+          },
+          {
+            "code": "Special",
+            "display": "Special"
+          }
+        ]
+      }
+    ]
+  }
+}

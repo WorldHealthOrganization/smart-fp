@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "observations-affecting-medical-eligibility-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/observations-affecting-medical-eligibility-values",
-  "name": "observations-affecting-medical-eligibility-values",
+  "id": "medicaleligibilityobservations-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medicaleligibilityobservations-values",
+  "name": "medicaleligibilityobservations-values",
   "title": "Observations affecting Medical Eligibility values",
   "status": "draft",
   "experimental": false,

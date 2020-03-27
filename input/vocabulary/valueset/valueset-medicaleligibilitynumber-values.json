@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "medical-eligibility-number-classification-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medical-eligibility-number-classification-values",
-  "name": "medical-eligibility-number-classification-values",
+  "id": "medicaleligibilitynumber-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medicaleligibilitynumber-values",
+  "name": "medicaleligibilitynumber-values",
   "title": "Medical eligibility - number classification values",
   "status": "draft",
   "experimental": false,

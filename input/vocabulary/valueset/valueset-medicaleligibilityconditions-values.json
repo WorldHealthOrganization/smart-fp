@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "current-conditions-affecting-medical-eligibility-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/current-conditions-affecting-medical-eligibility-values",
-  "name": "current-conditions-affecting-medical-eligibility-values",
+  "id": "medicaleligibilityconditions-values",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medicaleligibilityconditions-values",
+  "name": "medicaleligibilityconditions-values",
   "title": "Current conditions affecting Medical Eligibility values",
   "status": "draft",
   "experimental": false,

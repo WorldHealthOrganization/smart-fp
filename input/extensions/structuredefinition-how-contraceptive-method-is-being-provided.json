@@ -47,7 +47,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/how-contraceptive-method-is-being-provided-values"
+          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraceptivedeliverymethod-values"
         }
       }
     ]
