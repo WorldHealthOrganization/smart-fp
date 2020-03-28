@@ -8,9 +8,3 @@ This implementation guide provides guidance that is derived from the following W
   * [WHO recommendations on adolescent sexual and reproductive health and rights](https://www.who.int/reproductivehealth/publications/adolescent-srhr-who-recommendations/en/)
 
 Note that the content of this implementation guide is draft material that has not yet been tested or validated for use in production environments.
-
-### Scope
-TODO
-
-### Getting Started
-TODO
