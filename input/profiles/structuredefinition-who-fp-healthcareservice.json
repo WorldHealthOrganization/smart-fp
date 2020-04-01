@@ -18,11 +18,19 @@
       {
         "id": "HealthcareService",
         "path": "HealthcareService",
+        "short": "Pregnancy test available",
         "mustSupport": false
       },
       {
         "id": "HealthcareService.type",
         "path": "HealthcareService.type",
+        "code": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "74036000",
+            "display": "Pregnancy test available (SNOMED-CT)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "type": [

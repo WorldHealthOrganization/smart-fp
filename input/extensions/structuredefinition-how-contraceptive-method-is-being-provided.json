@@ -2,8 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "how-contraceptive-method-is-being-provided",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided",
-  "name": "How contraceptive method is being provided",
-  "title": "How contraceptive method is being provided",
+  "title": "How method is being provided",
   "status": "draft",
   "experimental": false,
   "description": "How the client will receive the method, including onsite or if follow up is required. ",
@@ -18,8 +17,9 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "How contraceptive method is being provided",
+        "short": "How method is being provided",
         "definition": "How the client will receive the method, including onsite or if follow up is required. ",
+        "comment": "SNOMED codes are from IHE FP content",
         "min": 0,
         "max": "1"
       },

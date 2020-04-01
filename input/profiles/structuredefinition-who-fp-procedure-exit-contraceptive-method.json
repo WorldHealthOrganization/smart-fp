@@ -18,6 +18,7 @@
       {
         "id": "Procedure",
         "path": "Procedure",
+        "short": "Method at exit - reported",
         "mustSupport": false
       },
       {

@@ -18,6 +18,7 @@
       {
         "id": "Consent",
         "path": "Consent",
+        "short": "Voluntary Informed Consent",
         "mustSupport": false
       },
       {

@@ -18,6 +18,7 @@
       {
         "id": "Encounter",
         "path": "Encounter",
+        "short": "Issues and concerns",
         "mustSupport": false
       },
       {
@@ -32,7 +33,7 @@
         ],
         "mustSupport": true,
         "binding": {
-          "strength": "required",
+          "strength": "extensible",
           "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-issues-and-concerns-values"
         }
       }

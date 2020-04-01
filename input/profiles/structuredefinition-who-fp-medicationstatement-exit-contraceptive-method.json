@@ -18,6 +18,7 @@
       {
         "id": "MedicationStatement",
         "path": "MedicationStatement",
+        "short": "Method at exit - reported",
         "mustSupport": false
       },
       {

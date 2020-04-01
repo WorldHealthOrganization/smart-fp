@@ -18,6 +18,7 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Miscarriage or abortion stage of pregnancy",
         "mustSupport": false
       },
       {

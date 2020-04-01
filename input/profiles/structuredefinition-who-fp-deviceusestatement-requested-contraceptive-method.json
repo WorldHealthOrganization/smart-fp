@@ -18,11 +18,20 @@
       {
         "id": "DeviceUseStatement",
         "path": "DeviceUseStatement",
+        "short": "Method requested",
+        "comment": "Required for MEC logic",
         "mustSupport": false
       },
       {
         "id": "DeviceUseStatement.device.type",
         "path": "DeviceUseStatement.device.type",
+        "code": [
+          {
+            "system": "http://hl7.org/fhir/sid/icd-10",
+            "code": "Z30.9",
+            "display": "Device-based Contraception Method requested (ICD-10-WHO)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "mustSupport": true

@@ -18,6 +18,8 @@
       {
         "id": "CarePlan",
         "path": "CarePlan",
+        "short": "How method is being provided",
+        "comment": "SNOMED codes are from IHE FP content",
         "mustSupport": false
       },
       {

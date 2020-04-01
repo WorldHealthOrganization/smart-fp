@@ -18,6 +18,8 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Medical eligibility - number classification",
+        "comment": "[Data stored with record (FP.RQ.002.011) and used to populate an alert.]",
         "mustSupport": false
       },
       {

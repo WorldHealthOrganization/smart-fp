@@ -18,6 +18,7 @@
       {
         "id": "MedicationStatement",
         "path": "MedicationStatement",
+        "short": "Medications",
         "mustSupport": false
       },
       {

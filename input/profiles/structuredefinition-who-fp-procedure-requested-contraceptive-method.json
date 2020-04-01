@@ -18,11 +18,20 @@
       {
         "id": "Procedure",
         "path": "Procedure",
+        "short": "Method requested",
+        "comment": "Required for MEC logic",
         "mustSupport": false
       },
       {
         "id": "Procedure.code",
         "path": "Procedure.code",
+        "code": [
+          {
+            "system": "http://hl7.org/fhir/sid/icd-10",
+            "code": "Z30.9",
+            "display": "Procedure-based Contraception Method requested (ICD-10-WHO)"
+          }
+        ],
         "min": 0,
         "max": "1",
         "type": [

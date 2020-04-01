@@ -18,6 +18,7 @@
       {
         "id": "Observation",
         "path": "Observation",
+        "short": "Medical eligibility - text classification",
         "mustSupport": false
       },
       {

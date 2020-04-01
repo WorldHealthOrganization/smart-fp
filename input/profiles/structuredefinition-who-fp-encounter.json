@@ -18,6 +18,7 @@
       {
         "id": "Encounter",
         "path": "Encounter",
+        "short": "Reason for visit",
         "mustSupport": false
       },
       {
@@ -35,6 +36,20 @@
           "strength": "required",
           "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/reason-for-family-planning-visit-values"
         }
+      },
+      {
+        "id": "Encounter.reasonCode.text",
+        "path": "Encounter.reasonCode.text",
+        "code": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "74964007",
+            "display": "Other (Specify) - Contraception Issues (SNOMED-CT)"
+          }
+        ],
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
       }
     ]
   }
