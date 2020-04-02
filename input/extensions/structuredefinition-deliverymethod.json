@@ -1,7 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "how-contraceptive-method-is-being-provided",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided",
+  "id": "deliverymethod",
+  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/deliverymethod",
+  "name": "deliveryMethod",
   "title": "How method is being provided",
   "status": "draft",
   "experimental": false,
@@ -32,7 +33,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided"
+        "fixedUri": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/deliverymethod"
       },
       {
         "id": "Extension.value[x]",

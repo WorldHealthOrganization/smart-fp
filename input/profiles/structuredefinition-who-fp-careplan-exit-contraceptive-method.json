@@ -44,7 +44,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/how-contraceptive-method-is-being-provided"
+              "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/deliverymethod"
             ]
           }
         ]
