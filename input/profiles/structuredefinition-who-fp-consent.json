@@ -26,11 +26,6 @@
         "path": "Consent.provision.action",
         "min": 0,
         "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
         "mustSupport": true
       }
     ]
