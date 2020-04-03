@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-days-since-last-normal-menses",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses",
-  "title": "Days since start of last normal menses",
+  "name": "WHO-FP Observation (Days since Last Normal Menses)",
+  "title": "WHO-FP Observation (Days since Last Normal Menses)",
   "status": "draft",
   "experimental": false,
   "description": "Count of days since her last normal period started",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueinteger",
+        "path": "Observation.valueinteger",
         "code": [
           {
             "system": "http://snomed.info/sct",

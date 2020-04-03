@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-breastfeeding-status",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
-  "title": "Breastfeeding status",
+  "name": "WHO-FP Observation (Breastfeeding Status)",
+  "title": "WHO-FP Observation (Breastfeeding Status)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -36,8 +37,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "*",
         "type": [

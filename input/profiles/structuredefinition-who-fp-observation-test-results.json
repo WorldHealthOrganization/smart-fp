@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-test-results",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-test-results",
-  "title": "Test results",
+  "name": "WHO-FP Observation (Test Results)",
+  "title": "WHO-FP Observation (Test Results)",
   "status": "draft",
   "experimental": false,
   "description": "Results for any tests performed. ",
@@ -21,8 +22,8 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [

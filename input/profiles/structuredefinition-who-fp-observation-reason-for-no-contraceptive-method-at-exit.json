@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
-  "title": "Reason for no method at exit",
+  "name": "WHO-FP Observation (Reason for no contraceptive method at exit)",
+  "title": "WHO-FP Observation (Reason for no contraceptive method at exit)",
   "status": "draft",
   "experimental": false,
   "description": "Reason for no contraceptive method use reported –at exit",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [

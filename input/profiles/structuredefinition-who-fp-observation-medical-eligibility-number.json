@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-medical-eligibility-number",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number",
-  "title": "Medical eligibility - number classification",
+  "name": "WHO-FP Observation (Medical eligibility number)",
+  "title": "WHO-FP Observation (Medical eligibility number)",
   "status": "draft",
   "experimental": false,
   "description": "System generated medical eligibility value for numerical ratings",
@@ -22,8 +23,8 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueinteger",
+        "path": "Observation.valueinteger",
         "min": 0,
         "max": "1",
         "type": [

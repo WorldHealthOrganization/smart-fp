@@ -3,7 +3,7 @@
   "id": "deliverymethod",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/deliverymethod",
   "name": "deliveryMethod",
-  "title": "How method is being provided",
+  "title": "How contraceptive method is being provided",
   "status": "draft",
   "experimental": false,
   "description": "How the client will receive the method, including onsite or if follow up is required. ",

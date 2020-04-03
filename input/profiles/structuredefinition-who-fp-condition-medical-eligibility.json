@@ -2,6 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-condition-medical-eligibility",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
+  "name": "WHO-FP Condition (Medical Eligibility)",
+  "title": "WHO-FP Condition (Medical Eligibility)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",

@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-reason-for-stopping-contraception",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
-  "title": "Reason for stopping method",
+  "name": "WHO-FP Observation (Reason for Stopping Contraception)",
+  "title": "WHO-FP Observation (Reason for Stopping Contraception)",
   "status": "draft",
   "experimental": false,
   "description": "If stopping a method, the reason why.",
@@ -37,8 +38,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "code": [
           {
             "system": "http://loinc.org",
@@ -51,7 +52,16 @@
         "type": [
           {
             "code": "CodeableConcept"
-          },
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.valuestring",
+        "path": "Observation.valuestring",
+        "min": 0,
+        "max": "1",
+        "type": [
           {
             "code": "string"
           }

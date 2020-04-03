@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-intercourse-since-last-normal-menses",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
-  "title": "Intercourse since last normal menses",
+  "name": "WHO-FP Observation (Intercourse since Last Normal Menses)",
+  "title": "WHO-FP Observation (Intercourse since Last Normal Menses)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",
@@ -36,8 +37,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueboolean",
+        "path": "Observation.valueboolean",
         "code": [
           {
             "system": "http://snomed.info/sct",

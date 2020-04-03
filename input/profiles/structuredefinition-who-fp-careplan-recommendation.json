@@ -2,6 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-careplan-recommendation",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
+  "name": "WHO-FP CarePlan (Recommendation)",
+  "title": "WHO-FP CarePlan (Recommendation)",
   "status": "draft",
   "experimental": false,
   "fhirVersion": "4.0.1",

@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-current-medication",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
-  "title": "Medications",
+  "name": "WHO-FP MedicationStatement (Current Medication)",
+  "title": "WHO-FP MedicationStatement (Current Medication)",
   "status": "draft",
   "experimental": false,
   "description": "Determine if client is taking certain anticonvulsants, antimicrobials, and antiretrovirals, which may affect their medical eligibility, as well as if client is on antiretroviral therapy, pre-exposure prophylaxis, etc. ",
@@ -21,8 +22,8 @@
         "mustSupport": false
       },
       {
-        "id": "MedicationStatement.medication[x]",
-        "path": "MedicationStatement.medication[x]",
+        "id": "MedicationStatement.medicationCodeableConcept",
+        "path": "MedicationStatement.medicationCodeableConcept",
         "min": 0,
         "max": "*",
         "type": [

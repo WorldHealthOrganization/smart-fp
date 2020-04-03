@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-medical-eligibility-text",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
-  "title": "Medical eligibility - text classification",
+  "name": "WHO-FP Observation (Medical eligibility text)",
+  "title": "WHO-FP Observation (Medical eligibility text)",
   "status": "draft",
   "experimental": false,
   "description": "System generated medical eligibility value for methods using text values",
@@ -21,8 +22,8 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueinteger",
+        "path": "Observation.valueinteger",
         "min": 0,
         "max": "1",
         "type": [

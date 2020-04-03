@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-exit-contraceptive-method",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
-  "title": "Method at exit - reported",
+  "name": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
+  "title": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
   "status": "draft",
   "experimental": false,
   "description": "Contraceptive method at exit reported.",
@@ -21,8 +22,8 @@
         "mustSupport": false
       },
       {
-        "id": "MedicationStatement.medication[x]",
-        "path": "MedicationStatement.medication[x]",
+        "id": "MedicationStatement.medicationCodeableConcept",
+        "path": "MedicationStatement.medicationCodeableConcept",
         "min": 0,
         "max": "*",
         "type": [

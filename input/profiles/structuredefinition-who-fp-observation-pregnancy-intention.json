@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-pregnancy-intention",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
-  "title": "Pregnancy intention",
+  "name": "WHO-FP Observation (Pregnancy Intention)",
+  "title": "WHO-FP Observation (Pregnancy Intention)",
   "status": "draft",
   "experimental": false,
   "description": "Client's intention or desire in the next year to either become pregnant or prevent a future pregnancy. ",
@@ -38,8 +39,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [

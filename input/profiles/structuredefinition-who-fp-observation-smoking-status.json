@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-smoking-status",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
-  "title": "Smoking category",
+  "name": "WHO-FP Observation (Smoking Status)",
+  "title": "WHO-FP Observation (Smoking Status)",
   "status": "draft",
   "experimental": false,
   "description": "If the client smokes, indicate how heavily",
@@ -38,8 +39,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [

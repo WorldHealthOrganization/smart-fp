@@ -2,7 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-requested-contraceptive-method",
   "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
-  "title": "Method requested",
+  "name": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
+  "title": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
   "status": "draft",
   "experimental": false,
   "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods. ",
@@ -22,8 +23,8 @@
         "mustSupport": false
       },
       {
-        "id": "MedicationStatement.medication[x]",
-        "path": "MedicationStatement.medication[x]",
+        "id": "MedicationStatement.medicationCodeableConcept",
+        "path": "MedicationStatement.medicationCodeableConcept",
         "code": [
           {
             "system": "http://hl7.org/fhir/sid/icd-10",
