@@ -22,8 +22,8 @@
         "mustSupport": false
       },
       {
-        "id": "Observation.valueinteger",
-        "path": "Observation.valueinteger",
+        "id": "Observation.valueInteger",
+        "path": "Observation.valueInteger",
         "min": 0,
         "max": "1",
         "type": [

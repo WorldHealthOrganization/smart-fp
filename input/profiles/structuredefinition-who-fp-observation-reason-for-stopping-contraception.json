@@ -57,8 +57,8 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.valuestring",
-        "path": "Observation.valuestring",
+        "id": "Observation.valueString",
+        "path": "Observation.valueString",
         "min": 0,
         "max": "1",
         "type": [
