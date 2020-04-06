@@ -22,6 +22,15 @@
             "display": "Blood pressure screening recommended"
           }
         ]
+      },
+      {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "concept": [
+          {
+            "code": "Backup Method Needed",
+            "display": "Backup contraception method needed"
+          }
+        ]
       }
     ]
   }
