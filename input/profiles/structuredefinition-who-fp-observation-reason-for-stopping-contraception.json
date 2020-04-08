@@ -40,6 +40,13 @@
       {
         "id": "Observation.valueCodeableConcept",
         "path": "Observation.valueCodeableConcept",
+        "code": [
+          {
+            "system": "http://loinc.org",
+            "code": "LL4579-0",
+            "display": "Reason for stopping contraception method (LOINC)"
+          }
+        ],
         "min": 0,
         "max": "*",
         "type": [
