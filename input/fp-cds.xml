@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="fhir.who.fp-cds"/>
-  <url value="http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds"/>
+  <url value="http://fhir.org/guides/who/core/ImplementationGuide/fhir.who.fp-cds"/>
   <version value="0.1.0" />
   <name value="DBCGIGStart"/>
   <title value="WHO Family Planning Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="World Health Organization (WHO)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.who.int"/>
+    </telecom>
+  </contact>
   <description value="Guide for implementing World Health Organization Family Planning guidelines."/>
   <jurisdiction>
     <coding>
@@ -116,6 +122,10 @@
     <parameter>
       <code value="path-resource" />
       <value value="input/vocabulary/valueset"/>
+    </parameter>
+    <parameter>
+      <code value="path-suppressed-warnings" />
+      <value value="input/ignoreWarnings.txt" />
     </parameter>
     <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
      <parameter>
