@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "contraceptivedeliverymethod-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
   "name": "contraceptivedeliverymethod-values",
   "title": "How contraceptive method is being provided values",
   "status": "draft",

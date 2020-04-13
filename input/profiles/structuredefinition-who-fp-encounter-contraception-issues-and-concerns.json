@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-encounter-contraception-issues-and-concerns",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
   "name": "WHO-FP Encounter (Contraception Issues and Concerns) ",
   "title": "WHO-FP Encounter (Contraception Issues and Concerns) ",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-issues-and-concerns-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values"
         }
       }
     ]

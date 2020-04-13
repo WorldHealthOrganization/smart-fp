@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "contraception-issues-and-concerns-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
   "name": "contraception-issues-and-concerns-values",
   "title": "Contraception Issues and concerns values",
   "status": "draft",

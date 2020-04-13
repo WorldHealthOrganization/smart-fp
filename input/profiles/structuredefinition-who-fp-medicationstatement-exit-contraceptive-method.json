@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-exit-contraceptive-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
   "name": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
   "title": "WHO-FP MedicationStatement (Exit Contraceptive Method)",
   "status": "draft",

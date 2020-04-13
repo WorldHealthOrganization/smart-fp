@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-breastfeeding-status",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
   "name": "WHO-FP Observation (Breastfeeding Status)",
   "title": "WHO-FP Observation (Breastfeeding Status)",
   "status": "draft",
@@ -49,7 +49,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breastfeeding-status-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values"
         }
       }
     ]

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-condition-medical-eligibility",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
   "name": "WHO-FP Condition (Medical Eligibility)",
   "title": "WHO-FP Condition (Medical Eligibility)",
   "status": "draft",
@@ -27,7 +27,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medicaleligibilityconditions-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values"
         }
       }
     ]

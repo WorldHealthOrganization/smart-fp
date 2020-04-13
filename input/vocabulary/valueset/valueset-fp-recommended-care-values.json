@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "fp-recommended-care-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/fp-recommended-care-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values",
   "name": "fp-recommended-care-values",
   "title": "FP Recommended Care values",
   "status": "draft",

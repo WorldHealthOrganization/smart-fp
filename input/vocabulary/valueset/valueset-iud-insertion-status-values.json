@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "iud-insertion-status-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/iud-insertion-status-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
   "name": "iud-insertion-status-values",
   "title": "IUD Insertion status values",
   "status": "draft",

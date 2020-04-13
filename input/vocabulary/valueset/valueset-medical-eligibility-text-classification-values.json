@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "medical-eligibility-text-classification-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values",
   "name": "medical-eligibility-text-classification-values",
   "title": "Medical eligibility - text classification values",
   "status": "draft",

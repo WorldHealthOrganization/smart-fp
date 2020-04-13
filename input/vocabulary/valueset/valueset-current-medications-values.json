@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "current-medications-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/current-medications-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
   "name": "current-medications-values",
   "title": "Current Medications values",
   "status": "draft",

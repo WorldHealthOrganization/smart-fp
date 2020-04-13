@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-procedure-exit-contraceptive-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method",
   "name": "WHO-FP Procedure (Exit Contraceptive Method)",
   "title": "WHO-FP Procedure (Exit Contraceptive Method)",
   "status": "draft",

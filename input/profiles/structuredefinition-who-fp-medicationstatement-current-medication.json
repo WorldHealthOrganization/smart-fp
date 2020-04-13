@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-current-medication",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
   "name": "WHO-FP MedicationStatement (Current Medication)",
   "title": "WHO-FP MedicationStatement (Current Medication)",
   "status": "draft",
@@ -34,7 +34,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/current-medications-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values"
         }
       }
     ]

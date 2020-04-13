@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-smoking-status",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
   "name": "WHO-FP Observation (Smoking Status)",
   "title": "WHO-FP Observation (Smoking Status)",
   "status": "draft",
@@ -51,7 +51,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/cigarettes-smoked-per-day-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values"
         }
       }
     ]

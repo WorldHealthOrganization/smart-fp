@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-careplan-backup-contraceptive-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method",
   "name": "WHO-FP CarePlan (Backup Contraceptive Method)",
   "title": "WHO-FP CarePlan (Backup Contraceptive Method)",
   "status": "draft",
@@ -29,7 +29,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/backupcontraceptivemethod-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values"
         }
       }
     ]

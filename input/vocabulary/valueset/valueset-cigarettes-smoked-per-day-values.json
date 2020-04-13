@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "cigarettes-smoked-per-day-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
   "name": "cigarettes-smoked-per-day-values",
   "title": "Cigarettes smoked per day values",
   "status": "draft",

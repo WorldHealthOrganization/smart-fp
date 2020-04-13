@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-reason-for-stopping-contraception",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
   "name": "WHO-FP Observation (Reason for Stopping Contraception)",
   "title": "WHO-FP Observation (Reason for Stopping Contraception)",
   "status": "draft",

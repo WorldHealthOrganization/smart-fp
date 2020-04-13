@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-missed-or-late-menses",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
   "name": "WHO-FP Observation (Missed or Late Menses)",
   "title": "WHO-FP Observation (Missed or Late Menses)",
   "status": "draft",

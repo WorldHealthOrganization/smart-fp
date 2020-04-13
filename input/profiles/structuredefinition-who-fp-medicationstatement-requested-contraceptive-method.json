@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-medicationstatement-requested-contraceptive-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
   "name": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
   "title": "WHO-FP MedicationStatement (Requested Contraceptive Method)",
   "status": "draft",

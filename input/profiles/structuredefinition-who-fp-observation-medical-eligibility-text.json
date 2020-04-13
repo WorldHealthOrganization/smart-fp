@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-medical-eligibility-text",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
   "name": "WHO-FP Observation (Medical eligibility text)",
   "title": "WHO-FP Observation (Medical eligibility text)",
   "status": "draft",
@@ -34,7 +34,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/medical-eligibility-text-classification-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values"
         }
       }
     ]

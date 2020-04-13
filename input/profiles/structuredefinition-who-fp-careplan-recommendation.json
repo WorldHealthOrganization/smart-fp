@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-careplan-recommendation",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
   "name": "WHO-FP CarePlan (Recommendation)",
   "title": "WHO-FP CarePlan (Recommendation)",
   "status": "draft",
@@ -27,7 +27,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/fp-recommended-care-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values"
         }
       }
     ]

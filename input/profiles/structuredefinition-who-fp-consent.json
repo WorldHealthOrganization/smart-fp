@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-consent",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-consent",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent",
   "name": "WHO-FP Consent",
   "title": "WHO-FP Consent",
   "status": "draft",

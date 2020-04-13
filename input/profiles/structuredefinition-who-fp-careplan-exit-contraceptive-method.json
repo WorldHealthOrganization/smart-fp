@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-careplan-exit-contraceptive-method",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method",
   "name": "WHO-FP CarePlan (Exit Contraceptive Method)",
   "title": "WHO-FP CarePlan (Exit Contraceptive Method)",
   "status": "draft",
@@ -43,7 +43,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/deliverymethod"
+              "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod"
             ]
           }
         ]

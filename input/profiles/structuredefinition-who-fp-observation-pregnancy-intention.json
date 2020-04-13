@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-pregnancy-intention",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
   "name": "WHO-FP Observation (Pregnancy Intention)",
   "title": "WHO-FP Observation (Pregnancy Intention)",
   "status": "draft",
@@ -51,7 +51,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/pregnancy-intention-values"
+          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values"
         }
       }
     ]

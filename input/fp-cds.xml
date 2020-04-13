@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="fhir.who.fp-cds"/>
-  <url value="http://fhir.org/guides/who/core/ImplementationGuide/fhir.who.fp-cds"/>
+  <url value="http://fhir.org/guides/who/fp-cds/ImplementationGuide/fhir.who.fp-cds"/>
   <version value="0.1.0" />
-  <name value="DBCGIGStart"/>
+  <name value="FPCDS"/>
   <title value="WHO Family Planning Implementation Guide"/>
   <status value="draft"/>
   <experimental value="false"/>

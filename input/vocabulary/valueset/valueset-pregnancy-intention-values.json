@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "pregnancy-intention-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/pregnancy-intention-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
   "name": "pregnancy-intention-values",
   "title": "Pregnancy intention values",
   "status": "draft",

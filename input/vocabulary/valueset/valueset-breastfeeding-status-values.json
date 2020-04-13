@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "breastfeeding-status-values",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/ValueSet/breastfeeding-status-values",
+  "url": "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
   "name": "breastfeeding-status-values",
   "title": "Breastfeeding status values",
   "status": "draft",

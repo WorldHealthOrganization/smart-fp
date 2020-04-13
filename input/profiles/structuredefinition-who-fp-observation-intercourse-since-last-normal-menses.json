@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "who-fp-observation-intercourse-since-last-normal-menses",
-  "url": "http://hl7.org/fhir/dbcg/fp-cds/ImplementationGuide/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
+  "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
   "name": "WHO-FP Observation (Intercourse since Last Normal Menses)",
   "title": "WHO-FP Observation (Intercourse since Last Normal Menses)",
   "status": "draft",
