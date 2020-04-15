@@ -7,4 +7,8 @@ This implementation guide provides guidance that is derived from the following W
   * [Adolescent job aid: a handy desk reference tool for primary level health workers](https://www.who.int/maternal_child_adolescent/documents/9789241599962/en/)
   * [WHO recommendations on adolescent sexual and reproductive health and rights](https://www.who.int/reproductivehealth/publications/adolescent-srhr-who-recommendations/en/)
 
+For a complete listing of the artifacts defined in this implementation guide, refer to the [Artifact Index](artifacts.html).
+
+Implementation content, as well as a complete offline copy of this implementation guide can be found on the [Downloads](downloads.html) page.
+
 Note that the content of this implementation guide is draft material that has not yet been tested or validated for use in production environments.
