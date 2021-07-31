@@ -14,30 +14,25 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "Observation",
-        "path": "Observation",
-        "short": "Medical eligibility - number classification",
-        "comment": "[Data stored with record (FP.RQ.002.011) and used to populate an alert.]",
-        "mustSupport": false
-      },
-      {
-        "id": "Observation.valueInteger",
-        "path": "Observation.valueInteger",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "integer"
-          }
-        ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values"
-        }
+    "element": [ {
+      "id": "Observation",
+      "path": "Observation",
+      "short": "Medical eligibility - number classification",
+      "comment": "[Data stored with record (FP.RQ.002.011) and used to populate an alert.]",
+      "mustSupport": false
+    }, {
+      "id": "Observation.valueInteger",
+      "path": "Observation.valueInteger",
+      "min": 0,
+      "max": "1",
+      "type": [ {
+        "code": "integer"
+      } ],
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values"
       }
-    ]
+    } ]
   }
 }

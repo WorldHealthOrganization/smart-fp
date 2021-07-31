@@ -9,29 +9,12 @@
   "description": "Codes representing possible values for the FP Recommended Care element",
   "immutable": true,
   "compose": {
-    "include": [
-      {
-        "system": "http://snomed.info/sct",
-        "concept": [
-          {
-            "code": "35025007",
-            "display": "Pelvic/genital examination needed"
-          },
-          {
-            "code": "268607006",
-            "display": "Blood pressure screening recommended"
-          }
-        ]
-      },
-      {
-        "system": "http://who.int/cg/CodeSystem/extended-content",
-        "concept": [
-          {
-            "code": "Backup Method Needed",
-            "display": "Backup contraception method needed"
-          }
-        ]
-      }
-    ]
+    "include": [ {
+      "system": "http://who.int/cg/CodeSystem/extended-content",
+      "concept": [ {
+        "code": "Backup Method Needed",
+        "display": "Backup contraception method needed"
+      } ]
+    } ]
   }
 }
