@@ -6,7 +6,7 @@
   "title": "WHO-FP CarePlan (Requested Contraceptive Method)",
   "status": "draft",
   "experimental": false,
-  "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods. ",
+  "description": "The first pick of method desired by the client, prior to medical eligibility tests. This may be the method in mind or the method selected after discussing the full range of methods.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -14,32 +14,22 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/CarePlan",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "CarePlan",
-        "path": "CarePlan",
-        "short": "Method requested",
-        "comment": "Required for MEC logic",
-        "mustSupport": false
-      },
-      {
-        "id": "CarePlan.activity.detail.code",
-        "path": "CarePlan.activity.detail.code",
-        "code": [
-          {
-            "system": "http://hl7.org/fhir/sid/icd-10",
-            "code": "Z30.9",
-            "display": "CarePlan-based Contraception Method requested (ICD-10-WHO)"
-          }
-        ],
-        "min": 0,
-        "max": "1",
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values"
-        }
+    "element": [ {
+      "id": "CarePlan",
+      "path": "CarePlan",
+      "short": "Method requested",
+      "comment": "Required for MEC logic",
+      "mustSupport": false
+    }, {
+      "id": "CarePlan.activity.detail.code",
+      "path": "CarePlan.activity.detail.code",
+      "min": 0,
+      "max": "1",
+      "mustSupport": true,
+      "binding": {
+        "strength": "required",
+        "valueSet": "http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values"
       }
-    ]
+    } ]
   }
 }

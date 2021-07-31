@@ -9,130 +9,39 @@
   "description": "Codes representing possible values for the Current Medications element",
   "immutable": true,
   "compose": {
-    "include": [
-      {
-        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
-        "concept": [
-          {
-            "code": "D001463",
-            "display": "barbiturates"
-          },
-          {
-            "code": "2002",
-            "display": "carbamazepine"
-          },
-          {
-            "code": "32624",
-            "display": "oxcarbazepine"
-          },
-          {
-            "code": "8183",
-            "display": "phenytoin"
-          },
-          {
-            "code": "8691",
-            "display": "primidone"
-          },
-          {
-            "code": "38404",
-            "display": "topiramate"
-          },
-          {
-            "code": "28439",
-            "display": "lamotrigine"
-          },
-          {
-            "code": "J02",
-            "display": "Antifungals"
-          },
-          {
-            "code": "P",
-            "display": "Antiparasitics"
-          },
-          {
-            "code": "9384",
-            "display": "Rifampicin"
-          },
-          {
-            "code": "55672",
-            "display": "Rifabutin"
-          },
-          {
-            "code": "J05AF",
-            "display": "NRTIs"
-          },
-          {
-            "code": "195085",
-            "display": "EFV"
-          },
-          {
-            "code": "475969",
-            "display": "ETR"
-          },
-          {
-            "code": "53654",
-            "display": "NVP"
-          },
-          {
-            "code": "1102270",
-            "display": "RPV"
-          },
-          {
-            "code": "J05AE",
-            "display": "PIs"
-          },
-          {
-            "code": "719872",
-            "display": "RAL"
-          }
-        ]
-      },
-      {
-        "system": "http://snomed.info/sct",
-        "concept": [
-          {
-            "code": "40820003",
-            "display": "carbamazepine"
-          },
-          {
-            "code": "116511002",
-            "display": "oxcarbazepine"
-          },
-          {
-            "code": "40556005",
-            "display": "phenytoin"
-          },
-          {
-            "code": "47120002",
-            "display": "primidone"
-          },
-          {
-            "code": "108400009",
-            "display": "topiramate"
-          },
-          {
-            "code": "96195007",
-            "display": "lamotrigine"
-          },
-          {
-            "code": "29175007",
-            "display": "Rifampicin"
-          },
-          {
-            "code": "108684009",
-            "display": "Rifabutin"
-          }
-        ]
-      },
-      {
-        "system": "http://who.int/cg/CodeSystem/extended-content",
-        "concept": [
-          {
-            "code": "Broad-spectrum antibiotics",
-            "display": "Broad-spectrum antibiotics"
-          }
-        ]
-      }
-    ]
+    "include": [ {
+      "system": "http://hl7.org/fhir/sid/ciel",
+      "concept": [ {
+        "code": "72822",
+        "display": "carbamazepine"
+      }, {
+        "code": "81294",
+        "display": "oxcarbazepine"
+      }, {
+        "code": "82023",
+        "display": "phenytoin"
+      }, {
+        "code": "82534",
+        "display": "primidone"
+      }, {
+        "code": "85235",
+        "display": "topiramate"
+      }, {
+        "code": "78644",
+        "display": "lamotrigine"
+      }, {
+        "code": "767",
+        "display": "Rifampicin"
+      }, {
+        "code": "83352",
+        "display": "Rifabutin"
+      } ]
+    }, {
+      "system": "http://who.int/cg/CodeSystem/extended-content",
+      "concept": [ {
+        "code": "Broad-spectrum antibiotics",
+        "display": "Broad-spectrum antibiotics"
+      } ]
+    } ]
   }
 }

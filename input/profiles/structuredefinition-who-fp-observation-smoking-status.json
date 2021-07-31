@@ -14,46 +14,39 @@
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
   "derivation": "constraint",
   "differential": {
-    "element": [
-      {
-        "id": "Observation",
-        "path": "Observation",
-        "short": "Smoking category",
-        "comment": "Applicable to checking MEC and what is included in the MEC app. However, the specific term is not in app conditions. ",
-        "mustSupport": false
+    "element": [ {
+      "id": "Observation",
+      "path": "Observation",
+      "short": "Smoking category",
+      "comment": "Applicable to checking MEC and what is included in the MEC app. However, the specific term is not in app conditions.",
+      "mustSupport": false
+    }, {
+      "id": "Observation.code",
+      "path": "Observation.code",
+      "min": 1,
+      "max": "1",
+      "fixedCodeableConcept": {
+        "coding": [ {
+          "system": "http://who.int/cg/CodeSystem/extended-content",
+          "code": "Cigarettes smoked per day",
+          "display": "Cigarettes smoked per day (FHIR)"
+        } ]
       },
-      {
-        "id": "Observation.code",
-        "path": "Observation.code",
-        "min": 1,
-        "max": "1",
-        "fixedCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://who.int/cg/CodeSystem/extended-content",
-              "code": "Cigarettes smoked per day",
-              "display": "Cigarettes smoked per day (FHIR)"
-            }
-          ]
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Observation.valueCodeableConcept",
-        "path": "Observation.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "mustSupport": true,
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values"
-        }
-      }
-    ]
+      "mustSupport": true
+    }, {
+      "id": "Observation.valueCodeableConcept",
+      "path": "Observation.valueCodeableConcept",
+      "code": [ {
+        "system": "http://who.int/cg/CodeSystem/extended-content",
+        "code": "Cigarettes smoked per day",
+        "display": "Cigarettes smoked per day (FHIR)"
+      } ],
+      "min": 0,
+      "max": "1",
+      "type": [ {
+        "code": "CodeableConcept"
+      } ],
+      "mustSupport": true
+    } ]
   }
 }

@@ -3,127 +3,47 @@
   "id": "extended-content-codes",
   "url": "http://who.int/cg/CodeSystem/extended-content-codes",
   "name": "extended-content_codes",
-  "title": "WHO Extended Codes CodeSystem codes",
+  "title": "Extended Codes CodeSystem codes",
   "status": "draft",
   "experimental": false,
   "description": "Set of codes identified as being needed but not found in existing Code Systems",
   "caseSensitive": true,
   "content": "complete",
-  "concept": [
-    {
-      "code": "Makes noise during sex",
-      "display": "Makes noise during sex",
-      "definition": "Issues and concerns - Makes noise during sex"
-    },
-    {
-      "code": "Other",
-      "display": "Other",
-      "definition": "Issues and concerns - Other"
-    },
-    {
-      "code": "Difficulty persuading partner to use method",
-      "display": "Difficulty persuading partner to use method",
-      "definition": "Issues and concerns - Difficulty persuading partner to use method"
-    },
-    {
-      "code": "1",
-      "display": "1",
-      "definition": "Medical eligibility - number classification - 1"
-    },
-    {
-      "code": "2",
-      "display": "2",
-      "definition": "Medical eligibility - number classification - 2"
-    },
-    {
-      "code": "3",
-      "display": "3",
-      "definition": "Medical eligibility - number classification - 3"
-    },
-    {
-      "code": "4",
-      "display": "4",
-      "definition": "Medical eligibility - number classification - 4"
-    },
-    {
-      "code": "Accept",
-      "display": "Accept",
-      "definition": "Medical eligibility - text classification - Accept"
-    },
-    {
-      "code": "Caution",
-      "display": "Caution",
-      "definition": "Medical eligibility - text classification - Caution"
-    },
-    {
-      "code": "Delay",
-      "display": "Delay",
-      "definition": "Medical eligibility - text classification - Delay"
-    },
-    {
-      "code": "Special",
-      "display": "Special",
-      "definition": "Medical eligibility - text classification - Special"
-    },
-    {
-      "code": "Minor surgery without immobilization",
-      "display": "Minor surgery without immobilization",
-      "definition": "Minor surgery without immobilization"
-    },
-    {
-      "code": "Diabetes >20 years duration",
-      "display": "Diabetes >20 years duration",
-      "definition": "Diabetes >20 years duration"
-    },
-    {
-      "code": "Other vascular disease >20 years duration",
-      "display": "Other vascular disease >20 years duration",
-      "definition": "Other vascular disease >20 years duration"
-    },
-    {
-      "code": "Cigarettes smoked per day",
-      "display": "Cigarettes smoked per day",
-      "definition": "Cigarettes smoked per day"
-    },
-    {
-      "code": "<15 cigarettes per day",
-      "display": "<15 cigarettes per day",
-      "definition": "Smoking category - <15 cigarettes per day"
-    },
-    {
-      "code": ">= 15 cigarettes per day",
-      "display": ">= 15 cigarettes per day",
-      "definition": "Smoking category - >= 15 cigarettes per day"
-    },
-    {
-      "code": "Complicated Valvular heart disease",
-      "display": "Complicated Valvular heart disease",
-      "definition": "Complicated Valvular heart disease"
-    },
-    {
-      "code": "Uncomplicated Valvular heart disease",
-      "display": "Uncomplicated Valvular heart disease",
-      "definition": "Uncomplicated Valvular heart disease"
-    },
-    {
-      "code": "Tuberculosis - Non-pelvic",
-      "display": "Tuberculosis - Non-pelvic",
-      "definition": "Tuberculosis - Non-pelvic"
-    },
-    {
-      "code": "Broad-spectrum antibiotics",
-      "display": "Broad-spectrum antibiotics",
-      "definition": "Medications - Broad-spectrum antibiotics"
-    },
-    {
-      "code": "Other",
-      "display": "Other",
-      "definition": "Type of backup method provided - Other"
-    },
-    {
-      "code": "Backup Method Needed",
-      "display": "Backup contraception method needed",
-      "definition": "Backup contraception method needed"
-    }
-  ]
+  "concept": [ {
+    "code": "Minor surgery without immobilization",
+    "display": "Minor surgery without immobilization",
+    "definition": "Minor surgery without immobilization"
+  }, {
+    "code": "Diabetes >20 years duration",
+    "display": "Diabetes >20 years duration",
+    "definition": "Diabetes >20 years duration"
+  }, {
+    "code": "Other vascular disease >20 years duration",
+    "display": "Other vascular disease >20 years duration",
+    "definition": "Other vascular disease >20 years duration"
+  }, {
+    "code": "Cigarettes smoked per day",
+    "display": "Cigarettes smoked per day",
+    "definition": "Cigarettes smoked per day"
+  }, {
+    "code": "Complicated Valvular heart disease",
+    "display": "Complicated Valvular heart disease",
+    "definition": "Complicated Valvular heart disease"
+  }, {
+    "code": "Uncomplicated Valvular heart disease",
+    "display": "Uncomplicated Valvular heart disease",
+    "definition": "Uncomplicated Valvular heart disease"
+  }, {
+    "code": "Tuberculosis - Non-pelvic",
+    "display": "Tuberculosis - Non-pelvic",
+    "definition": "Tuberculosis - Non-pelvic"
+  }, {
+    "code": "Broad-spectrum antibiotics",
+    "display": "Broad-spectrum antibiotics",
+    "definition": "Medications - Broad-spectrum antibiotics"
+  }, {
+    "code": "Backup Method Needed",
+    "display": "Backup contraception method needed",
+    "definition": "Backup contraception method needed"
+  } ]
 }
