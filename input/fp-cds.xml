@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
-  <id value="fhir.who.fp-cds"/>
-  <url value="http://fhir.org/guides/who/fp-cds/ImplementationGuide/fhir.who.fp-cds"/>
-  <version value="0.1.0" />
+  <id value="who.fhir.fp-cds"/>
+  <url value="http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds"/>
+  <version value="0.2.0" />
   <name value="FPCDS"/>
   <title value="WHO Family Planning Implementation Guide"/>
   <status value="draft"/>
@@ -14,14 +14,14 @@
       <value value="https://www.who.int"/>
     </telecom>
   </contact>
-  <description value="Guide for implementing World Health Organization Family Planning guidelines."/>
+  <description value="This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="fhir.who.fp-cds"/>
+  <packageId value="who.fhir.fp-cds"/>
   <fhirVersion value="4.0.1"/>
   <definition>
     <page>

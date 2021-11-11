@@ -1,0 +1,22 @@
+{
+ "package-id" : "who.fhir.fp-cds",
+ "title" : "WHO Family Planning Implementation Guide",
+ "canonical" : "http://fhir.org/guides/who/fp-cds",
+ "category": "Quality / CDS",
+ "introduction" : "This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline.",
+ "list" : [{
+  "version" : "current",
+  "desc" : "Continuous Integration Build (latest in version control)",
+  "path" : "http://build.fhir.org/ig/WorldHealthOrganization/smart-fp",
+  "status" : "ci-build",
+  "current" : true
+ }, {
+  "version" : "0.2.0",
+  "fhirversion": "4.0.1",
+  "date": "2021-04-15",
+  "desc" : "Release 1",
+  "path" : "http://fhir.org/guides/who/fp-cds",
+  "status": "active",
+  "sequence": "Release 1"
+ }]
+}
