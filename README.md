@@ -9,7 +9,7 @@ The guide is published under a Creative Commons [license](LICENSE.md).
 
 ## Change Management and Roadmap
 
-Feedback and issues can be submitted via the [issues](issues) page, and will be incorporated into subsequent releases as time and resources allow.
+Feedback and issues can be submitted via the [issues](https://github.com/WorldHealthOrganization/smart-fp/issues) page, and will be incorporated into subsequent releases as time and resources allow.
 
 ## Repository and Build Information
 
