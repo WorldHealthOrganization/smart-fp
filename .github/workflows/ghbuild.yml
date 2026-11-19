@@ -22,5 +22,6 @@ jobs:
   # This workflow contains a single job called "build"
   call_build:
     permissions:
-      contents: write
+      contents: write       # gh-pages deploy
+      pull-requests: write  # PR build-status comment
     uses: WorldHealthOrganization/smart-base/.github/workflows/ghbuild.yml@main
