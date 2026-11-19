@@ -1,0 +1,119 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "reason-for-no-method-at-exit-values"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet reason-for-no-method-at-exit-values</b></p><a name=\"reason-for-no-method-at-exit-values\"> </a><a name=\"hcreason-for-no-method-at-exit-values\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/14550-0/\">14550-0</a></td><td>Voluntarily refrains from sexual intercourse</td></tr><tr><td><a href=\"https://loinc.org/LA 27925-9/\">LA 27925-9</a></td><td>Same sex partner</td></tr><tr><td><a href=\"https://loinc.org/46-8/\">46-8</a></td><td>No method for other reasons</td></tr><tr><td><a href=\"https://loinc.org/27927-5/\">27927-5</a></td><td>Sterile for non-contraceptive reasons</td></tr><tr><td><a href=\"https://loinc.org/LA 27928-3/\">LA 27928-3</a></td><td>Seeking pregnancy</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/454731000124108\">454731000124108</a></td><td>Voluntarily refrains from sexual intercourse</td></tr><tr><td><a href=\"http://snomed.info/id/445637007\">445637007</a></td><td>Client choice to not use contraception</td></tr><tr><td><a href=\"http://snomed.info/id/454361000124100\">454361000124100</a></td><td>Same sex partner</td></tr><tr><td><a href=\"http://snomed.info/id/74964007\">74964007</a></td><td>No method for other reasons</td></tr><tr><td><a href=\"http://snomed.info/id/182856006\">182856006</a></td><td>Out of stock</td></tr><tr><td><a href=\"http://snomed.info/id/15296000\">15296000</a></td><td>Sterile for non-contraceptive reasons</td></tr><tr><td><a href=\"http://snomed.info/id/454411000124108\">454411000124108</a></td><td>Seeking pregnancy</td></tr></table></li><li>Include these codes as defined in <a href=\"http://tx.fhir.org/r4\"><code>http://hl7.org/fhir/sid/icd-10</code></a><span title=\"Version is not explicitly stated. When building this specification, the most recent version 2019-covid-expanded has been used\" class=\"xhtPieceDeEmphasized\"> version ⏿2019-covid-expanded</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z76.4689\">Z76.89</a></td><td>Out of stock</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z31.469\">Z31.9</a></td><td>Sterile for non-contraceptive reasons</td><td>Procreative management, unspecified</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values"] ;
+  fhir:ValueSet.version [ fhir:value "0.2.0"] ;
+  fhir:ValueSet.name [ fhir:value "reason-for-no-method-at-exit-values"] ;
+  fhir:ValueSet.title [ fhir:value "Reason for no method at exit values"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-11-19T11:53:29+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "World Health Organization (WHO)"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.who.int" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Codes representing possible values for the Reason for no method at exit element"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ] ;
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ] ;
+  fhir:ValueSet.immutable [ fhir:value "true"^^xsd:boolean] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://loinc.org" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "14550-0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Voluntarily refrains from sexual intercourse" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA 27925-9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Same sex partner" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "46-8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "No method for other reasons" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "27927-5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sterile for non-contraceptive reasons" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LA 27928-3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seeking pregnancy" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "454731000124108" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Voluntarily refrains from sexual intercourse" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "445637007" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Client choice to not use contraception" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "454361000124100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Same sex partner" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "74964007" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "No method for other reasons" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "182856006" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Out of stock" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "15296000" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sterile for non-contraceptive reasons" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "454411000124108" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seeking pregnancy" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/sid/icd-10" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z76.89" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Out of stock" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Z31.9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Sterile for non-contraceptive reasons" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

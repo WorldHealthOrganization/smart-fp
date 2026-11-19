@@ -1,0 +1,2384 @@
+{
+  "date" : "Thu, 19 Nov, 2026 11:53:29 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-who.fhir.fp-cds.json",
+    "size" : 18137,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 38
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 3345
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 35
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 57
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-extended-content-codes.json",
+    "size" : 1970,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 246
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 4
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 169
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-deliverymethod.json",
+    "size" : 1861,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 38
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 93
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 340
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 186
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 80,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 2
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-careplan-backup-contraceptive-method.json",
+    "size" : 1123,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 29
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 139
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 72,
+      "length" : 225
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 266
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-careplan-exit-contraceptive-method.json",
+    "size" : 2015,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 30
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 444
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 198
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 174
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 117
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-careplan-recommendation.json",
+    "size" : 963,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 25
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 85
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 180
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 138
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-careplan-requested-contraceptive-method.json",
+    "size" : 1343,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 23
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 78
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 69,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 263
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 74
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-condition-medical-eligibility.json",
+    "size" : 970,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 51
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 186
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 58
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-consent.json",
+    "size" : 863,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 62
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 68
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 73,
+      "length" : 117
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 65
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-device-contraceptive-method.json",
+    "size" : 978,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 14
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 127
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 146
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 90
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 66
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.json",
+    "size" : 1260,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 35
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 52
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 32
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.json",
+    "size" : 1680,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 71
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 27
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.json",
+    "size" : 1227,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 13
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 55,
+      "length" : 70
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 100
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 101
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 72
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-encounter.json",
+    "size" : 739,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 100
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 100
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 73
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-healthcareservice.json",
+    "size" : 1142,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 103
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 98
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 53
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-current-medication.json",
+    "size" : 1436,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 41
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 54
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 35
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.json",
+    "size" : 1333,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 112
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 123
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 64
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 29
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 3
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.json",
+    "size" : 1532,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 39
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 52
+    },
+    {
+      "activity" : "generate2",
+      "start" : 78,
+      "length" : 31
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-breastfeeding-status.json",
+    "size" : 1481,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 17
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 257
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 74,
+      "length" : 359
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 59
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-days-since-last-normal-menses.json",
+    "size" : 1677,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 199
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 115
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 47
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 91,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.json",
+    "size" : 1628,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 184
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 114
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-number.json",
+    "size" : 1317,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 51
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 103
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 42
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-text.json",
+    "size" : 1087,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 52
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 101
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 44
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility.json",
+    "size" : 992,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 50,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 57
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 100
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 44
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 92,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-missed-or-late-menses.json",
+    "size" : 1579,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 11
+    },
+    {
+      "activity" : "loadInfo",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 166
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 124
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 54
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-pregnancy-intention.json",
+    "size" : 1663,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 156
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 147
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 46
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.json",
+    "size" : 1672,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 126
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 75,
+      "length" : 152
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 42
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 92,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-stopping-contraception.json",
+    "size" : 2696,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 109
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 260
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 52
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 108
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 44
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 7
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-smoking-status.json",
+    "size" : 1776,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 45
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 98
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-observation-test-results.json",
+    "size" : 979,
+    "processes" : [{
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 37
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 88
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 92,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-procedure-exit-contraceptive-method.json",
+    "size" : 1123,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 102
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 126
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 77
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 52
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-procedure-requested-contraceptive-method.json",
+    "size" : 1322,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 34
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 42
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-who-fp-procedure-service-provided.json",
+    "size" : 922,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 66,
+      "length" : 33
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 73
+    },
+    {
+      "activity" : "generate2",
+      "start" : 79,
+      "length" : 37
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 92,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-backupcontraceptivemethod-values.json",
+    "size" : 1342,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 56,
+      "length" : 619
+    },
+    {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 667
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 83
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-breastfeeding-status-values.json",
+    "size" : 983,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 57,
+      "length" : 169
+    },
+    {
+      "activity" : "validate",
+      "start" : 61,
+      "length" : 189
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 101
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-cigarettes-smoked-per-day-values.json",
+    "size" : 820,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 57,
+      "length" : 43
+    },
+    {
+      "activity" : "validate",
+      "start" : 61,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 65
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-contraception-issues-and-concerns-values.json",
+    "size" : 6320,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 57,
+      "length" : 2236
+    },
+    {
+      "activity" : "validate",
+      "start" : 61,
+      "length" : 474
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 2
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 94
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-contraceptivedeliverymethod-values.json",
+    "size" : 882,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "scan",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 45
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 98
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 65
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-current-medications-values.json",
+    "size" : 1494,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 171
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 104
+    },
+    {
+      "activity" : "generate2",
+      "start" : 76,
+      "length" : 66
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fp-recommended-care-values.json",
+    "size" : 677,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 43
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 62
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-iud-insertion-status-values.json",
+    "size" : 756,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-medical-eligibility-text-classification-values.json",
+    "size" : 1002,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 44
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 61
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-medicaleligibilityconditions-values.json",
+    "size" : 6591,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 59,
+      "length" : 209
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 112
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 2
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 66
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-medicaleligibilitynumber-values.json",
+    "size" : 455,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 60,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-medicaleligibilityobservations-values.json",
+    "size" : 471,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 3
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-pregnancy-intention-values.json",
+    "size" : 943,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 60,
+      "length" : 87
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 89
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 59
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-reason-for-family-planning-visit-values.json",
+    "size" : 2143,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 55,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 60,
+      "length" : 293
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 241
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 97
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-reason-for-no-method-at-exit-values.json",
+    "size" : 2313,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 60,
+      "length" : 258
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 226
+    },
+    {
+      "activity" : "generate1",
+      "start" : 70,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 73
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 4828,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1639
+  },
+  {
+    "name" : "/input/pagecontent/services.md",
+    "size" : 46
+  },
+  {
+    "name" : "/input/pagecontent/extensions.xml",
+    "size" : 375,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 32
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/profiles.xml",
+    "size" : 233,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/test.md",
+    "size" : 84
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 1730,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/terminology.xml",
+    "size" : 1034,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 25
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/documentation.md",
+    "size" : 114,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cql/example.cql",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 30
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/operations.md",
+    "size" : 48
+  },
+  {
+    "name" : "/input/pagecontent/downloads.md",
+    "size" : 1565,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/examples.xml",
+    "size" : 1000,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 25
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/elm/example.json",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 23
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 84,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/toc.xml",
+    "size" : 350,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 16
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/sushi-conversion.md",
+    "size" : 6881,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent",
+    "size" : 0
+  },
+  {
+    "name" : "/input/pagecontent/cql",
+    "size" : 0
+  },
+  {
+    "name" : "/input/pagecontent/elm",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 23548,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 77,
+      "length" : 1
+    }]
+  }]
+}

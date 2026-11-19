@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.schema.json",
+  "title": "Reason for no method at exit values Schema",
+  "description": "JSON Schema for Reason for no method at exit values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://loinc.org#14550-0",
+    "http://loinc.org#LA 27925-9",
+    "http://loinc.org#46-8",
+    "http://loinc.org#27927-5",
+    "http://loinc.org#LA 27928-3",
+    "http://snomed.info/sct#454731000124108",
+    "http://snomed.info/sct#445637007",
+    "http://snomed.info/sct#454361000124100",
+    "http://snomed.info/sct#74964007",
+    "http://snomed.info/sct#182856006",
+    "http://snomed.info/sct#15296000",
+    "http://snomed.info/sct#454411000124108",
+    "http://hl7.org/fhir/sid/icd-10#Z76.89",
+    "http://hl7.org/fhir/sid/icd-10#Z31.9"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Reason for no method at exit values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.899560"
+}

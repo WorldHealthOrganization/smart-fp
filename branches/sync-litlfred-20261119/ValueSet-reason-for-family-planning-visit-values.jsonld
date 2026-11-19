@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:46:47.003819Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#169450001",
+      "name": "Stopping contraception",
+      "fhir:code": "169450001",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#408968008",
+      "name": "Contraception counseling",
+      "fhir:code": "408968008",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#243816001",
+      "name": "Contraceptive continuation",
+      "fhir:code": "243816001",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#275813002",
+      "name": "Emergency contraception",
+      "fhir:code": "275813002",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#424016000",
+      "name": "Contraception Method switch",
+      "fhir:code": "424016000",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.0",
+      "name": "Contraception counseling",
+      "fhir:code": "Z30.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.01",
+      "name": "Starting contraception",
+      "fhir:code": "Z30.01",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30",
+      "name": "Contraceptive continuation",
+      "fhir:code": "Z30",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.012",
+      "name": "Emergency contraception",
+      "fhir:code": "Z30.012",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.40",
+      "name": "Contraception Issues and concerns",
+      "fhir:code": "Z30.40",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.46",
+      "name": "Implant removal",
+      "fhir:code": "Z30.46",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#Z30.432",
+      "name": "IUD Removal",
+      "fhir:code": "Z30.432",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.jsonld#LA 27921-8",
+      "name": "Emergency contraception",
+      "fhir:code": "LA 27921-8",
+      "fhir:CodeSystem": "http://loinc.org"
+    }
+  ]
+}

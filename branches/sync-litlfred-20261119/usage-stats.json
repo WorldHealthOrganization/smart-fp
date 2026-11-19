@@ -1,0 +1,208 @@
+{
+  "package": "who.fhir.fp-cds",
+  "version": "0.2.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod",
+      "title": "How contraceptive method is being provided",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "CarePlan": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method",
+        "title": "WHO-FP CarePlan (Backup Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method",
+        "title": "WHO-FP CarePlan (Exit Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
+        "title": "WHO-FP CarePlan (Recommendation)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method",
+        "title": "WHO-FP CarePlan (Requested Contraceptive Method)"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
+        "title": "WHO-FP Condition (Medical Eligibility)"
+      }
+    ],
+    "Consent": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent",
+        "title": "WHO-FP Consent"
+      }
+    ],
+    "Device": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method",
+        "title": "WHO-FP Device (Contraceptive Method)"
+      }
+    ],
+    "DeviceUseStatement": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
+        "title": "WHO-FP DeviceUseStatement (Exit Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
+        "title": "WHO-FP DeviceUseStatement (Requested Contraceptive Method)"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter",
+        "title": "WHO-FP Encounter"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+        "title": "WHO-FP Encounter (Contraception Issues and Concerns) "
+      }
+    ],
+    "HealthcareService": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice",
+        "title": "WHO-FP HealthcareService"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
+        "title": "WHO-FP MedicationStatement (Current Medication)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
+        "title": "WHO-FP MedicationStatement (Exit Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
+        "title": "WHO-FP MedicationStatement (Requested Contraceptive Method)"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
+        "title": "WHO-FP Observation (Breastfeeding Status)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses",
+        "title": "WHO-FP Observation (Days since Last Normal Menses)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
+        "title": "WHO-FP Observation (Intercourse since Last Normal Menses)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility",
+        "title": "WHO-FP Observation (Medical Eligibility)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number",
+        "title": "WHO-FP Observation (Medical eligibility number)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
+        "title": "WHO-FP Observation (Medical eligibility text)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
+        "title": "WHO-FP Observation (Missed or Late Menses)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
+        "title": "WHO-FP Observation (Pregnancy Intention)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+        "title": "WHO-FP Observation (Reason for no contraceptive method at exit)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+        "title": "WHO-FP Observation (Reason for Stopping Contraception)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
+        "title": "WHO-FP Observation (Smoking Status)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results",
+        "title": "WHO-FP Observation (Test Results)"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method",
+        "title": "WHO-FP Procedure (Exit Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method",
+        "title": "WHO-FP Procedure (Requested Contraceptive Method)"
+      },
+      {
+        "url": "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided",
+        "title": "WHO-FP Procedure (Service Provided)"
+      }
+    ]
+  },
+  "usage": {
+    "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod": [
+      "CarePlan.activity.detail"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/type-profile-constraints": [
+      "StructureDefinition.snapshot.element.type.profile"
+    ]
+  }
+}

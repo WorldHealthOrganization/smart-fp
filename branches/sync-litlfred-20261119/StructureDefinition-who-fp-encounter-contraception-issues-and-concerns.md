@@ -1,0 +1,106 @@
+# WHO-FP Encounter (Contraception Issues and Concerns) - WHO Family Planning Implementation Guide v0.2.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **WHO-FP Encounter (Contraception Issues and Concerns) **
+
+## Resource Profile: WHO-FP Encounter (Contraception Issues and Concerns) 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns | *Version*:0.2.0 |
+| Draft as of 2026-11-19 | *Computable Name*:WHO-FP Encounter (Contraception Issues and Concerns)  |
+
+ 
+Side effects or symptoms with current method, administration, missed pills and late injections 
+
+**Usages:**
+
+* This Profile is not used by any profiles in this Specification
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/who.fhir.fp-cds|current/StructureDefinition/StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.json)
+
+### Formal Views of Profile Content
+
+ [Description of Profiles, Differentials, Snapshots and how the different presentations work](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.csv), [Excel](StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.xlsx), [Schematron](StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "who-fp-encounter-contraception-issues-and-concerns",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Encounter (Contraception Issues and Concerns) ",
+  "title" : "WHO-FP Encounter (Contraception Issues and Concerns) ",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:45:08+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Side effects or symptoms with current method, administration, missed pills and late injections\n \n",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Encounter",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Encounter",
+      "path" : "Encounter",
+      "short" : "Issues and concerns",
+      "mustSupport" : false
+    },
+    {
+      "id" : "Encounter.reasonCode",
+      "path" : "Encounter.reasonCode",
+      "max" : "1",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values"
+      }
+    }]
+  }
+}
+
+```

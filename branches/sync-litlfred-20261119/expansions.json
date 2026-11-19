@@ -1,0 +1,879 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "47e8f258-60f4-48ab-8b0a-dd091f554b08",
+  "meta" : {
+    "lastUpdated" : "2026-11-19T11:45:08.492+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li>Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><div class=\"panel panel-warning\"><div class=\"panel-body\"><p>Notes about this expansion:</p><ul><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'la29254-2', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'la29255-9', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li></ul></div></div><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-733896006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/733896006\">733896006</a></td><td>Breast fed and bottle fed</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;733896006&quot;, &quot;display&quot;: &quot;Breast fed and bottle fed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;733896006&quot;/&gt;&lt;display value=&quot;Breast fed and bottle fed&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-169743001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/169743001\">169743001</a></td><td>Breastfeeding with supplement</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;169743001&quot;, &quot;display&quot;: &quot;Breastfeeding with supplement&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;169743001&quot;/&gt;&lt;display value=&quot;Breastfeeding with supplement&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "contained" : [{
+        "resourceType" : "OperationOutcome",
+        "id" : "oo1",
+        "issue" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'la29254-2', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'la29255-9', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        }]
+      }],
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+      "version" : "0.2.0",
+      "name" : "breastfeeding-status-values",
+      "title" : "Breastfeeding status values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.who.int"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/expansion-issue",
+          "valueReference" : {
+            "reference" : "#oo1"
+          }
+        }],
+        "identifier" : "urn:uuid:8e38cc18-53d8-41a6-88f9-a56d96ba857c",
+        "timestamp" : "2026-11-19T11:46:39.071Z",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.83"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "733896006",
+          "display" : "Breast fed and bottle fed"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "169743001",
+          "display" : "Breastfeeding with supplement"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-308335008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/308335008\">308335008</a></td><td>Patient encounter procedure</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;308335008&quot;, &quot;display&quot;: &quot;Patient encounter procedure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;308335008&quot;/&gt;&lt;display value=&quot;Patient encounter procedure&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-281100006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/281100006\">281100006</a></td><td>Referral to health worker</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;281100006&quot;, &quot;display&quot;: &quot;Referral to health worker&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;281100006&quot;/&gt;&lt;display value=&quot;Referral to health worker&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-16076005\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/16076005\">16076005</a></td><td>Prescription</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;16076005&quot;, &quot;display&quot;: &quot;Prescription&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;16076005&quot;/&gt;&lt;display value=&quot;Prescription&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+      "version" : "0.2.0",
+      "name" : "contraceptivedeliverymethod-values",
+      "title" : "How contraceptive method is being provided values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.who.int"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:b9427509-d582-49b2-be43-db5b6f1b9f49",
+        "timestamp" : "2026-11-19T11:46:39.386Z",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "308335008",
+          "display" : "Patient encounter procedure"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "281100006",
+          "display" : "Referral to health worker"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "16076005",
+          "display" : "Prescription"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html\">codesystem EventStatus v4.0.1 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/event-status|4.0.1\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><p>This value set contains 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/event-status-completed\"> </a><code>http://hl7.org/fhir/event-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed\">completed</a></td><td>IUD Insertion completed</td><td>The event has now concluded.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/event-status&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;completed&quot;, &quot;display&quot;: &quot;IUD Insertion completed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/event-status&quot;/&gt;&lt;version value=&quot;4.0.1&quot;/&gt;&lt;code value=&quot;completed&quot;/&gt;&lt;display value=&quot;IUD Insertion completed&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/event-status-not-done\"> </a><code>http://hl7.org/fhir/event-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done\">not-done</a></td><td>IUD Insertion not possible</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/event-status&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;not-done&quot;, &quot;display&quot;: &quot;IUD Insertion not possible&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/event-status&quot;/&gt;&lt;version value=&quot;4.0.1&quot;/&gt;&lt;code value=&quot;not-done&quot;/&gt;&lt;display value=&quot;IUD Insertion not possible&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+      "version" : "0.2.0",
+      "name" : "iud-insertion-status-values",
+      "title" : "IUD Insertion status values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:9ff03a2b-4772-44d5-9ffb-0b0226990d41",
+        "timestamp" : "2026-11-19T11:46:39+00:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/event-status|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/event-status",
+          "code" : "completed",
+          "display" : "IUD Insertion completed"
+        },
+        {
+          "system" : "http://hl7.org/fhir/event-status",
+          "code" : "not-done",
+          "display" : "IUD Insertion not possible"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values",
+      "version" : "0.2.0",
+      "name" : "medicaleligibilitynumber-values",
+      "title" : "Medical eligibility - number classification values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:178e508b-2a01-4d45-ba85-3851db1ed1e4",
+        "timestamp" : "2026-11-19T11:46:39+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+      "version" : "0.2.0",
+      "name" : "medicaleligibilityobservations-values",
+      "title" : "Observations affecting Medical Eligibility values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:c1f6797e-7f04-46cb-bade-22de7f7bca7d",
+        "timestamp" : "2026-11-19T11:46:39+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></p><div class=\"panel panel-warning\"><div class=\"panel-body\">The value set includes the code 'LA28438-4', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</div></div><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://loinc.org-LA26439-2\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/LA26439-2/\">LA26439-2</a></td><td>I'm OK either way</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA26439-2&quot;, &quot;display&quot;: &quot;I'm OK either way&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA26439-2&quot;/&gt;&lt;display value=&quot;I'm OK either way&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-LA26440-0\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/LA26440-0/\">LA26440-0</a></td><td>No, I don't want to become pregnant</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA26440-0&quot;, &quot;display&quot;: &quot;No, I don't want to become pregnant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA26440-0&quot;/&gt;&lt;display value=&quot;No, I don't want to become pregnant&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://loinc.org-LA14072-5\"> </a><code>http://loinc.org</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"https://loinc.org/LA14072-5/\">LA14072-5</a></td><td>Unsure</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://loinc.org&quot;, &quot;version&quot;: &quot;2.83&quot;, &quot;code&quot;: &quot;LA14072-5&quot;, &quot;display&quot;: &quot;Unsure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://loinc.org&quot;/&gt;&lt;version value=&quot;2.83&quot;/&gt;&lt;code value=&quot;LA14072-5&quot;/&gt;&lt;display value=&quot;Unsure&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "contained" : [{
+        "resourceType" : "OperationOutcome",
+        "id" : "oo1",
+        "issue" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'LA28438-4', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        }]
+      }],
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+      "version" : "0.2.0",
+      "name" : "pregnancy-intention-values",
+      "title" : "Pregnancy intention values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.who.int"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/expansion-issue",
+          "valueReference" : {
+            "reference" : "#oo1"
+          }
+        }],
+        "identifier" : "urn:uuid:6132243b-502f-444a-939d-adbd0850a3ec",
+        "timestamp" : "2026-11-19T11:46:39.853Z",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.83"
+        }],
+        "contains" : [{
+          "system" : "http://loinc.org",
+          "code" : "LA26439-2",
+          "display" : "I'm OK either way"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA26440-0",
+          "display" : "No, I don't want to become pregnant"
+        },
+        {
+          "system" : "http://loinc.org",
+          "code" : "LA14072-5",
+          "display" : "Unsure"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019\">codesystem ICD-10-EN v2019-covid-expanded (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><div class=\"panel panel-warning\"><div class=\"panel-body\"><p>Notes about this expansion:</p><ul><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z30.01', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z30.012', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z30.40', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z30.46', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z30.432', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'LA 27921-8', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li></ul></div></div><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Inactive</b></td><td><b>Definition</b></td><td><b><a href=\"http://hl7.org/fhir/concept-properties#status\">status</a></b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-169450001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/169450001\">169450001</a></td><td>No contraceptive precautions</td><td/><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;169450001&quot;, &quot;display&quot;: &quot;No contraceptive precautions&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;169450001&quot;/&gt;&lt;display value=&quot;No contraceptive precautions&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-408968008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/408968008\">408968008</a></td><td>Contraception care education</td><td/><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;408968008&quot;, &quot;display&quot;: &quot;Contraception care education&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;408968008&quot;/&gt;&lt;display value=&quot;Contraception care education&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-243816001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/243816001\">243816001</a></td><td>Contraception status</td><td/><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;243816001&quot;, &quot;display&quot;: &quot;Contraception status&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;243816001&quot;/&gt;&lt;display value=&quot;Contraception status&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-275813002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/275813002\">275813002</a></td><td>Emergency contraception</td><td>inactive</td><td/><td>inactive</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;275813002&quot;, &quot;display&quot;: &quot;Emergency contraception&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;275813002&quot;/&gt;&lt;display value=&quot;Emergency contraception&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-424016000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/424016000\">424016000</a></td><td>Change of oral contraceptive prescription</td><td/><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;424016000&quot;, &quot;display&quot;: &quot;Change of oral contraceptive prescription&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;424016000&quot;/&gt;&lt;display value=&quot;Change of oral contraceptive prescription&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/sid/icd-10-Z30.0\"> </a><code>http://hl7.org/fhir/sid/icd-10</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z30.460\">Z30.0</a></td><td>General counselling and advice on contraception</td><td/><td><div><p>General counselling and advice on contraception</p>\n</div></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10&quot;, &quot;version&quot;: &quot;2019-covid-expanded&quot;, &quot;code&quot;: &quot;Z30.0&quot;, &quot;display&quot;: &quot;General counselling and advice on contraception&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10&quot;/&gt;&lt;version value=&quot;2019-covid-expanded&quot;/&gt;&lt;code value=&quot;Z30.0&quot;/&gt;&lt;display value=&quot;General counselling and advice on contraception&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/sid/icd-10-Z30\"> </a><code>http://hl7.org/fhir/sid/icd-10</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z30\">Z30</a></td><td>Contraceptive management</td><td/><td><div><p>Contraceptive management</p>\n</div></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10&quot;, &quot;version&quot;: &quot;2019-covid-expanded&quot;, &quot;code&quot;: &quot;Z30&quot;, &quot;display&quot;: &quot;Contraceptive management&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10&quot;/&gt;&lt;version value=&quot;2019-covid-expanded&quot;/&gt;&lt;code value=&quot;Z30&quot;/&gt;&lt;display value=&quot;Contraceptive management&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "contained" : [{
+        "resourceType" : "OperationOutcome",
+        "id" : "oo1",
+        "issue" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z30.01', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z30.012', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z30.40', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z30.46', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z30.432', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'LA 27921-8', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        }]
+      }],
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+      "version" : "0.2.0",
+      "name" : "reason-for-family-planning-visit-values",
+      "title" : "Reason for family planning visit values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.who.int"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/expansion-issue",
+          "valueReference" : {
+            "reference" : "#oo1"
+          }
+        }],
+        "identifier" : "urn:uuid:5f10045b-0f89-43ae-8266-059ec3365f99",
+        "timestamp" : "2026-11-19T11:46:39.941Z",
+        "total" : 7,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.83"
+        }],
+        "property" : [{
+          "code" : "status",
+          "uri" : "http://hl7.org/fhir/concept-properties#status"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "169450001",
+          "display" : "No contraceptive precautions"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "408968008",
+          "display" : "Contraception care education"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "243816001",
+          "display" : "Contraception status"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "inactive" : true,
+          "code" : "275813002",
+          "display" : "Emergency contraception",
+          "property" : [{
+            "code" : "status",
+            "valueCode" : "inactive"
+          }]
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "424016000",
+          "display" : "Change of oral contraceptive prescription"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-10",
+          "code" : "Z30.0",
+          "display" : "General counselling and advice on contraception"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-10",
+          "code" : "Z30",
+          "display" : "Contraceptive management"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019\">codesystem ICD-10-EN v2019-covid-expanded (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/sid/icd-10|2019-covid-expanded\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>Loinc v2.83<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://loinc.org|2.83\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li><li>SNOMED CT International edition 01-Jul 2026<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\" title=\"Click to Copy URL\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></li></ul></div><div class=\"panel panel-warning\"><div class=\"panel-body\"><p>Notes about this expansion:</p><ul><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '14550-0', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'LA 27925-9', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '46-8', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '27927-5', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'LA 27928-3', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '454731000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '454361000124100', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code '454411000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class=\"text-warning\"><b>Warning:</b></span> The value set includes the code 'Z76.89', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li></ul></div></div><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-445637007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/445637007\">445637007</a></td><td>Chooses not to use contraception</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;445637007&quot;, &quot;display&quot;: &quot;Chooses not to use contraception&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;445637007&quot;/&gt;&lt;display value=&quot;Chooses not to use contraception&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-74964007\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/74964007\">74964007</a></td><td>Other</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;74964007&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;74964007&quot;/&gt;&lt;display value=&quot;Other&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-182856006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/182856006\">182856006</a></td><td>Drug not available - out of stock</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;182856006&quot;, &quot;display&quot;: &quot;Drug not available - out of stock&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;182856006&quot;/&gt;&lt;display value=&quot;Drug not available - out of stock&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-15296000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/15296000\">15296000</a></td><td>Sterility</td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;15296000&quot;, &quot;display&quot;: &quot;Sterility&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;15296000&quot;/&gt;&lt;display value=&quot;Sterility&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/sid/icd-10-Z31.9\"> </a><code>http://hl7.org/fhir/sid/icd-10</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z31.469\">Z31.9</a></td><td>Procreative management, unspecified</td><td><div><p>Procreative management, unspecified</p>\n</div></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10&quot;, &quot;version&quot;: &quot;2019-covid-expanded&quot;, &quot;code&quot;: &quot;Z31.9&quot;, &quot;display&quot;: &quot;Procreative management, unspecified&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10&quot;/&gt;&lt;version value=&quot;2019-covid-expanded&quot;/&gt;&lt;code value=&quot;Z31.9&quot;/&gt;&lt;display value=&quot;Procreative management, unspecified&quot;/&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\" aria-label=\"copy\"> </button></span></td></tr></table></div>"
+      },
+      "contained" : [{
+        "resourceType" : "OperationOutcome",
+        "id" : "oo1",
+        "issue" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '14550-0', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'LA 27925-9', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '46-8', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '27927-5', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'LA 27928-3', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '454731000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '454361000124100', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code '454411000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion"
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+            "valueString" : "VALUESET_EXPANSION_INCLUDE_UNKNOWN_CODE"
+          }],
+          "severity" : "warning",
+          "code" : "code-invalid",
+          "details" : {
+            "coding" : [{
+              "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+              "code" : "invalid-code"
+            }],
+            "text" : "The value set includes the code 'Z76.89', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion"
+          }
+        }]
+      }],
+      "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+      "version" : "0.2.0",
+      "name" : "reason-for-no-method-at-exit-values",
+      "title" : "Reason for no method at exit values",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2026-11-19T11:45:08+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.who.int"
+        }]
+      }],
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "immutable" : true,
+      "expansion" : {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/expansion-issue",
+          "valueReference" : {
+            "reference" : "#oo1"
+          }
+        }],
+        "identifier" : "urn:uuid:bc75c784-74dd-4f80-9571-11a82b02b1c2",
+        "timestamp" : "2026-11-19T11:46:40.068Z",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://loinc.org|2.83"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/sid/icd-10|2019-covid-expanded"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "445637007",
+          "display" : "Chooses not to use contraception"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "74964007",
+          "display" : "Other"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "182856006",
+          "display" : "Drug not available - out of stock"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "15296000",
+          "display" : "Sterility"
+        },
+        {
+          "system" : "http://hl7.org/fhir/sid/icd-10",
+          "code" : "Z31.9",
+          "display" : "Procreative management, unspecified"
+        }]
+      }
+    }
+  }]
+}

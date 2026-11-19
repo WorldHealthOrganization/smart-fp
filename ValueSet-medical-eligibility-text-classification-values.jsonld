@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:54:53.072279Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.jsonld#Accept",
+      "name": "Accept",
+      "fhir:code": "Accept",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.jsonld#Caution",
+      "name": "Caution",
+      "fhir:code": "Caution",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.jsonld#Delay",
+      "name": "Delay",
+      "fhir:code": "Delay",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.jsonld#Special",
+      "name": "Special",
+      "fhir:code": "Special",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

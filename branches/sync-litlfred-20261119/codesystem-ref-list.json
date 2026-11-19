@@ -1,0 +1,60 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/event-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "oids" : ["2.16.840.1.113883.4.642.4.110"],
+    "uses" : {
+    },
+    "ValueSet-iud-insertion-status-values.html" : "IUD Insertion status values"
+  },
+  {
+    "url" : "http://hl7.org/fhir/sid/icd-10",
+    "version" : "2019-covid-expanded",
+    "status" : "active",
+    "name" : "ICD_10_EN",
+    "title" : "ICD-10-EN",
+    "description" : "International Statistical Classification of Diseases and Related Health Problems 10th Revision",
+    "uses" : {
+    },
+    "ValueSet-reason-for-family-planning-visit-values.html" : "Reason for family planning visit values",
+    "ValueSet-contraception-issues-and-concerns-values.html" : "Contraception Issues and concerns values",
+    "ValueSet-reason-for-no-method-at-exit-values.html" : "Reason for no method at exit values"
+  },
+  {
+    "url" : "http://loinc.org",
+    "version" : "2.83",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "ValueSet-reason-for-family-planning-visit-values.html" : "Reason for family planning visit values",
+    "ValueSet-breastfeeding-status-values.html" : "Breastfeeding status values",
+    "ValueSet-backupcontraceptivemethod-values.html" : "Contraception backup method provided values",
+    "ValueSet-contraception-issues-and-concerns-values.html" : "Contraception Issues and concerns values",
+    "ValueSet-pregnancy-intention-values.html" : "Pregnancy intention values",
+    "ValueSet-reason-for-no-method-at-exit-values.html" : "Reason for no method at exit values"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "ValueSet-reason-for-family-planning-visit-values.html" : "Reason for family planning visit values",
+    "ValueSet-breastfeeding-status-values.html" : "Breastfeeding status values",
+    "ValueSet-backupcontraceptivemethod-values.html" : "Contraception backup method provided values",
+    "ValueSet-contraception-issues-and-concerns-values.html" : "Contraception Issues and concerns values",
+    "ValueSet-reason-for-no-method-at-exit-values.html" : "Reason for no method at exit values",
+    "ValueSet-contraceptivedeliverymethod-values.html" : "How contraceptive method is being provided values"
+  }]
+}

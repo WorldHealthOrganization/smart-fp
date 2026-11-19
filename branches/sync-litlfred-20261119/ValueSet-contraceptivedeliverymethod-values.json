@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "contraceptivedeliverymethod-values",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet contraceptivedeliverymethod-values</b></p><a name=\"contraceptivedeliverymethod-values\"> </a><a name=\"hccontraceptivedeliverymethod-values\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/308335008\">308335008</a></td><td>Provided on site</td></tr><tr><td><a href=\"http://snomed.info/id/281100006\">281100006</a></td><td>Referral</td></tr><tr><td><a href=\"http://snomed.info/id/16076005\">16076005</a></td><td>Prescription</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+  "version" : "0.2.0",
+  "name" : "contraceptivedeliverymethod-values",
+  "title" : "How contraceptive method is being provided values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:45:08+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the How contraceptive method is being provided element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true,
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "308335008",
+        "display" : "Provided on site"
+      },
+      {
+        "code" : "281100006",
+        "display" : "Referral"
+      },
+      {
+        "code" : "16076005",
+        "display" : "Prescription"
+      }]
+    }]
+  }
+}

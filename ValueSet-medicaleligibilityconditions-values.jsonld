@@ -1,0 +1,347 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:54:53.073640Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#158905",
+      "name": "Past ectopic pregnancy",
+      "fhir:code": "158905",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#159276",
+      "name": "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)",
+      "fhir:code": "159276",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#144475",
+      "name": "Stroke / Stroke (history of cerebrovascular accident)",
+      "fhir:code": "144475",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#122009",
+      "name": "Ischaemic heart disease",
+      "fhir:code": "122009",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#117399",
+      "name": "Hypertension",
+      "fhir:code": "117399",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#115115",
+      "name": "Obese",
+      "fhir:code": "115115",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#158473",
+      "name": "Non-vascular Insulin-dependent diabetes",
+      "fhir:code": "158473",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#158474",
+      "name": "Non-vascular non-insulin dependent diabetes",
+      "fhir:code": "158474",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#142431",
+      "name": "Nephropathy",
+      "fhir:code": "142431",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#142429",
+      "name": "Retinopathy",
+      "fhir:code": "142429",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#116608",
+      "name": "Current ischemic heart disease",
+      "fhir:code": "116608",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#141623",
+      "name": "Dyslipidemias",
+      "fhir:code": "141623",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#118631",
+      "name": "Endometriosis",
+      "fhir:code": "118631",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#118794",
+      "name": "Severe dysmenorrhea",
+      "fhir:code": "118794",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#139478",
+      "name": "Gestational trophoblastic disease",
+      "fhir:code": "139478",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#120780",
+      "name": "Cervical neoplasia",
+      "fhir:code": "120780",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#159008",
+      "name": "Cervical cancer awaiting treatment",
+      "fhir:code": "159008",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#117767",
+      "name": "Current gonorrhea",
+      "fhir:code": "117767",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#120733",
+      "name": "Current chlamydia",
+      "fhir:code": "120733",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#116128",
+      "name": "Malaria",
+      "fhir:code": "116128",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#138176",
+      "name": "Hyperthyroid",
+      "fhir:code": "138176",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#117321",
+      "name": "Hypothyroid",
+      "fhir:code": "117321",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#145618",
+      "name": "History of cholestasis",
+      "fhir:code": "145618",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#111479",
+      "name": "Viral hepatitis",
+      "fhir:code": "111479",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1068",
+      "name": "Gallbladder disease - Symptomatic",
+      "fhir:code": "1068",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#149471",
+      "name": "Viral hepatitis - Acute or flare",
+      "fhir:code": "149471",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#145131",
+      "name": "Viral hepatitis - Chronic",
+      "fhir:code": "145131",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#124940",
+      "name": "Anemia - Thalassemia",
+      "fhir:code": "124940",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#QC4Z",
+      "name": "Past ectopic pregnancy",
+      "fhir:code": "QC4Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#BD72",
+      "name": "Deep venous thrombosis (DVT) / History of DVT / History of PE",
+      "fhir:code": "BD72",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#8B20",
+      "name": "Stroke / Stroke (history of cerebrovascular accident)",
+      "fhir:code": "8B20",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#BA4Z",
+      "name": "Ischaemic heart disease",
+      "fhir:code": "BA4Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#BA00",
+      "name": "Hypertension",
+      "fhir:code": "BA00",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#5B81",
+      "name": "Obese",
+      "fhir:code": "5B81",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#5A14",
+      "name": "Diabetes / Nephropathy / Retinopathy",
+      "fhir:code": "5A14",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#JA63.0",
+      "name": "Non-vascular Insulin-dependent diabetes",
+      "fhir:code": "JA63.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#JA63.1",
+      "name": "Non-vascular non-insulin dependent diabetes",
+      "fhir:code": "JA63.1",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#BA5Z",
+      "name": "Current ischemic heart disease",
+      "fhir:code": "BA5Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#5C80",
+      "name": "Dyslipidemias",
+      "fhir:code": "5C80",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#GA10",
+      "name": "Endometriosis",
+      "fhir:code": "GA10",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#GA34.3",
+      "name": "Severe dysmenorrhea",
+      "fhir:code": "GA34.3",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#JA02.0",
+      "name": "Gestational trophoblastic disease",
+      "fhir:code": "JA02.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#GA15.7",
+      "name": "Cervical neoplasia",
+      "fhir:code": "GA15.7",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#QA02.2",
+      "name": "Cervical cancer awaiting treatment",
+      "fhir:code": "QA02.2",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1A7Z",
+      "name": "Current gonorrhea",
+      "fhir:code": "1A7Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1C2Z",
+      "name": "Current chlamydia",
+      "fhir:code": "1C2Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1F4Z",
+      "name": "Malaria",
+      "fhir:code": "1F4Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#5A02.5",
+      "name": "Hyperthyroid",
+      "fhir:code": "5A02.5",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#5A00",
+      "name": "Hypothyroid",
+      "fhir:code": "5A00",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#DC10.02",
+      "name": "History of cholestasis",
+      "fhir:code": "DC10.02",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1E5Z",
+      "name": "Viral hepatitis",
+      "fhir:code": "1E5Z",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1E+50",
+      "name": "Viral hepatitis - Acute or flare",
+      "fhir:code": "1E+50",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#1E+51",
+      "name": "Viral hepatitis - Chronic",
+      "fhir:code": "1E+51",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#3A50",
+      "name": "Anemia - Thalassemia",
+      "fhir:code": "3A50",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-11"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.jsonld#Minor surgery without immobilization",
+      "name": "Minor surgery without immobilization",
+      "fhir:code": "Minor surgery without immobilization",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

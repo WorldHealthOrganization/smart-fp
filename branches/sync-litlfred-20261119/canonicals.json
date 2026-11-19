@@ -1,0 +1,336 @@
+[{
+  "id" : "who.fhir.fp-cds",
+  "type" : "ImplementationGuide",
+  "url" : "http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds",
+  "version" : "0.2.0",
+  "name" : "FPCDS"
+},
+{
+  "id" : "deliverymethod",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod",
+  "version" : "0.2.0",
+  "name" : "deliveryMethod"
+},
+{
+  "id" : "who-fp-careplan-backup-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP CarePlan (Backup Contraceptive Method)"
+},
+{
+  "id" : "who-fp-careplan-exit-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP CarePlan (Exit Contraceptive Method)"
+},
+{
+  "id" : "who-fp-careplan-recommendation",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation",
+  "version" : "0.2.0",
+  "name" : "WHO-FP CarePlan (Recommendation)"
+},
+{
+  "id" : "who-fp-careplan-requested-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP CarePlan (Requested Contraceptive Method)"
+},
+{
+  "id" : "who-fp-condition-medical-eligibility",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Condition (Medical Eligibility)"
+},
+{
+  "id" : "who-fp-consent",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Consent"
+},
+{
+  "id" : "who-fp-device-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Device (Contraceptive Method)"
+},
+{
+  "id" : "who-fp-deviceusestatement-exit-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP DeviceUseStatement (Exit Contraceptive Method)"
+},
+{
+  "id" : "who-fp-deviceusestatement-requested-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP DeviceUseStatement (Requested Contraceptive Method)"
+},
+{
+  "id" : "who-fp-encounter",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Encounter"
+},
+{
+  "id" : "who-fp-encounter-contraception-issues-and-concerns",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Encounter (Contraception Issues and Concerns) "
+},
+{
+  "id" : "who-fp-healthcareservice",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice",
+  "version" : "0.2.0",
+  "name" : "WHO-FP HealthcareService"
+},
+{
+  "id" : "who-fp-medicationstatement-current-medication",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication",
+  "version" : "0.2.0",
+  "name" : "WHO-FP MedicationStatement (Current Medication)"
+},
+{
+  "id" : "who-fp-medicationstatement-exit-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP MedicationStatement (Exit Contraceptive Method)"
+},
+{
+  "id" : "who-fp-medicationstatement-requested-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP MedicationStatement (Requested Contraceptive Method)"
+},
+{
+  "id" : "who-fp-observation-breastfeeding-status",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Breastfeeding Status)"
+},
+{
+  "id" : "who-fp-observation-days-since-last-normal-menses",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Days since Last Normal Menses)"
+},
+{
+  "id" : "who-fp-observation-intercourse-since-last-normal-menses",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Intercourse since Last Normal Menses)"
+},
+{
+  "id" : "who-fp-observation-medical-eligibility",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Medical Eligibility)"
+},
+{
+  "id" : "who-fp-observation-medical-eligibility-number",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Medical eligibility number)"
+},
+{
+  "id" : "who-fp-observation-medical-eligibility-text",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Medical eligibility text)"
+},
+{
+  "id" : "who-fp-observation-missed-or-late-menses",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Missed or Late Menses)"
+},
+{
+  "id" : "who-fp-observation-pregnancy-intention",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Pregnancy Intention)"
+},
+{
+  "id" : "who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Reason for no contraceptive method at exit)"
+},
+{
+  "id" : "who-fp-observation-reason-for-stopping-contraception",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Reason for Stopping Contraception)"
+},
+{
+  "id" : "who-fp-observation-smoking-status",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Smoking Status)"
+},
+{
+  "id" : "who-fp-observation-test-results",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Observation (Test Results)"
+},
+{
+  "id" : "who-fp-procedure-exit-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Procedure (Exit Contraceptive Method)"
+},
+{
+  "id" : "who-fp-procedure-requested-contraceptive-method",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Procedure (Requested Contraceptive Method)"
+},
+{
+  "id" : "who-fp-procedure-service-provided",
+  "type" : "StructureDefinition",
+  "url" : "http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided",
+  "version" : "0.2.0",
+  "name" : "WHO-FP Procedure (Service Provided)"
+},
+{
+  "id" : "backupcontraceptivemethod-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+  "version" : "0.2.0",
+  "name" : "backupcontraceptivemethod-values"
+},
+{
+  "id" : "breastfeeding-status-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+  "version" : "0.2.0",
+  "name" : "breastfeeding-status-values"
+},
+{
+  "id" : "cigarettes-smoked-per-day-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+  "version" : "0.2.0",
+  "name" : "cigarettes-smoked-per-day-values"
+},
+{
+  "id" : "contraception-issues-and-concerns-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+  "version" : "0.2.0",
+  "name" : "contraception-issues-and-concerns-values"
+},
+{
+  "id" : "contraceptivedeliverymethod-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+  "version" : "0.2.0",
+  "name" : "contraceptivedeliverymethod-values"
+},
+{
+  "id" : "current-medications-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+  "version" : "0.2.0",
+  "name" : "current-medications-values"
+},
+{
+  "id" : "fp-recommended-care-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values",
+  "version" : "0.2.0",
+  "name" : "fp-recommended-care-values"
+},
+{
+  "id" : "iud-insertion-status-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+  "version" : "0.2.0",
+  "name" : "iud-insertion-status-values"
+},
+{
+  "id" : "medical-eligibility-text-classification-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+  "version" : "0.2.0",
+  "name" : "medical-eligibility-text-classification-values"
+},
+{
+  "id" : "medicaleligibilityconditions-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values",
+  "version" : "0.2.0",
+  "name" : "medicaleligibilityconditions-values"
+},
+{
+  "id" : "medicaleligibilitynumber-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values",
+  "version" : "0.2.0",
+  "name" : "medicaleligibilitynumber-values"
+},
+{
+  "id" : "medicaleligibilityobservations-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+  "version" : "0.2.0",
+  "name" : "medicaleligibilityobservations-values"
+},
+{
+  "id" : "pregnancy-intention-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+  "version" : "0.2.0",
+  "name" : "pregnancy-intention-values"
+},
+{
+  "id" : "reason-for-family-planning-visit-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+  "version" : "0.2.0",
+  "name" : "reason-for-family-planning-visit-values"
+},
+{
+  "id" : "reason-for-no-method-at-exit-values",
+  "type" : "ValueSet",
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+  "version" : "0.2.0",
+  "name" : "reason-for-no-method-at-exit-values"
+},
+{
+  "id" : "extended-content-codes",
+  "type" : "CodeSystem",
+  "url" : "http://who.int/cg/CodeSystem/extended-content-codes",
+  "version" : "0.2.0",
+  "name" : "extended-content_codes"
+}]

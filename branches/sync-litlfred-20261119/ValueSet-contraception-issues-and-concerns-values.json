@@ -1,0 +1,256 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "contraception-issues-and-concerns-values",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet contraception-issues-and-concerns-values</b></p><a name=\"contraception-issues-and-concerns-values\"> </a><a name=\"hccontraception-issues-and-concerns-values\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/315604002\">315604002</a></td><td>Missed pills or late injection</td></tr><tr><td><a href=\"http://snomed.info/id/243818000\">243818000</a></td><td>IUD concerns</td></tr><tr><td><a href=\"http://snomed.info/id/169489007\">169489007</a></td><td>IUD partial expulsion</td></tr><tr><td><a href=\"http://snomed.info/id/169487009\">169487009</a></td><td>IUD complete expulsion</td></tr><tr><td><a href=\"http://snomed.info/id/14302001\">14302001</a></td><td>Amenorrhoea</td></tr><tr><td><a href=\"http://snomed.info/id/301822002\">301822002</a></td><td>Irregular bleeding</td></tr><tr><td><a href=\"http://snomed.info/id/9126005\">9126005</a></td><td>Spotting or light bleeding</td></tr><tr><td><a href=\"http://snomed.info/id/44991000119100\">44991000119100</a></td><td>Change in timing of monthly bleeding</td></tr><tr><td><a href=\"http://snomed.info/id/289539007\">289539007</a></td><td>Heavy or prolonged bleeding</td></tr><tr><td><a href=\"http://snomed.info/id/289530006\">289530006</a></td><td>Unexplained vaginal bleeding</td></tr><tr><td><a href=\"http://snomed.info/id/48079002\">48079002</a></td><td>Mood changes after start of method</td></tr><tr><td><a href=\"http://snomed.info/id/365965002\">365965002</a></td><td>Changes in sex drive</td></tr><tr><td><a href=\"http://snomed.info/id/247347003\">247347003</a></td><td>Discomfort or pain with use</td></tr><tr><td><a href=\"http://snomed.info/id/12243431000119101\">12243431000119101</a></td><td>Abscess</td></tr><tr><td><a href=\"http://snomed.info/id/72934000\">72934000</a></td><td>Candidiasis</td></tr><tr><td><a href=\"http://snomed.info/id/419760006\">419760006</a></td><td>Bacterial vaginosis</td></tr><tr><td><a href=\"http://snomed.info/id/18504008\">18504008</a></td><td>Toxic shock syndrome</td></tr><tr><td><a href=\"http://snomed.info/id/68566005\">68566005</a></td><td>Urinary tract infection</td></tr><tr><td><a href=\"http://snomed.info/id/55607006\">55607006</a></td><td>Difficulty inserting/removing/using method</td></tr><tr><td><a href=\"http://snomed.info/id/74964007\">74964007</a></td><td>Other</td></tr><tr><td><a href=\"http://snomed.info/id/11381005\">11381005</a></td><td>Acne</td></tr><tr><td><a href=\"http://snomed.info/id/365921005\">365921005</a></td><td>Weight change</td></tr><tr><td><a href=\"http://snomed.info/id/53430007\">53430007</a></td><td>Breast tenderness</td></tr><tr><td><a href=\"http://snomed.info/id/422587007\">422587007</a></td><td>Nausea</td></tr><tr><td><a href=\"http://snomed.info/id/404640003\">404640003</a></td><td>Dizziness</td></tr></table></li><li>Include these codes as defined in <a href=\"http://tx.fhir.org/r4\"><code>http://hl7.org/fhir/sid/icd-10</code></a><span title=\"Version is not explicitly stated. When building this specification, the most recent version 2019-covid-expanded has been used\" class=\"xhtPieceDeEmphasized\"> version ⏿2019-covid-expanded</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N91.462\">N91.2</a></td><td>Amenorrhoea</td><td>Amenorrhoea, unspecified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N93.469\">N93.9</a></td><td>Irregular bleeding</td><td>Abnormal uterine and vaginal bleeding, unspecified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z32.460\">Z32.0</a></td><td>Client suspects pregnancy</td><td>Pregnancy, not (yet) confirmed</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N89.468\">N89.8</a></td><td>Spotting or light bleeding / Unexplained vaginal bleeding</td><td>Other specified noninflammatory disorders of vagina</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N93\">N93</a></td><td>Heavy or prolonged bleeding</td><td>Other abnormal uterine and vaginal bleeding</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-F39\">F39</a></td><td>Mood changes after start of method</td><td>Unspecified mood [affective] disorder</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N99.4689\">N99.89</a></td><td>Pain lasting for months</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-R10.4630\">R10.30</a></td><td>Severe pain in lower abdomen</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-T81.464\">T81.4</a></td><td>Abscess</td><td>Infection following a procedure, not elsewhere classified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-B37.463\">B37.3</a></td><td>Candidiasis</td><td>Candidiasis of vulva and vagina[N77.1]</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N76.460\">N76.0</a></td><td>Bacterial vaginosis</td><td>Acute vaginitis</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N77.461\">N77.1</a></td><td>Bacterial vaginosis</td><td>Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases classified elsewhere</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-A48.463\">A48.3</a></td><td>Toxic shock syndrome</td><td>Toxic shock syndrome</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N39\">N39</a></td><td>Urinary tract infection</td><td>Other disorders of urinary system</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z87.46440\">Z87.440</a></td><td>Urinary tract infection</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-N98.469\">N98.9</a></td><td>Irritation</td><td>Complication associated with artificial fertilization, unspecified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z88.468\">Z88.8</a></td><td>Allergic reaction</td><td>Personal history of allergy to other drugs, medicaments and biological substances</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-L70.469\">L70.9</a></td><td>Acne</td><td>Acne, unspecified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-G44.4640\">G44.40</a></td><td>Headaches</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-R11.460\">R11.0</a></td><td>Nausea</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-R42\">R42</a></td><td>Dizziness</td><td>Dizziness and giddiness</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/12275-4/\">12275-4</a></td><td>Candidiasis</td></tr><tr><td><a href=\"https://loinc.org/69568-4/\">69568-4</a></td><td>Bacterial vaginosis</td></tr><tr><td><a href=\"https://loinc.org/LA7335-8/\">LA7335-8</a></td><td>Used incorrectly</td></tr><tr><td><a href=\"https://loinc.org/LP146997-4/\">LP146997-4</a></td><td>Breast tenderness</td></tr></table></li><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Makes noise during sex</td><td>Makes noise during sex</td></tr><tr><td>Other</td><td>Other</td></tr><tr><td>Difficulty persuading partner to use method</td><td>Difficulty persuading partner to use method</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+  "version" : "0.2.0",
+  "name" : "contraception-issues-and-concerns-values",
+  "title" : "Contraception Issues and concerns values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:45:08+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the Contraception Issues and concerns element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true,
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "315604002",
+        "display" : "Missed pills or late injection"
+      },
+      {
+        "code" : "243818000",
+        "display" : "IUD concerns"
+      },
+      {
+        "code" : "169489007",
+        "display" : "IUD partial expulsion"
+      },
+      {
+        "code" : "169487009",
+        "display" : "IUD complete expulsion"
+      },
+      {
+        "code" : "14302001",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "301822002",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "9126005",
+        "display" : "Spotting or light bleeding"
+      },
+      {
+        "code" : "44991000119100",
+        "display" : "Change in timing of monthly bleeding"
+      },
+      {
+        "code" : "289539007",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "289530006",
+        "display" : "Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "48079002",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "365965002",
+        "display" : "Changes in sex drive"
+      },
+      {
+        "code" : "247347003",
+        "display" : "Discomfort or pain with use"
+      },
+      {
+        "code" : "12243431000119101",
+        "display" : "Abscess"
+      },
+      {
+        "code" : "72934000",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "419760006",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "18504008",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "68566005",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "55607006",
+        "display" : "Difficulty inserting/removing/using method"
+      },
+      {
+        "code" : "74964007",
+        "display" : "Other"
+      },
+      {
+        "code" : "11381005",
+        "display" : "Acne"
+      },
+      {
+        "code" : "365921005",
+        "display" : "Weight change"
+      },
+      {
+        "code" : "53430007",
+        "display" : "Breast tenderness"
+      },
+      {
+        "code" : "422587007",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "404640003",
+        "display" : "Dizziness"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N91.2",
+        "display" : "Amenorrhoea"
+      },
+      {
+        "code" : "N93.9",
+        "display" : "Irregular bleeding"
+      },
+      {
+        "code" : "Z32.0",
+        "display" : "Client suspects pregnancy"
+      },
+      {
+        "code" : "N89.8",
+        "display" : "Spotting or light bleeding / Unexplained vaginal bleeding"
+      },
+      {
+        "code" : "N93",
+        "display" : "Heavy or prolonged bleeding"
+      },
+      {
+        "code" : "F39",
+        "display" : "Mood changes after start of method"
+      },
+      {
+        "code" : "N99.89",
+        "display" : "Pain lasting for months"
+      },
+      {
+        "code" : "R10.30",
+        "display" : "Severe pain in lower abdomen"
+      },
+      {
+        "code" : "T81.4",
+        "display" : "Abscess"
+      },
+      {
+        "code" : "B37.3",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "N76.0",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "N77.1",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "A48.3",
+        "display" : "Toxic shock syndrome"
+      },
+      {
+        "code" : "N39",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "Z87.440",
+        "display" : "Urinary tract infection"
+      },
+      {
+        "code" : "N98.9",
+        "display" : "Irritation"
+      },
+      {
+        "code" : "Z88.8",
+        "display" : "Allergic reaction"
+      },
+      {
+        "code" : "L70.9",
+        "display" : "Acne"
+      },
+      {
+        "code" : "G44.40",
+        "display" : "Headaches"
+      },
+      {
+        "code" : "R11.0",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "R42",
+        "display" : "Dizziness"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "12275-4",
+        "display" : "Candidiasis"
+      },
+      {
+        "code" : "69568-4",
+        "display" : "Bacterial vaginosis"
+      },
+      {
+        "code" : "LA7335-8",
+        "display" : "Used incorrectly"
+      },
+      {
+        "code" : "LP146997-4",
+        "display" : "Breast tenderness"
+      }]
+    },
+    {
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Makes noise during sex",
+        "display" : "Makes noise during sex"
+      },
+      {
+        "code" : "Other",
+        "display" : "Other"
+      },
+      {
+        "code" : "Difficulty persuading partner to use method",
+        "display" : "Difficulty persuading partner to use method"
+      }]
+    }]
+  }
+}

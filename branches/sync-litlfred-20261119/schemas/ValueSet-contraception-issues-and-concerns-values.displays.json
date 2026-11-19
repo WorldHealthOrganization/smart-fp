@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.displays.json",
+  "title": "Contraception Issues and concerns values Display Values",
+  "description": "Display values for Contraception Issues and concerns values ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://snomed.info/sct#315604002": {
+      "en": "Missed pills or late injection"
+    },
+    "http://snomed.info/sct#243818000": {
+      "en": "IUD concerns"
+    },
+    "http://snomed.info/sct#169489007": {
+      "en": "IUD partial expulsion"
+    },
+    "http://snomed.info/sct#169487009": {
+      "en": "IUD complete expulsion"
+    },
+    "http://snomed.info/sct#14302001": {
+      "en": "Amenorrhoea"
+    },
+    "http://snomed.info/sct#301822002": {
+      "en": "Irregular bleeding"
+    },
+    "http://snomed.info/sct#9126005": {
+      "en": "Spotting or light bleeding"
+    },
+    "http://snomed.info/sct#44991000119100": {
+      "en": "Change in timing of monthly bleeding"
+    },
+    "http://snomed.info/sct#289539007": {
+      "en": "Heavy or prolonged bleeding"
+    },
+    "http://snomed.info/sct#289530006": {
+      "en": "Unexplained vaginal bleeding"
+    },
+    "http://snomed.info/sct#48079002": {
+      "en": "Mood changes after start of method"
+    },
+    "http://snomed.info/sct#365965002": {
+      "en": "Changes in sex drive"
+    },
+    "http://snomed.info/sct#247347003": {
+      "en": "Discomfort or pain with use"
+    },
+    "http://snomed.info/sct#12243431000119101": {
+      "en": "Abscess"
+    },
+    "http://snomed.info/sct#72934000": {
+      "en": "Candidiasis"
+    },
+    "http://snomed.info/sct#419760006": {
+      "en": "Bacterial vaginosis"
+    },
+    "http://snomed.info/sct#18504008": {
+      "en": "Toxic shock syndrome"
+    },
+    "http://snomed.info/sct#68566005": {
+      "en": "Urinary tract infection"
+    },
+    "http://snomed.info/sct#55607006": {
+      "en": "Difficulty inserting/removing/using method"
+    },
+    "http://snomed.info/sct#74964007": {
+      "en": "Other"
+    },
+    "http://snomed.info/sct#11381005": {
+      "en": "Acne"
+    },
+    "http://snomed.info/sct#365921005": {
+      "en": "Weight change"
+    },
+    "http://snomed.info/sct#53430007": {
+      "en": "Breast tenderness"
+    },
+    "http://snomed.info/sct#422587007": {
+      "en": "Nausea"
+    },
+    "http://snomed.info/sct#404640003": {
+      "en": "Dizziness"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N91.2": {
+      "en": "Amenorrhoea"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N93.9": {
+      "en": "Irregular bleeding"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z32.0": {
+      "en": "Client suspects pregnancy"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N89.8": {
+      "en": "Spotting or light bleeding / Unexplained vaginal bleeding"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N93": {
+      "en": "Heavy or prolonged bleeding"
+    },
+    "http://hl7.org/fhir/sid/icd-10#F39": {
+      "en": "Mood changes after start of method"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N99.89": {
+      "en": "Pain lasting for months"
+    },
+    "http://hl7.org/fhir/sid/icd-10#R10.30": {
+      "en": "Severe pain in lower abdomen"
+    },
+    "http://hl7.org/fhir/sid/icd-10#T81.4": {
+      "en": "Abscess"
+    },
+    "http://hl7.org/fhir/sid/icd-10#B37.3": {
+      "en": "Candidiasis"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N76.0": {
+      "en": "Bacterial vaginosis"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N77.1": {
+      "en": "Bacterial vaginosis"
+    },
+    "http://hl7.org/fhir/sid/icd-10#A48.3": {
+      "en": "Toxic shock syndrome"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N39": {
+      "en": "Urinary tract infection"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z87.440": {
+      "en": "Urinary tract infection"
+    },
+    "http://hl7.org/fhir/sid/icd-10#N98.9": {
+      "en": "Irritation"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z88.8": {
+      "en": "Allergic reaction"
+    },
+    "http://hl7.org/fhir/sid/icd-10#L70.9": {
+      "en": "Acne"
+    },
+    "http://hl7.org/fhir/sid/icd-10#G44.40": {
+      "en": "Headaches"
+    },
+    "http://hl7.org/fhir/sid/icd-10#R11.0": {
+      "en": "Nausea"
+    },
+    "http://hl7.org/fhir/sid/icd-10#R42": {
+      "en": "Dizziness"
+    },
+    "http://loinc.org#12275-4": {
+      "en": "Candidiasis"
+    },
+    "http://loinc.org#69568-4": {
+      "en": "Bacterial vaginosis"
+    },
+    "http://loinc.org#LA7335-8": {
+      "en": "Used incorrectly"
+    },
+    "http://loinc.org#LP146997-4": {
+      "en": "Breast tenderness"
+    },
+    "http://who.int/cg/CodeSystem/extended-content#Makes noise during sex": {
+      "en": "Makes noise during sex"
+    },
+    "http://who.int/cg/CodeSystem/extended-content#Other": {
+      "en": "Other"
+    },
+    "http://who.int/cg/CodeSystem/extended-content#Difficulty persuading partner to use method": {
+      "en": "Difficulty persuading partner to use method"
+    }
+  },
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.899317"
+}

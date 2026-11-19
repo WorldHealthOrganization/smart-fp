@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:54:53.071568Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#LA27912-7",
+      "name": "Male condom",
+      "fhir:code": "LA27912-7",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#LA27914-3",
+      "name": "Female condom",
+      "fhir:code": "LA27914-3",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#442450006",
+      "name": "Male condom",
+      "fhir:code": "442450006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#442288006",
+      "name": "Female condom",
+      "fhir:code": "442288006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#228479001",
+      "name": "Female condom",
+      "fhir:code": "228479001",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.jsonld#Other",
+      "name": "Other",
+      "fhir:code": "Other",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

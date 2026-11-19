@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.schema.json",
+  "title": "Contraception backup method provided values Schema",
+  "description": "JSON Schema for Contraception backup method provided values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://loinc.org#LA27912-7",
+    "http://loinc.org#LA27914-3",
+    "http://snomed.info/sct#442450006",
+    "http://snomed.info/sct#442288006",
+    "http://snomed.info/sct#228479001",
+    "http://who.int/cg/CodeSystem/extended-content#Other"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Contraception backup method provided values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-backupcontraceptivemethod-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989314"
+}

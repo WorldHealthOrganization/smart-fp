@@ -1,0 +1,207 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-medicaleligibilityconditions-values.displays.json",
+  "title": "Current conditions affecting Medical Eligibility values Display Values",
+  "description": "Display values for Current conditions affecting Medical Eligibility values ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://hl7.org/fhir/sid/ciel#158905": {
+      "en": "Past ectopic pregnancy"
+    },
+    "http://hl7.org/fhir/sid/ciel#159276": {
+      "en": "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)"
+    },
+    "http://hl7.org/fhir/sid/ciel#144475": {
+      "en": "Stroke / Stroke (history of cerebrovascular accident)"
+    },
+    "http://hl7.org/fhir/sid/ciel#122009": {
+      "en": "Ischaemic heart disease"
+    },
+    "http://hl7.org/fhir/sid/ciel#117399": {
+      "en": "Hypertension"
+    },
+    "http://hl7.org/fhir/sid/ciel#115115": {
+      "en": "Obese"
+    },
+    "http://hl7.org/fhir/sid/ciel#158473": {
+      "en": "Non-vascular Insulin-dependent diabetes"
+    },
+    "http://hl7.org/fhir/sid/ciel#158474": {
+      "en": "Non-vascular non-insulin dependent diabetes"
+    },
+    "http://hl7.org/fhir/sid/ciel#142431": {
+      "en": "Nephropathy"
+    },
+    "http://hl7.org/fhir/sid/ciel#142429": {
+      "en": "Retinopathy"
+    },
+    "http://hl7.org/fhir/sid/ciel#116608": {
+      "en": "Current ischemic heart disease"
+    },
+    "http://hl7.org/fhir/sid/ciel#141623": {
+      "en": "Dyslipidemias"
+    },
+    "http://hl7.org/fhir/sid/ciel#118631": {
+      "en": "Endometriosis"
+    },
+    "http://hl7.org/fhir/sid/ciel#118794": {
+      "en": "Severe dysmenorrhea"
+    },
+    "http://hl7.org/fhir/sid/ciel#139478": {
+      "en": "Gestational trophoblastic disease"
+    },
+    "http://hl7.org/fhir/sid/ciel#120780": {
+      "en": "Cervical neoplasia"
+    },
+    "http://hl7.org/fhir/sid/ciel#159008": {
+      "en": "Cervical cancer awaiting treatment"
+    },
+    "http://hl7.org/fhir/sid/ciel#117767": {
+      "en": "Current gonorrhea"
+    },
+    "http://hl7.org/fhir/sid/ciel#120733": {
+      "en": "Current chlamydia"
+    },
+    "http://hl7.org/fhir/sid/ciel#116128": {
+      "en": "Malaria"
+    },
+    "http://hl7.org/fhir/sid/ciel#138176": {
+      "en": "Hyperthyroid"
+    },
+    "http://hl7.org/fhir/sid/ciel#117321": {
+      "en": "Hypothyroid"
+    },
+    "http://hl7.org/fhir/sid/ciel#145618": {
+      "en": "History of cholestasis"
+    },
+    "http://hl7.org/fhir/sid/ciel#111479": {
+      "en": "Viral hepatitis"
+    },
+    "http://hl7.org/fhir/sid/ciel#1068": {
+      "en": "Gallbladder disease - Symptomatic"
+    },
+    "http://hl7.org/fhir/sid/ciel#149471": {
+      "en": "Viral hepatitis - Acute or flare"
+    },
+    "http://hl7.org/fhir/sid/ciel#145131": {
+      "en": "Viral hepatitis - Chronic"
+    },
+    "http://hl7.org/fhir/sid/ciel#124940": {
+      "en": "Anemia - Thalassemia"
+    },
+    "http://hl7.org/fhir/sid/icd-11#QC4Z": {
+      "en": "Past ectopic pregnancy"
+    },
+    "http://hl7.org/fhir/sid/icd-11#BD72": {
+      "en": "Deep venous thrombosis (DVT) / History of DVT / History of PE"
+    },
+    "http://hl7.org/fhir/sid/icd-11#8B20": {
+      "en": "Stroke / Stroke (history of cerebrovascular accident)"
+    },
+    "http://hl7.org/fhir/sid/icd-11#BA4Z": {
+      "en": "Ischaemic heart disease"
+    },
+    "http://hl7.org/fhir/sid/icd-11#BA00": {
+      "en": "Hypertension"
+    },
+    "http://hl7.org/fhir/sid/icd-11#5B81": {
+      "en": "Obese"
+    },
+    "http://hl7.org/fhir/sid/icd-11#5A14": {
+      "en": "Diabetes / Nephropathy / Retinopathy"
+    },
+    "http://hl7.org/fhir/sid/icd-11#JA63.0": {
+      "en": "Non-vascular Insulin-dependent diabetes"
+    },
+    "http://hl7.org/fhir/sid/icd-11#JA63.1": {
+      "en": "Non-vascular non-insulin dependent diabetes"
+    },
+    "http://hl7.org/fhir/sid/icd-11#BA5Z": {
+      "en": "Current ischemic heart disease"
+    },
+    "http://hl7.org/fhir/sid/icd-11#5C80": {
+      "en": "Dyslipidemias"
+    },
+    "http://hl7.org/fhir/sid/icd-11#GA10": {
+      "en": "Endometriosis"
+    },
+    "http://hl7.org/fhir/sid/icd-11#GA34.3": {
+      "en": "Severe dysmenorrhea"
+    },
+    "http://hl7.org/fhir/sid/icd-11#JA02.0": {
+      "en": "Gestational trophoblastic disease"
+    },
+    "http://hl7.org/fhir/sid/icd-11#GA15.7": {
+      "en": "Cervical neoplasia"
+    },
+    "http://hl7.org/fhir/sid/icd-11#QA02.2": {
+      "en": "Cervical cancer awaiting treatment"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1A7Z": {
+      "en": "Current gonorrhea"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1C2Z": {
+      "en": "Current chlamydia"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1F4Z": {
+      "en": "Malaria"
+    },
+    "http://hl7.org/fhir/sid/icd-11#5A02.5": {
+      "en": "Hyperthyroid"
+    },
+    "http://hl7.org/fhir/sid/icd-11#5A00": {
+      "en": "Hypothyroid"
+    },
+    "http://hl7.org/fhir/sid/icd-11#DC10.02": {
+      "en": "History of cholestasis"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1E5Z": {
+      "en": "Viral hepatitis"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1E+50": {
+      "en": "Viral hepatitis - Acute or flare"
+    },
+    "http://hl7.org/fhir/sid/icd-11#1E+51": {
+      "en": "Viral hepatitis - Chronic"
+    },
+    "http://hl7.org/fhir/sid/icd-11#3A50": {
+      "en": "Anemia - Thalassemia"
+    },
+    "http://who.int/cg/CodeSystem/extended-content#Minor surgery without immobilization": {
+      "en": "Minor surgery without immobilization"
+    }
+  },
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.899735"
+}

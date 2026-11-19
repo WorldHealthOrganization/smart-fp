@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.schema.json",
+  "title": "How contraceptive method is being provided values Schema",
+  "description": "JSON Schema for How contraceptive method is being provided values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://snomed.info/sct#308335008",
+    "http://snomed.info/sct#281100006",
+    "http://snomed.info/sct#16076005"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the How contraceptive method is being provided values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.898778"
+}

@@ -1,0 +1,10 @@
+{
+  "codeSystems" : [{
+    "url" : "http://who.int/cg/CodeSystem/extended-content-codes",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "extended-content_codes",
+    "title" : "Extended Codes CodeSystem codes",
+    "description" : "Set of codes identified as being needed but not found in existing Code Systems"
+  }]
+}

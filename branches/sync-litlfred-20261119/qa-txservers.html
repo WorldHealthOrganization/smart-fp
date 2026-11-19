@@ -1,0 +1,1125 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>FPCDS : Terminology Server Report</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <meta charset="utf-8"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+<div id="smart-ci-build-banner" style="background:#fff3cd;color:#664d03;border-bottom:1px solid #ffda6a;padding:.5rem 1rem;font-size:.9rem;"><p style="margin:0;">CI build for version <strong>0.2.0</strong>. <br/><span  style="font-size:.85em;">Built from commit <a href="https://github.com/WorldHealthOrganization/smart-fp/commit/6e6a356ff8ab33cee255ed628354889fcefb1c24"><code>6e6a356f</code></a>. &nbsp; Branch: <a href="https://github.com/WorldHealthOrganization/smart-fp/tree/claude/sync-litlfred-20261119"><code>claude/sync-litlfred-20261119</code></a>.</span></p></div>
+
+ <h1>Terminology Server Report for FPCDS</h1>
+ <p>Generated Thu Nov 19 11:46:57 UTC 2026, FHIR version 4.0.1 for who.fhir.fp-cds#0.2.0 (canonical = <a href="http://fhir.org/guides/who/fp-cds">http://fhir.org/guides/who/fp-cds</a> (<a href="http://fhir.org/guides/who/fp-cds/history.html">history</a>))</p>
+<p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
+<h2>Terminology Parameters</h2>
+<ul>
+  <li>
+    <b>x-system-cache-id</b>
+:     <code>dc8fd4bc-091a-424a-8a3b-6198ef146891</code>
+  </li>
+  <li>
+    <b>defaultDisplayLanguage</b>
+:     <code>en-US</code>
+  </li>
+</ul>
+<h2>Tx Manager report for 'https://ecosystem.hl7.org/tx-reg'</h2>
+<p>
+  <b>Decisions</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>Message</b>
+    </td>
+    <td>
+      <b>Server</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Systems</b>
+    </td>
+    <td>
+      <b>Choices</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values-inc-0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values-inc-1</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values-inc-2</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values-inc-0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values-inc-1</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values-inc-0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values-inc-0</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values-inc-1</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values-inc-2</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values-inc-3</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values-inc-0</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values-inc-0</td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values-inc-1</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values-inc-0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values-inc-0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values-inc-0</td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values-inc-1</td>
+    <td>http://hl7.org/fhir/sid/icd-11</td>
+    <td>[http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values-inc-2</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values-inc-0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values-inc-0</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values-inc-1</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values-inc-2</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values-inc-0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values-inc-1</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values-inc-2</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4, [urn:iso:std:iso:3166 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [urn:iso:std:iso:3166:-2 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4, [urn:iso:std:iso:3166 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [urn:iso:std:iso:3166:-2 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org|2.83</td>
+    <td>[http://loinc.org|2.83]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content in en-US]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content in en-US]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10 in en-US]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-11</td>
+    <td>[http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-11</td>
+    <td>[http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10 in en-US]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10 in en-US]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4, [urn:iso:std:iso:3166 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [urn:iso:std:iso:3166:-2 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/devicebirthcontrolmethods-values</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>[http://hl7.org/fhir/sid/icd-10 in en-US]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/nobirthcontrolmethods-values</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4, [urn:iso:std:iso:3166 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [urn:iso:std:iso:3166:-2 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org in en, en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel, http://hl7.org/fhir/sid/icd-11]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel, http://hl7.org/fhir/sid/icd-11]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/observation-codes|4.0.1</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0</td>
+    <td>[http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values|0.2.0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0</td>
+    <td>[http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0</td>
+    <td>[http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values|0.2.0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values|0.2.0</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values|0.2.0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values|0.2.0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel, http://hl7.org/fhir/sid/icd-11]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values|0.2.0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values|0.2.0</td>
+    <td>[http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0</td>
+    <td>[http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
+    <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
+    <td>[[http://unstats.un.org/unsd/methods/m49/m49.htm in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.healthall.co.kr/fhir/r4, [urn:iso:std:iso:3166 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [urn:iso:std:iso:3166:-2 in en-US]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values|0.2.0</td>
+    <td>[http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values|0.2.0</td>
+    <td>http://snomed.info/sct</td>
+    <td>[http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>[http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values|0.2.0</td>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=</td>
+  </tr>
+  <tr>
+    <td>No single server handles all the systems</td>
+    <td></td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values|0.2.0</td>
+    <td>[http://who.int/cg/CodeSystem/extended-content, http://hl7.org/fhir/sid/ciel, http://hl7.org/fhir/sid/icd-11]</td>
+    <td>[[http://who.int/cg/CodeSystem/extended-content]: authoritative = , candidates=, [http://hl7.org/fhir/sid/ciel]: authoritative = , candidates=, [http://hl7.org/fhir/sid/icd-11]: authoritative = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values|0.2.0</td>
+    <td>http://loinc.org</td>
+    <td>[http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir</td>
+  </tr>
+  <tr>
+    <td>Found partially authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0</td>
+    <td>[http://hl7.org/fhir/sid/icd-10, http://loinc.org, http://snomed.info/sct]</td>
+    <td>[[http://hl7.org/fhir/sid/icd-10]: authoritative = http://tx.fhir.org/r4, candidates=https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4, [http://loinc.org]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir, [http://snomed.info/sct]: authoritative = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://dte-tx.ehealth.fgov.be/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir|https://tx.hl7.cz/r4|https://tx.healthall.co.kr/fhir/r4|https://nzhts.digital.health.nz/fhir]</td>
+  </tr>
+</table>
+<h2>Primary Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 141. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/sid/ciel</td>
+    <td>6</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>9</td>
+    <td>4</td>
+    <td>
+      <a href="http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019">ICD-10-EN</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/sid/icd-11</td>
+    <td>1</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://loinc.org</td>
+    <td>11</td>
+    <td>0</td>
+    <td>
+      <a href="http://tx.fhir.org/r4/CodeSystem/x-loinc2.83">LOINC</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://snomed.info/sct</td>
+    <td>11</td>
+    <td>0</td>
+    <td>
+      <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://who.int/cg/CodeSystem/extended-content</td>
+    <td>15</td>
+    <td>2</td>
+    <td></td>
+  </tr>
+</table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>http://hl7.org/fhir/sid/ciel</li>
+  <li>http://hl7.org/fhir/sid/icd-11</li>
+  <li>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values</li>
+  <li>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/devicebirthcontrolmethods-values</li>
+  <li>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values</li>
+  <li>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/nobirthcontrolmethods-values</li>
+  <li>http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values</li>
+  <li>http://who.int/cg/CodeSystem/extended-content</li>
+</ul>
+<h2>Server: https://tx.fhir.org/r4</h2>
+<a href="https://tx.fhir.org/r4"></a>
+<p>Use Count: 8. Code Systems used: </p>
+<table class="grid">
+  <tr>
+    <th>
+      <b>System</b>
+    </th>
+    <th>
+      <b>#Exp.</b>
+    </th>
+    <th>
+      <b>#Val.</b>
+    </th>
+    <th>
+      <b>Details</b>
+    </th>
+  </tr>
+</table>
+</body>
+</html>

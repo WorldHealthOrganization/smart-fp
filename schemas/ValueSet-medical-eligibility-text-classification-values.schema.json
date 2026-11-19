@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.schema.json",
+  "title": "Medical eligibility - text classification values Schema",
+  "description": "JSON Schema for Medical eligibility - text classification values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://who.int/cg/CodeSystem/extended-content#Accept",
+    "http://who.int/cg/CodeSystem/extended-content#Caution",
+    "http://who.int/cg/CodeSystem/extended-content#Delay",
+    "http://who.int/cg/CodeSystem/extended-content#Special"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Medical eligibility - text classification values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-medical-eligibility-text-classification-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989492"
+}

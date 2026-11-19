@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medical-eligibility-text-classification-values"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet medical-eligibility-text-classification-values</b></p><a name="medical-eligibility-text-classification-values"> </a><a name="hcmedical-eligibility-text-classification-values"> </a><ul><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Accept</td><td>Accept</td></tr><tr><td>Caution</td><td>Caution</td></tr><tr><td>Delay</td><td>Delay</td></tr><tr><td>Special</td><td>Special</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values"/>
+  <version value="0.2.0"/>
+  <name value="medical-eligibility-text-classification-values"/>
+  <title value="Medical eligibility - text classification values"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-11-19T11:45:08+00:00"/>
+  <publisher value="World Health Organization (WHO)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.who.int"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing possible values for the Medical eligibility - text classification element"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://who.int/cg/CodeSystem/extended-content"/>
+      <concept>
+        <code value="Accept"/>
+        <display value="Accept"/>
+      </concept>
+      <concept>
+        <code value="Caution"/>
+        <display value="Caution"/>
+      </concept>
+      <concept>
+        <code value="Delay"/>
+        <display value="Delay"/>
+      </concept>
+      <concept>
+        <code value="Special"/>
+        <display value="Special"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

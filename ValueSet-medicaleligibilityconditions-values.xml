@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="medicaleligibilityconditions-values"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet medicaleligibilityconditions-values</b></p><a name="medicaleligibilityconditions-values"> </a><a name="hcmedicaleligibilityconditions-values"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/sid/ciel</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>158905</td><td>Past ectopic pregnancy</td></tr><tr><td>159276</td><td>Deep venous thrombosis (DVT) / Pulmonary embolism (PE)</td></tr><tr><td>144475</td><td>Stroke / Stroke (history of cerebrovascular accident)</td></tr><tr><td>122009</td><td>Ischaemic heart disease</td></tr><tr><td>117399</td><td>Hypertension</td></tr><tr><td>115115</td><td>Obese</td></tr><tr><td>158473</td><td>Non-vascular Insulin-dependent diabetes</td></tr><tr><td>158474</td><td>Non-vascular non-insulin dependent diabetes</td></tr><tr><td>142431</td><td>Nephropathy</td></tr><tr><td>142429</td><td>Retinopathy</td></tr><tr><td>116608</td><td>Current ischemic heart disease</td></tr><tr><td>141623</td><td>Dyslipidemias</td></tr><tr><td>118631</td><td>Endometriosis</td></tr><tr><td>118794</td><td>Severe dysmenorrhea</td></tr><tr><td>139478</td><td>Gestational trophoblastic disease</td></tr><tr><td>120780</td><td>Cervical neoplasia</td></tr><tr><td>159008</td><td>Cervical cancer awaiting treatment</td></tr><tr><td>117767</td><td>Current gonorrhea</td></tr><tr><td>120733</td><td>Current chlamydia</td></tr><tr><td>116128</td><td>Malaria</td></tr><tr><td>138176</td><td>Hyperthyroid</td></tr><tr><td>117321</td><td>Hypothyroid</td></tr><tr><td>145618</td><td>History of cholestasis</td></tr><tr><td>111479</td><td>Viral hepatitis</td></tr><tr><td>1068</td><td>Gallbladder disease - Symptomatic</td></tr><tr><td>149471</td><td>Viral hepatitis - Acute or flare</td></tr><tr><td>145131</td><td>Viral hepatitis - Chronic</td></tr><tr><td>124940</td><td>Anemia - Thalassemia</td></tr></table></li><li>Include these codes as defined in <code>http://hl7.org/fhir/sid/icd-11</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>QC4Z</td><td>Past ectopic pregnancy</td></tr><tr><td>BD72</td><td>Deep venous thrombosis (DVT) / History of DVT / History of PE</td></tr><tr><td>8B20</td><td>Stroke / Stroke (history of cerebrovascular accident)</td></tr><tr><td>BA4Z</td><td>Ischaemic heart disease</td></tr><tr><td>BA00</td><td>Hypertension</td></tr><tr><td>5B81</td><td>Obese</td></tr><tr><td>5A14</td><td>Diabetes / Nephropathy / Retinopathy</td></tr><tr><td>JA63.0</td><td>Non-vascular Insulin-dependent diabetes</td></tr><tr><td>JA63.1</td><td>Non-vascular non-insulin dependent diabetes</td></tr><tr><td>BA5Z</td><td>Current ischemic heart disease</td></tr><tr><td>5C80</td><td>Dyslipidemias</td></tr><tr><td>GA10</td><td>Endometriosis</td></tr><tr><td>GA34.3</td><td>Severe dysmenorrhea</td></tr><tr><td>JA02.0</td><td>Gestational trophoblastic disease</td></tr><tr><td>GA15.7</td><td>Cervical neoplasia</td></tr><tr><td>QA02.2</td><td>Cervical cancer awaiting treatment</td></tr><tr><td>1A7Z</td><td>Current gonorrhea</td></tr><tr><td>1C2Z</td><td>Current chlamydia</td></tr><tr><td>1F4Z</td><td>Malaria</td></tr><tr><td>5A02.5</td><td>Hyperthyroid</td></tr><tr><td>5A00</td><td>Hypothyroid</td></tr><tr><td>DC10.02</td><td>History of cholestasis</td></tr><tr><td>1E5Z</td><td>Viral hepatitis</td></tr><tr><td>1E+50</td><td>Viral hepatitis - Acute or flare</td></tr><tr><td>1E+51</td><td>Viral hepatitis - Chronic</td></tr><tr><td>3A50</td><td>Anemia - Thalassemia</td></tr></table></li><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Minor surgery without immobilization</td><td>Minor surgery without immobilization</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values"/>
+  <version value="0.2.0"/>
+  <name value="medicaleligibilityconditions-values"/>
+  <title value="Current conditions affecting Medical Eligibility values"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-11-19T11:53:29+00:00"/>
+  <publisher value="World Health Organization (WHO)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.who.int"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing possible values for the Current conditions affecting Medical Eligibility element"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/ciel"/>
+      <concept>
+        <code value="158905"/>
+        <display value="Past ectopic pregnancy"/>
+      </concept>
+      <concept>
+        <code value="159276"/>
+        <display value="Deep venous thrombosis (DVT) / Pulmonary embolism (PE)"/>
+      </concept>
+      <concept>
+        <code value="144475"/>
+        <display value="Stroke / Stroke (history of cerebrovascular accident)"/>
+      </concept>
+      <concept>
+        <code value="122009"/>
+        <display value="Ischaemic heart disease"/>
+      </concept>
+      <concept>
+        <code value="117399"/>
+        <display value="Hypertension"/>
+      </concept>
+      <concept>
+        <code value="115115"/>
+        <display value="Obese"/>
+      </concept>
+      <concept>
+        <code value="158473"/>
+        <display value="Non-vascular Insulin-dependent diabetes"/>
+      </concept>
+      <concept>
+        <code value="158474"/>
+        <display value="Non-vascular non-insulin dependent diabetes"/>
+      </concept>
+      <concept>
+        <code value="142431"/>
+        <display value="Nephropathy"/>
+      </concept>
+      <concept>
+        <code value="142429"/>
+        <display value="Retinopathy"/>
+      </concept>
+      <concept>
+        <code value="116608"/>
+        <display value="Current ischemic heart disease"/>
+      </concept>
+      <concept>
+        <code value="141623"/>
+        <display value="Dyslipidemias"/>
+      </concept>
+      <concept>
+        <code value="118631"/>
+        <display value="Endometriosis"/>
+      </concept>
+      <concept>
+        <code value="118794"/>
+        <display value="Severe dysmenorrhea"/>
+      </concept>
+      <concept>
+        <code value="139478"/>
+        <display value="Gestational trophoblastic disease"/>
+      </concept>
+      <concept>
+        <code value="120780"/>
+        <display value="Cervical neoplasia"/>
+      </concept>
+      <concept>
+        <code value="159008"/>
+        <display value="Cervical cancer awaiting treatment"/>
+      </concept>
+      <concept>
+        <code value="117767"/>
+        <display value="Current gonorrhea"/>
+      </concept>
+      <concept>
+        <code value="120733"/>
+        <display value="Current chlamydia"/>
+      </concept>
+      <concept>
+        <code value="116128"/>
+        <display value="Malaria"/>
+      </concept>
+      <concept>
+        <code value="138176"/>
+        <display value="Hyperthyroid"/>
+      </concept>
+      <concept>
+        <code value="117321"/>
+        <display value="Hypothyroid"/>
+      </concept>
+      <concept>
+        <code value="145618"/>
+        <display value="History of cholestasis"/>
+      </concept>
+      <concept>
+        <code value="111479"/>
+        <display value="Viral hepatitis"/>
+      </concept>
+      <concept>
+        <code value="1068"/>
+        <display value="Gallbladder disease - Symptomatic"/>
+      </concept>
+      <concept>
+        <code value="149471"/>
+        <display value="Viral hepatitis - Acute or flare"/>
+      </concept>
+      <concept>
+        <code value="145131"/>
+        <display value="Viral hepatitis - Chronic"/>
+      </concept>
+      <concept>
+        <code value="124940"/>
+        <display value="Anemia - Thalassemia"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/sid/icd-11"/>
+      <concept>
+        <code value="QC4Z"/>
+        <display value="Past ectopic pregnancy"/>
+      </concept>
+      <concept>
+        <code value="BD72"/>
+        <display value="Deep venous thrombosis (DVT) / History of DVT / History of PE"/>
+      </concept>
+      <concept>
+        <code value="8B20"/>
+        <display value="Stroke / Stroke (history of cerebrovascular accident)"/>
+      </concept>
+      <concept>
+        <code value="BA4Z"/>
+        <display value="Ischaemic heart disease"/>
+      </concept>
+      <concept>
+        <code value="BA00"/>
+        <display value="Hypertension"/>
+      </concept>
+      <concept>
+        <code value="5B81"/>
+        <display value="Obese"/>
+      </concept>
+      <concept>
+        <code value="5A14"/>
+        <display value="Diabetes / Nephropathy / Retinopathy"/>
+      </concept>
+      <concept>
+        <code value="JA63.0"/>
+        <display value="Non-vascular Insulin-dependent diabetes"/>
+      </concept>
+      <concept>
+        <code value="JA63.1"/>
+        <display value="Non-vascular non-insulin dependent diabetes"/>
+      </concept>
+      <concept>
+        <code value="BA5Z"/>
+        <display value="Current ischemic heart disease"/>
+      </concept>
+      <concept>
+        <code value="5C80"/>
+        <display value="Dyslipidemias"/>
+      </concept>
+      <concept>
+        <code value="GA10"/>
+        <display value="Endometriosis"/>
+      </concept>
+      <concept>
+        <code value="GA34.3"/>
+        <display value="Severe dysmenorrhea"/>
+      </concept>
+      <concept>
+        <code value="JA02.0"/>
+        <display value="Gestational trophoblastic disease"/>
+      </concept>
+      <concept>
+        <code value="GA15.7"/>
+        <display value="Cervical neoplasia"/>
+      </concept>
+      <concept>
+        <code value="QA02.2"/>
+        <display value="Cervical cancer awaiting treatment"/>
+      </concept>
+      <concept>
+        <code value="1A7Z"/>
+        <display value="Current gonorrhea"/>
+      </concept>
+      <concept>
+        <code value="1C2Z"/>
+        <display value="Current chlamydia"/>
+      </concept>
+      <concept>
+        <code value="1F4Z"/>
+        <display value="Malaria"/>
+      </concept>
+      <concept>
+        <code value="5A02.5"/>
+        <display value="Hyperthyroid"/>
+      </concept>
+      <concept>
+        <code value="5A00"/>
+        <display value="Hypothyroid"/>
+      </concept>
+      <concept>
+        <code value="DC10.02"/>
+        <display value="History of cholestasis"/>
+      </concept>
+      <concept>
+        <code value="1E5Z"/>
+        <display value="Viral hepatitis"/>
+      </concept>
+      <concept>
+        <code value="1E+50"/>
+        <display value="Viral hepatitis - Acute or flare"/>
+      </concept>
+      <concept>
+        <code value="1E+51"/>
+        <display value="Viral hepatitis - Chronic"/>
+      </concept>
+      <concept>
+        <code value="3A50"/>
+        <display value="Anemia - Thalassemia"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://who.int/cg/CodeSystem/extended-content"/>
+      <concept>
+        <code value="Minor surgery without immobilization"/>
+        <display value="Minor surgery without immobilization"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

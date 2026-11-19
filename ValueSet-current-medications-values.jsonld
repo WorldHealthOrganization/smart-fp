@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:54:53.073437Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#72822",
+      "name": "carbamazepine",
+      "fhir:code": "72822",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#81294",
+      "name": "oxcarbazepine",
+      "fhir:code": "81294",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#82023",
+      "name": "phenytoin",
+      "fhir:code": "82023",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#82534",
+      "name": "primidone",
+      "fhir:code": "82534",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#85235",
+      "name": "topiramate",
+      "fhir:code": "85235",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#78644",
+      "name": "lamotrigine",
+      "fhir:code": "78644",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#767",
+      "name": "Rifampicin",
+      "fhir:code": "767",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#83352",
+      "name": "Rifabutin",
+      "fhir:code": "83352",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/ciel"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.jsonld#Broad-spectrum antibiotics",
+      "name": "Broad-spectrum antibiotics",
+      "fhir:code": "Broad-spectrum antibiotics",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

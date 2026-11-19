@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.schema.json",
+  "title": "Current Medications values Schema",
+  "description": "JSON Schema for Current Medications values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://hl7.org/fhir/sid/ciel#72822",
+    "http://hl7.org/fhir/sid/ciel#81294",
+    "http://hl7.org/fhir/sid/ciel#82023",
+    "http://hl7.org/fhir/sid/ciel#82534",
+    "http://hl7.org/fhir/sid/ciel#85235",
+    "http://hl7.org/fhir/sid/ciel#78644",
+    "http://hl7.org/fhir/sid/ciel#767",
+    "http://hl7.org/fhir/sid/ciel#83352",
+    "http://who.int/cg/CodeSystem/extended-content#Broad-spectrum antibiotics"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Current Medications values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.899629"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="current-medications-values"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet current-medications-values</b></p><a name="current-medications-values"> </a><a name="hccurrent-medications-values"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/sid/ciel</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>72822</td><td>carbamazepine</td></tr><tr><td>81294</td><td>oxcarbazepine</td></tr><tr><td>82023</td><td>phenytoin</td></tr><tr><td>82534</td><td>primidone</td></tr><tr><td>85235</td><td>topiramate</td></tr><tr><td>78644</td><td>lamotrigine</td></tr><tr><td>767</td><td>Rifampicin</td></tr><tr><td>83352</td><td>Rifabutin</td></tr></table></li><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Broad-spectrum antibiotics</td><td>Broad-spectrum antibiotics</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values"/>
+  <version value="0.2.0"/>
+  <name value="current-medications-values"/>
+  <title value="Current Medications values"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-11-19T11:45:08+00:00"/>
+  <publisher value="World Health Organization (WHO)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.who.int"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing possible values for the Current Medications element"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/sid/ciel"/>
+      <concept>
+        <code value="72822"/>
+        <display value="carbamazepine"/>
+      </concept>
+      <concept>
+        <code value="81294"/>
+        <display value="oxcarbazepine"/>
+      </concept>
+      <concept>
+        <code value="82023"/>
+        <display value="phenytoin"/>
+      </concept>
+      <concept>
+        <code value="82534"/>
+        <display value="primidone"/>
+      </concept>
+      <concept>
+        <code value="85235"/>
+        <display value="topiramate"/>
+      </concept>
+      <concept>
+        <code value="78644"/>
+        <display value="lamotrigine"/>
+      </concept>
+      <concept>
+        <code value="767"/>
+        <display value="Rifampicin"/>
+      </concept>
+      <concept>
+        <code value="83352"/>
+        <display value="Rifabutin"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://who.int/cg/CodeSystem/extended-content"/>
+      <concept>
+        <code value="Broad-spectrum antibiotics"/>
+        <display value="Broad-spectrum antibiotics"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

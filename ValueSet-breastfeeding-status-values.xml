@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="breastfeeding-status-values"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet breastfeeding-status-values</b></p><a name="breastfeeding-status-values"> </a><a name="hcbreastfeeding-status-values"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/la29254-2/">la29254-2</a></td><td>Fully</td></tr><tr><td><a href="https://loinc.org/la29255-9/">la29255-9</a></td><td>Partially</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/733896006">733896006</a></td><td>Partially</td></tr><tr><td><a href="http://snomed.info/id/169743001">169743001</a></td><td>Partially</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values"/>
+  <version value="0.2.0"/>
+  <name value="breastfeeding-status-values"/>
+  <title value="Breastfeeding status values"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-11-19T11:53:29+00:00"/>
+  <publisher value="World Health Organization (WHO)"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.who.int"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing possible values for the Breastfeeding status element"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <immutable value="true"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="la29254-2"/>
+        <display value="Fully"/>
+      </concept>
+      <concept>
+        <code value="la29255-9"/>
+        <display value="Partially"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="733896006"/>
+        <display value="Partially"/>
+      </concept>
+      <concept>
+        <code value="169743001"/>
+        <display value="Partially"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

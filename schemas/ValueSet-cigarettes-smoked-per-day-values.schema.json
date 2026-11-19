@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-cigarettes-smoked-per-day-values.schema.json",
+  "title": "Cigarettes smoked per day values Schema",
+  "description": "JSON Schema for Cigarettes smoked per day values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://who.int/cg/CodeSystem/extended-content#<15 cigarettes per day",
+    "http://who.int/cg/CodeSystem/extended-content#>= 15 cigarettes per day"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Cigarettes smoked per day values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-cigarettes-smoked-per-day-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-cigarettes-smoked-per-day-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989531"
+}

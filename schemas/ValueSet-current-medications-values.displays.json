@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-current-medications-values.displays.json",
+  "title": "Current Medications values Display Values",
+  "description": "Display values for Current Medications values ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://hl7.org/fhir/sid/ciel#72822": {
+      "en": "carbamazepine"
+    },
+    "http://hl7.org/fhir/sid/ciel#81294": {
+      "en": "oxcarbazepine"
+    },
+    "http://hl7.org/fhir/sid/ciel#82023": {
+      "en": "phenytoin"
+    },
+    "http://hl7.org/fhir/sid/ciel#82534": {
+      "en": "primidone"
+    },
+    "http://hl7.org/fhir/sid/ciel#85235": {
+      "en": "topiramate"
+    },
+    "http://hl7.org/fhir/sid/ciel#78644": {
+      "en": "lamotrigine"
+    },
+    "http://hl7.org/fhir/sid/ciel#767": {
+      "en": "Rifampicin"
+    },
+    "http://hl7.org/fhir/sid/ciel#83352": {
+      "en": "Rifabutin"
+    },
+    "http://who.int/cg/CodeSystem/extended-content#Broad-spectrum antibiotics": {
+      "en": "Broad-spectrum antibiotics"
+    }
+  },
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989932"
+}

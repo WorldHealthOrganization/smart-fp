@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.schema.json",
+  "title": "Pregnancy intention values Schema",
+  "description": "JSON Schema for Pregnancy intention values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://loinc.org#LA28438-4",
+    "http://loinc.org#LA26439-2",
+    "http://loinc.org#LA26440-0",
+    "http://loinc.org#LA14072-5"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Pregnancy intention values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989791"
+}

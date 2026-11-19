@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-fp-recommended-care-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:46:47.004691Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-fp-recommended-care-values.jsonld#Backup Method Needed",
+      "name": "Backup contraception method needed",
+      "fhir:code": "Backup Method Needed",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

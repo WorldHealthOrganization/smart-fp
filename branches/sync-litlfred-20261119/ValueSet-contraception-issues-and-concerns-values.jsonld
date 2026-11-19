@@ -1,0 +1,335 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:46:47.004112Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#315604002",
+      "name": "Missed pills or late injection",
+      "fhir:code": "315604002",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#243818000",
+      "name": "IUD concerns",
+      "fhir:code": "243818000",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#169489007",
+      "name": "IUD partial expulsion",
+      "fhir:code": "169489007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#169487009",
+      "name": "IUD complete expulsion",
+      "fhir:code": "169487009",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#14302001",
+      "name": "Amenorrhoea",
+      "fhir:code": "14302001",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#301822002",
+      "name": "Irregular bleeding",
+      "fhir:code": "301822002",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#9126005",
+      "name": "Spotting or light bleeding",
+      "fhir:code": "9126005",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#44991000119100",
+      "name": "Change in timing of monthly bleeding",
+      "fhir:code": "44991000119100",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#289539007",
+      "name": "Heavy or prolonged bleeding",
+      "fhir:code": "289539007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#289530006",
+      "name": "Unexplained vaginal bleeding",
+      "fhir:code": "289530006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#48079002",
+      "name": "Mood changes after start of method",
+      "fhir:code": "48079002",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#365965002",
+      "name": "Changes in sex drive",
+      "fhir:code": "365965002",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#247347003",
+      "name": "Discomfort or pain with use",
+      "fhir:code": "247347003",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#12243431000119101",
+      "name": "Abscess",
+      "fhir:code": "12243431000119101",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#72934000",
+      "name": "Candidiasis",
+      "fhir:code": "72934000",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#419760006",
+      "name": "Bacterial vaginosis",
+      "fhir:code": "419760006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#18504008",
+      "name": "Toxic shock syndrome",
+      "fhir:code": "18504008",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#68566005",
+      "name": "Urinary tract infection",
+      "fhir:code": "68566005",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#55607006",
+      "name": "Difficulty inserting/removing/using method",
+      "fhir:code": "55607006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#74964007",
+      "name": "Other",
+      "fhir:code": "74964007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#11381005",
+      "name": "Acne",
+      "fhir:code": "11381005",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#365921005",
+      "name": "Weight change",
+      "fhir:code": "365921005",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#53430007",
+      "name": "Breast tenderness",
+      "fhir:code": "53430007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#422587007",
+      "name": "Nausea",
+      "fhir:code": "422587007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#404640003",
+      "name": "Dizziness",
+      "fhir:code": "404640003",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N91.2",
+      "name": "Amenorrhoea",
+      "fhir:code": "N91.2",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N93.9",
+      "name": "Irregular bleeding",
+      "fhir:code": "N93.9",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Z32.0",
+      "name": "Client suspects pregnancy",
+      "fhir:code": "Z32.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N89.8",
+      "name": "Spotting or light bleeding / Unexplained vaginal bleeding",
+      "fhir:code": "N89.8",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N93",
+      "name": "Heavy or prolonged bleeding",
+      "fhir:code": "N93",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#F39",
+      "name": "Mood changes after start of method",
+      "fhir:code": "F39",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N99.89",
+      "name": "Pain lasting for months",
+      "fhir:code": "N99.89",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#R10.30",
+      "name": "Severe pain in lower abdomen",
+      "fhir:code": "R10.30",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#T81.4",
+      "name": "Abscess",
+      "fhir:code": "T81.4",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#B37.3",
+      "name": "Candidiasis",
+      "fhir:code": "B37.3",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N76.0",
+      "name": "Bacterial vaginosis",
+      "fhir:code": "N76.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N77.1",
+      "name": "Bacterial vaginosis",
+      "fhir:code": "N77.1",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#A48.3",
+      "name": "Toxic shock syndrome",
+      "fhir:code": "A48.3",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N39",
+      "name": "Urinary tract infection",
+      "fhir:code": "N39",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Z87.440",
+      "name": "Urinary tract infection",
+      "fhir:code": "Z87.440",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#N98.9",
+      "name": "Irritation",
+      "fhir:code": "N98.9",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Z88.8",
+      "name": "Allergic reaction",
+      "fhir:code": "Z88.8",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#L70.9",
+      "name": "Acne",
+      "fhir:code": "L70.9",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#G44.40",
+      "name": "Headaches",
+      "fhir:code": "G44.40",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#R11.0",
+      "name": "Nausea",
+      "fhir:code": "R11.0",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#R42",
+      "name": "Dizziness",
+      "fhir:code": "R42",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#12275-4",
+      "name": "Candidiasis",
+      "fhir:code": "12275-4",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#69568-4",
+      "name": "Bacterial vaginosis",
+      "fhir:code": "69568-4",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#LA7335-8",
+      "name": "Used incorrectly",
+      "fhir:code": "LA7335-8",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#LP146997-4",
+      "name": "Breast tenderness",
+      "fhir:code": "LP146997-4",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Makes noise during sex",
+      "name": "Makes noise during sex",
+      "fhir:code": "Makes noise during sex",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Other",
+      "name": "Other",
+      "fhir:code": "Other",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraception-issues-and-concerns-values.jsonld#Difficulty persuading partner to use method",
+      "name": "Difficulty persuading partner to use method",
+      "fhir:code": "Difficulty persuading partner to use method",
+      "fhir:CodeSystem": "http://who.int/cg/CodeSystem-extended-content"
+    }
+  ]
+}

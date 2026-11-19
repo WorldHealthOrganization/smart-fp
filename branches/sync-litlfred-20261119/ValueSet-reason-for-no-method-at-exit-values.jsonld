@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:46:47.004852Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#14550-0",
+      "name": "Voluntarily refrains from sexual intercourse",
+      "fhir:code": "14550-0",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#LA 27925-9",
+      "name": "Same sex partner",
+      "fhir:code": "LA 27925-9",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#46-8",
+      "name": "No method for other reasons",
+      "fhir:code": "46-8",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#27927-5",
+      "name": "Sterile for non-contraceptive reasons",
+      "fhir:code": "27927-5",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#LA 27928-3",
+      "name": "Seeking pregnancy",
+      "fhir:code": "LA 27928-3",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#454731000124108",
+      "name": "Voluntarily refrains from sexual intercourse",
+      "fhir:code": "454731000124108",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#445637007",
+      "name": "Client choice to not use contraception",
+      "fhir:code": "445637007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#454361000124100",
+      "name": "Same sex partner",
+      "fhir:code": "454361000124100",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#74964007",
+      "name": "No method for other reasons",
+      "fhir:code": "74964007",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#182856006",
+      "name": "Out of stock",
+      "fhir:code": "182856006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#15296000",
+      "name": "Sterile for non-contraceptive reasons",
+      "fhir:code": "15296000",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#454411000124108",
+      "name": "Seeking pregnancy",
+      "fhir:code": "454411000124108",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#Z76.89",
+      "name": "Out of stock",
+      "fhir:code": "Z76.89",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.jsonld#Z31.9",
+      "name": "Sterile for non-contraceptive reasons",
+      "fhir:code": "Z31.9",
+      "fhir:CodeSystem": "http://hl7.org/fhir/sid/icd-10"
+    }
+  ]
+}

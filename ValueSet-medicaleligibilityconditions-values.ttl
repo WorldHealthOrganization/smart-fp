@@ -1,0 +1,283 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "medicaleligibilityconditions-values"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medicaleligibilityconditions-values</b></p><a name=\"medicaleligibilityconditions-values\"> </a><a name=\"hcmedicaleligibilityconditions-values\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://hl7.org/fhir/sid/ciel</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>158905</td><td>Past ectopic pregnancy</td></tr><tr><td>159276</td><td>Deep venous thrombosis (DVT) / Pulmonary embolism (PE)</td></tr><tr><td>144475</td><td>Stroke / Stroke (history of cerebrovascular accident)</td></tr><tr><td>122009</td><td>Ischaemic heart disease</td></tr><tr><td>117399</td><td>Hypertension</td></tr><tr><td>115115</td><td>Obese</td></tr><tr><td>158473</td><td>Non-vascular Insulin-dependent diabetes</td></tr><tr><td>158474</td><td>Non-vascular non-insulin dependent diabetes</td></tr><tr><td>142431</td><td>Nephropathy</td></tr><tr><td>142429</td><td>Retinopathy</td></tr><tr><td>116608</td><td>Current ischemic heart disease</td></tr><tr><td>141623</td><td>Dyslipidemias</td></tr><tr><td>118631</td><td>Endometriosis</td></tr><tr><td>118794</td><td>Severe dysmenorrhea</td></tr><tr><td>139478</td><td>Gestational trophoblastic disease</td></tr><tr><td>120780</td><td>Cervical neoplasia</td></tr><tr><td>159008</td><td>Cervical cancer awaiting treatment</td></tr><tr><td>117767</td><td>Current gonorrhea</td></tr><tr><td>120733</td><td>Current chlamydia</td></tr><tr><td>116128</td><td>Malaria</td></tr><tr><td>138176</td><td>Hyperthyroid</td></tr><tr><td>117321</td><td>Hypothyroid</td></tr><tr><td>145618</td><td>History of cholestasis</td></tr><tr><td>111479</td><td>Viral hepatitis</td></tr><tr><td>1068</td><td>Gallbladder disease - Symptomatic</td></tr><tr><td>149471</td><td>Viral hepatitis - Acute or flare</td></tr><tr><td>145131</td><td>Viral hepatitis - Chronic</td></tr><tr><td>124940</td><td>Anemia - Thalassemia</td></tr></table></li><li>Include these codes as defined in <code>http://hl7.org/fhir/sid/icd-11</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>QC4Z</td><td>Past ectopic pregnancy</td></tr><tr><td>BD72</td><td>Deep venous thrombosis (DVT) / History of DVT / History of PE</td></tr><tr><td>8B20</td><td>Stroke / Stroke (history of cerebrovascular accident)</td></tr><tr><td>BA4Z</td><td>Ischaemic heart disease</td></tr><tr><td>BA00</td><td>Hypertension</td></tr><tr><td>5B81</td><td>Obese</td></tr><tr><td>5A14</td><td>Diabetes / Nephropathy / Retinopathy</td></tr><tr><td>JA63.0</td><td>Non-vascular Insulin-dependent diabetes</td></tr><tr><td>JA63.1</td><td>Non-vascular non-insulin dependent diabetes</td></tr><tr><td>BA5Z</td><td>Current ischemic heart disease</td></tr><tr><td>5C80</td><td>Dyslipidemias</td></tr><tr><td>GA10</td><td>Endometriosis</td></tr><tr><td>GA34.3</td><td>Severe dysmenorrhea</td></tr><tr><td>JA02.0</td><td>Gestational trophoblastic disease</td></tr><tr><td>GA15.7</td><td>Cervical neoplasia</td></tr><tr><td>QA02.2</td><td>Cervical cancer awaiting treatment</td></tr><tr><td>1A7Z</td><td>Current gonorrhea</td></tr><tr><td>1C2Z</td><td>Current chlamydia</td></tr><tr><td>1F4Z</td><td>Malaria</td></tr><tr><td>5A02.5</td><td>Hyperthyroid</td></tr><tr><td>5A00</td><td>Hypothyroid</td></tr><tr><td>DC10.02</td><td>History of cholestasis</td></tr><tr><td>1E5Z</td><td>Viral hepatitis</td></tr><tr><td>1E+50</td><td>Viral hepatitis - Acute or flare</td></tr><tr><td>1E+51</td><td>Viral hepatitis - Chronic</td></tr><tr><td>3A50</td><td>Anemia - Thalassemia</td></tr></table></li><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Minor surgery without immobilization</td><td>Minor surgery without immobilization</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values"] ;
+  fhir:ValueSet.version [ fhir:value "0.2.0"] ;
+  fhir:ValueSet.name [ fhir:value "medicaleligibilityconditions-values"] ;
+  fhir:ValueSet.title [ fhir:value "Current conditions affecting Medical Eligibility values"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-11-19T11:53:29+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "World Health Organization (WHO)"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.who.int" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Codes representing possible values for the Current conditions affecting Medical Eligibility element"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ] ;
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ] ;
+  fhir:ValueSet.immutable [ fhir:value "true"^^xsd:boolean] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/sid/ciel" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "158905" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Past ectopic pregnancy" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "159276" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Deep venous thrombosis (DVT) / Pulmonary embolism (PE)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "144475" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Stroke / Stroke (history of cerebrovascular accident)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "122009" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ischaemic heart disease" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "117399" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hypertension" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "115115" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Obese" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "158473" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non-vascular Insulin-dependent diabetes" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "158474" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non-vascular non-insulin dependent diabetes" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "142431" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Nephropathy" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "142429" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Retinopathy" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116608" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current ischemic heart disease" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "141623" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dyslipidemias" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "118631" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Endometriosis" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "118794" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Severe dysmenorrhea" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "139478" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gestational trophoblastic disease" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "120780" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cervical neoplasia" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "159008" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cervical cancer awaiting treatment" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "117767" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current gonorrhea" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "120733" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current chlamydia" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116128" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malaria" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "138176" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hyperthyroid" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "117321" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hypothyroid" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "145618" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "History of cholestasis" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111479" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1068" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gallbladder disease - Symptomatic" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "149471" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis - Acute or flare" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "145131" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis - Chronic" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "124940" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anemia - Thalassemia" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/sid/icd-11" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QC4Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Past ectopic pregnancy" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BD72" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Deep venous thrombosis (DVT) / History of DVT / History of PE" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8B20" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Stroke / Stroke (history of cerebrovascular accident)" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BA4Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ischaemic heart disease" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BA00" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hypertension" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5B81" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Obese" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5A14" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Diabetes / Nephropathy / Retinopathy" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JA63.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non-vascular Insulin-dependent diabetes" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JA63.1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Non-vascular non-insulin dependent diabetes" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BA5Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current ischemic heart disease" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5C80" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dyslipidemias" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GA10" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Endometriosis" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GA34.3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Severe dysmenorrhea" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "JA02.0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gestational trophoblastic disease" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GA15.7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cervical neoplasia" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "QA02.2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cervical cancer awaiting treatment" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1A7Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current gonorrhea" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1C2Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Current chlamydia" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1F4Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Malaria" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5A02.5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hyperthyroid" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5A00" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hypothyroid" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DC10.02" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "History of cholestasis" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1E5Z" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1E+50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis - Acute or flare" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "1E+51" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Viral hepatitis - Chronic" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3A50" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anemia - Thalassemia" ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://who.int/cg/CodeSystem/extended-content" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "Minor surgery without immobilization" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Minor surgery without immobilization" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

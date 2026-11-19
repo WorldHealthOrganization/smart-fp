@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "cigarettes-smoked-per-day-values",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet cigarettes-smoked-per-day-values</b></p><a name=\"cigarettes-smoked-per-day-values\"> </a><a name=\"hccigarettes-smoked-per-day-values\"> </a><ul><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>&lt;15 cigarettes per day</td><td>&lt;15 cigarettes per day</td></tr><tr><td>&gt;= 15 cigarettes per day</td><td>&gt;= 15 cigarettes per day</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+  "version" : "0.2.0",
+  "name" : "cigarettes-smoked-per-day-values",
+  "title" : "Cigarettes smoked per day values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:53:29+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the Cigarettes smoked per day element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true,
+  "compose" : {
+    "include" : [{
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "<15 cigarettes per day",
+        "display" : "<15 cigarettes per day"
+      },
+      {
+        "code" : ">= 15 cigarettes per day",
+        "display" : ">= 15 cigarettes per day"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,906 @@
+FPCDS : Validation Results
+=========================================
+
+err = 85, warn = 126, info = 99, broken links = 392
+IG Publisher Version: 3.0.4
+Generated Thu Nov 19 11:46:57 UTC 2026. FHIR version 4.0.1 for who.fhir.fp-cds#0.2.0 (canonical = http://fhir.org/guides/who/fp-cds)
+ Build Errors : 394 / 18 / 0
+ /work/fsh-generated/resources/CodeSystem-extended-content-codes : 3 / 1 / 1
+ /work/fsh-generated/resources/ImplementationGuide-who.fhir.fp-cds : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-deliverymethod : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-careplan-backup-contraceptive-method : 0 / 2 / 3
+ /work/fsh-generated/resources/StructureDefinition-who-fp-careplan-exit-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-careplan-recommendation : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-careplan-requested-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-condition-medical-eligibility : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-consent : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-device-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method : 1 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-encounter : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-encounter-contraception-issues-and-concerns : 0 / 4 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-healthcareservice : 1 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-current-medication : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-breastfeeding-status : 2 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-days-since-last-normal-menses : 3 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses : 3 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-number : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-text : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-missed-or-late-menses : 3 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-pregnancy-intention : 2 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit : 2 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-stopping-contraception : 5 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-smoking-status : 0 / 5 / 3
+ /work/fsh-generated/resources/StructureDefinition-who-fp-observation-test-results : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-procedure-exit-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-procedure-requested-contraceptive-method : 2 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-who-fp-procedure-service-provided : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-backupcontraceptivemethod-values : 1 / 4 / 5
+ /work/fsh-generated/resources/ValueSet-breastfeeding-status-values : 3 / 1 / 3
+ /work/fsh-generated/resources/ValueSet-cigarettes-smoked-per-day-values : 1 / 3 / 2
+ /work/fsh-generated/resources/ValueSet-contraception-issues-and-concerns-values : 6 / 3 / 38
+ /work/fsh-generated/resources/ValueSet-contraceptivedeliverymethod-values : 1 / 1 / 3
+ /work/fsh-generated/resources/ValueSet-current-medications-values : 2 / 3 / 3
+ /work/fsh-generated/resources/ValueSet-fp-recommended-care-values : 1 / 3 / 2
+ /work/fsh-generated/resources/ValueSet-iud-insertion-status-values : 1 / 1 / 3
+ /work/fsh-generated/resources/ValueSet-medical-eligibility-text-classification-values : 1 / 3 / 2
+ /work/fsh-generated/resources/ValueSet-medicaleligibilityconditions-values : 3 / 3 / 4
+ /work/fsh-generated/resources/ValueSet-medicaleligibilitynumber-values : 1 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-medicaleligibilityobservations-values : 1 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-pregnancy-intention-values : 2 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-reason-for-family-planning-visit-values : 8 / 3 / 6
+ /work/fsh-generated/resources/ValueSet-reason-for-no-method-at-exit-values : 12 / 1 / 6
+</table>
+
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[25].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-careplan-recommendation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-condition-medical-eligibility.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-encounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-observation-breastfeeding-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/who-fp-observation-medical-eligibility.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: CodeSystem-extended-content-codes-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-extended-content-codes.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-extended-content-codes.html#/html/body/div/div/div/p/span/a at Line 334, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-extended-content-codes.json.html#/html/body/div/div/div/p/span/a at Line 360, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-extended-content-codes.ttl.html#/html/body/div/div/div/p/span/a at Line 371, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: CodeSystem-extended-content-codes.xml.html#/html/body/div/div/div/p/span/a at Line 351, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod-definitions.html#/html/body/div/div/div/p/span/a at Line 374, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod-mappings.html#/html/body/div/div/div/p/span/a at Line 317, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod.html#/html/body/div/div/div/p/span/a at Line 726, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod.profile.json.html#/html/body/div/div/div/p/span/a at Line 602, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 622, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-deliverymethod.profile.xml.html#/html/body/div/div/div/p/span/a at Line 563, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 659, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 848, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2591, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 3204, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3474, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-backup-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2990, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 681, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 857, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2663, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 3280, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3554, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-exit-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3057, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation-definitions.html#/html/body/div/div/div/p/span/a at Line 659, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation-mappings.html#/html/body/div/div/div/p/span/a at Line 848, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation.html#/html/body/div/div/div/p/span/a at Line 2586, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation.profile.json.html#/html/body/div/div/div/p/span/a at Line 3202, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3472, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-recommendation.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2988, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 662, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 848, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2591, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 3206, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3476, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-careplan-requested-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2993, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility-definitions.html#/html/body/div/div/div/p/span/a at Line 507, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility-mappings.html#/html/body/div/div/div/p/span/a at Line 800, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility.html#/html/body/div/div/div/p/span/a at Line 2342, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility.profile.json.html#/html/body/div/div/div/p/span/a at Line 2303, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2468, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-condition-medical-eligibility.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2164, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent-definitions.html#/html/body/div/div/div/p/span/a at Line 601, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent-mappings.html#/html/body/div/div/div/p/span/a at Line 827, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent.html#/html/body/div/div/div/p/span/a at Line 2629, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent.profile.json.html#/html/body/div/div/div/p/span/a at Line 2835, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3073, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-consent.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2633, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 602, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 792, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2309, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 3104, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3261, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-device-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2824, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 432, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 546, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 1601, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 1415, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1524, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1322, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 435, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 546, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 1601, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 1424, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1532, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1331, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns-definitions.html#/html/body/div/div/div/p/span/a at Line 641, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns-mappings.html#/html/body/div/div/div/p/span/a at Line 973, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.html#/html/body/div/div/div/p/span/a at Line 2791, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.profile.json.html#/html/body/div/div/div/p/span/a at Line 3786, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4016, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3444, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-definitions.html#/html/body/div/div/div/p/span/a at Line 668, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-mappings.html#/html/body/div/div/div/p/span/a at Line 1009, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter.html#/html/body/div/div/div/p/span/a at Line 2792, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter.profile.json.html#/html/body/div/div/div/p/span/a at Line 3978, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 4206, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-encounter.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3612, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice-definitions.html#/html/body/div/div/div/p/span/a at Line 541, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice-mappings.html#/html/body/div/div/div/p/span/a at Line 560, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice.html#/html/body/div/div/div/p/span/a at Line 2115, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice.profile.json.html#/html/body/div/div/div/p/span/a at Line 2489, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2606, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-healthcareservice.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2267, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication-definitions.html#/html/body/div/div/div/p/span/a at Line 476, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication-mappings.html#/html/body/div/div/div/p/span/a at Line 540, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication.html#/html/body/div/div/div/p/span/a at Line 1815, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication.profile.json.html#/html/body/div/div/div/p/span/a at Line 1601, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1721, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-current-medication.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1531, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 476, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 540, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 1815, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 1601, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1721, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1530, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 469, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 540, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 1815, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 1602, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1722, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1522, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status.html#/html/body/div/div/div/p/span/a at Line 2696, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status.profile.json.html#/html/body/div/div/div/p/span/a at Line 3060, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3291, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-breastfeeding-status.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2894, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses.html#/html/body/div/div/div/p/span/a at Line 2577, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses.profile.json.html#/html/body/div/div/div/p/span/a at Line 3060, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3285, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-days-since-last-normal-menses.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2892, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.html#/html/body/div/div/div/p/span/a at Line 2572, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.profile.json.html#/html/body/div/div/div/p/span/a at Line 3059, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3284, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2889, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-definitions.html#/html/body/div/div/div/p/span/a at Line 584, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number-definitions.html#/html/body/div/div/div/p/span/a at Line 607, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number.html#/html/body/div/div/div/p/span/a at Line 2513, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number.profile.json.html#/html/body/div/div/div/p/span/a at Line 3035, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3259, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-number.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2864, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text-definitions.html#/html/body/div/div/div/p/span/a at Line 591, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text.html#/html/body/div/div/div/p/span/a at Line 2513, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text.profile.json.html#/html/body/div/div/div/p/span/a at Line 3029, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3253, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility-text.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2858, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility.html#/html/body/div/div/div/p/span/a at Line 2694, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility.profile.json.html#/html/body/div/div/div/p/span/a at Line 3049, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3278, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-medical-eligibility.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2882, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses.html#/html/body/div/div/div/p/span/a at Line 2577, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses.profile.json.html#/html/body/div/div/div/p/span/a at Line 3060, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3285, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-missed-or-late-menses.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2890, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention-definitions.html#/html/body/div/div/div/p/span/a at Line 637, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention.html#/html/body/div/div/div/p/span/a at Line 2701, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention.profile.json.html#/html/body/div/div/div/p/span/a at Line 3062, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3293, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-pregnancy-intention.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2896, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit-definitions.html#/html/body/div/div/div/p/span/a at Line 635, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.html#/html/body/div/div/div/p/span/a at Line 2701, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.profile.json.html#/html/body/div/div/div/p/span/a at Line 3061, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3292, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2898, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception-definitions.html#/html/body/div/div/div/p/span/a at Line 662, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception-mappings.html#/html/body/div/div/div/p/span/a at Line 997, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception.html#/html/body/div/div/div/p/span/a at Line 2849, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception.profile.json.html#/html/body/div/div/div/p/span/a at Line 3228, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3457, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-reason-for-stopping-contraception.profile.xml.html#/html/body/div/div/div/p/span/a at Line 3044, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status-definitions.html#/html/body/div/div/div/p/span/a at Line 637, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status.html#/html/body/div/div/div/p/span/a at Line 2577, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status.profile.json.html#/html/body/div/div/div/p/span/a at Line 3061, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3282, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-smoking-status.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2892, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results-definitions.html#/html/body/div/div/div/p/span/a at Line 591, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results-mappings.html#/html/body/div/div/div/p/span/a at Line 971, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results.html#/html/body/div/div/div/p/span/a at Line 2513, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results.profile.json.html#/html/body/div/div/div/p/span/a at Line 3029, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 3253, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-observation-test-results.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2857, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 548, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 741, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2325, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 2658, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2879, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-exit-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2466, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method-definitions.html#/html/body/div/div/div/p/span/a at Line 551, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method-mappings.html#/html/body/div/div/div/p/span/a at Line 741, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method.html#/html/body/div/div/div/p/span/a at Line 2325, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method.profile.json.html#/html/body/div/div/div/p/span/a at Line 2660, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2881, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-requested-contraceptive-method.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2469, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided-definitions.html#/html/body/div/div/div/p/span/a at Line 545, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided-examples.html#/html/body/div/div/div/p/span/a at Line 297, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided-mappings.html#/html/body/div/div/div/p/span/a at Line 741, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided-testing.html#/html/body/div/div/div/p/span/a at Line 304, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided.html#/html/body/div/div/div/p/span/a at Line 2221, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided.profile.history.html#/html/body/div/div/div/p/span/a at Line 286, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided.profile.json.html#/html/body/div/div/div/p/span/a at Line 2661, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2878, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-who-fp-procedure-service-provided.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2466, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values.html#/html/body/div/div/div/p/span/a at Line 363, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values.json.html#/html/body/div/div/div/p/span/a at Line 354, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values.ttl.html#/html/body/div/div/div/p/span/a at Line 362, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-backupcontraceptivemethod-values.xml.html#/html/body/div/div/div/p/span/a at Line 340, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values.html#/html/body/div/div/div/p/span/a at Line 356, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values.json.html#/html/body/div/div/div/p/span/a at Line 341, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values.ttl.html#/html/body/div/div/div/p/span/a at Line 350, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-breastfeeding-status-values.xml.html#/html/body/div/div/div/p/span/a at Line 329, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values.html#/html/body/div/div/div/p/span/a at Line 349, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values.json.html#/html/body/div/div/div/p/span/a at Line 328, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values.ttl.html#/html/body/div/div/div/p/span/a at Line 338, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-cigarettes-smoked-per-day-values.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values.html#/html/body/div/div/div/p/span/a at Line 434, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values.json.html#/html/body/div/div/div/p/span/a at Line 547, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values.ttl.html#/html/body/div/div/div/p/span/a at Line 554, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraception-issues-and-concerns-values.xml.html#/html/body/div/div/div/p/span/a at Line 532, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values.html#/html/body/div/div/div/p/span/a at Line 350, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values.json.html#/html/body/div/div/div/p/span/a at Line 332, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values.ttl.html#/html/body/div/div/div/p/span/a at Line 342, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-contraceptivedeliverymethod-values.xml.html#/html/body/div/div/div/p/span/a at Line 322, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values.html#/html/body/div/div/div/p/span/a at Line 355, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values.json.html#/html/body/div/div/div/p/span/a at Line 361, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values.ttl.html#/html/body/div/div/div/p/span/a at Line 370, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-current-medications-values.xml.html#/html/body/div/div/div/p/span/a at Line 349, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values.html#/html/body/div/div/div/p/span/a at Line 351, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values.json.html#/html/body/div/div/div/p/span/a at Line 324, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values.ttl.html#/html/body/div/div/div/p/span/a at Line 334, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-fp-recommended-care-values.xml.html#/html/body/div/div/div/p/span/a at Line 314, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values.html#/html/body/div/div/div/p/span/a at Line 348, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values.json.html#/html/body/div/div/div/p/span/a at Line 328, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values.ttl.html#/html/body/div/div/div/p/span/a at Line 338, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-iud-insertion-status-values.xml.html#/html/body/div/div/div/p/span/a at Line 318, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values.html#/html/body/div/div/div/p/span/a at Line 349, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values.json.html#/html/body/div/div/div/p/span/a at Line 336, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values.ttl.html#/html/body/div/div/div/p/span/a at Line 346, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medical-eligibility-text-classification-values.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values.html#/html/body/div/div/div/p/span/a at Line 409, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values.json.html#/html/body/div/div/div/p/span/a at Line 550, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values.ttl.html#/html/body/div/div/div/p/span/a at Line 558, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityconditions-values.xml.html#/html/body/div/div/div/p/span/a at Line 540, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values.html#/html/body/div/div/div/p/span/a at Line 348, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values.json.html#/html/body/div/div/div/p/span/a at Line 311, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values.ttl.html#/html/body/div/div/div/p/span/a at Line 323, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilitynumber-values.xml.html#/html/body/div/div/div/p/span/a at Line 305, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values.html#/html/body/div/div/div/p/span/a at Line 350, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values.json.html#/html/body/div/div/div/p/span/a at Line 311, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values.ttl.html#/html/body/div/div/div/p/span/a at Line 323, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-medicaleligibilityobservations-values.xml.html#/html/body/div/div/div/p/span/a at Line 305, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values.html#/html/body/div/div/div/p/span/a at Line 350, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values.json.html#/html/body/div/div/div/p/span/a at Line 336, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values.ttl.html#/html/body/div/div/div/p/span/a at Line 346, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-pregnancy-intention-values.xml.html#/html/body/div/div/div/p/span/a at Line 326, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values.html#/html/body/div/div/div/p/span/a at Line 377, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values.json.html#/html/body/div/div/div/p/span/a at Line 382, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values.ttl.html#/html/body/div/div/div/p/span/a at Line 390, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-family-planning-visit-values.xml.html#/html/body/div/div/div/p/span/a at Line 368, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values-testing.html#/html/body/div/div/div/p/span/a at Line 281, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values.change.history.html#/html/body/div/div/div/p/span/a at Line 250, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values.html#/html/body/div/div/div/p/span/a at Line 375, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values.json.html#/html/body/div/div/div/p/span/a at Line 386, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values.ttl.html#/html/body/div/div/div/p/span/a at Line 394, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-reason-for-no-method-at-exit-values.xml.html#/html/body/div/div/div/p/span/a at Line 372, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 686, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 215, column 10: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 216, column 10: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 217, column 10: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 231, column 10: The link 'cdc-careplan.sch' for "CarePlan" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 232, column 10: The link 'cdc-medicationrequest.sch' for "MedicationRequest" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 233, column 10: The link 'cdc-plandefinition.sch' for "PlanDefinition" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 234, column 10: The link 'cdc-requestgroup.sch' for "RequestGroup" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 244, column 10: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 245, column 10: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 246, column 10: The link 'examples.ttl.zip' for "TTl" cannot be resolved
+ERROR: downloads.html#/html/body/div/div/div/p/span/a at Line 275, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: /work/output/downloads.html: The html source references validator.pack which is deprecated. Change the IG to describe the use of the package system instead
+ERROR: extensions.html#/html/body/div/div/div/p/span/a at Line 210, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 280, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: profiles.html#/html/body/div/div/div/p/span/a at Line 238, column 123: The link 'license.html' for "License" cannot be resolved
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+WARNING: /work/output/searchform.html: The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+ERROR: sushi-conversion.html#/html/body/div/div/div/p/span/a at Line 428, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: terminology.html#/html/body/div/div/div/p/span/a at Line 232, column 123: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 206, column 123: The link 'license.html' for "License" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+
+== fsh-generated/resources/CodeSystem-extended-content-codes.json ==
+ERROR: CodeSystem.where(url = 'http://who.int/cg/CodeSystem/extended-content-codes'): Conformance resource /work/fsh-generated/resources/CodeSystem-extended-content-codes.json - the canonical URL (http://fhir.org/guides/who/fp-cds/CodeSystem/extended-content-codes) does not match the URL (http://who.int/cg/CodeSystem/extended-content-codes). Use the special-url parameter if you really mean for it not to match
+WARNING: CodeSystem/extended-content-codes: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: Resource: The resource CodeSystem/extended-content-codes must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+ERROR: /work/fsh-generated/resources/CodeSystem-extended-content-codes: URL Mismatch http://fhir.org/guides/who/fp-cds/CodeSystem/extended-content-codes vs http://who.int/cg/CodeSystem/extended-content-codes
+
+
+== fsh-generated/resources/ImplementationGuide-who.fhir.fp-cds.json ==
+WARNING: ImplementationGuide/who.fhir.fp-cds: ImplementationGuide.definition.resource[27].name: value should not start or finish with whitespace 'WHO-FP Encounter (Contraception Issues and Concerns) '
+INFORMATION: Resource: The resource ImplementationGuide/who.fhir.fp-cds could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/StructureDefinition-deliverymethod.json ==
+WARNING: StructureDefinition/deliverymethod: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/deliverymethod could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/deliverymethod'): The Implementation Guide contains no examples for this extension
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-careplan-backup-contraceptive-method.json ==
+INFORMATION: StructureDefinition/who-fp-careplan-backup-contraceptive-method: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.4.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+WARNING: StructureDefinition/who-fp-careplan-backup-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-careplan-backup-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-backup-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-careplan-exit-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-careplan-exit-contraceptive-method: StructureDefinition.snapshot.element[46].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-careplan-exit-contraceptive-method: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-careplan-exit-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-careplan-exit-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-exit-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-careplan-recommendation.json ==
+WARNING: StructureDefinition/who-fp-careplan-recommendation: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-careplan-recommendation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-recommendation'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-careplan-requested-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-careplan-requested-contraceptive-method: StructureDefinition.snapshot.element[45].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-careplan-requested-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/careplanbirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-careplan-requested-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-careplan-requested-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-careplan-requested-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-condition-medical-eligibility.json ==
+WARNING: StructureDefinition/who-fp-condition-medical-eligibility: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-condition-medical-eligibility could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-condition-medical-eligibility'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-consent.json ==
+WARNING: StructureDefinition/who-fp-consent: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-consent could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-consent'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-device-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-device-contraceptive-method: StructureDefinition.snapshot.element[37].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/devicebirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-device-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/devicebirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-device-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-device-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-device-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.json ==
+WARNING: StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-exit-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-deviceusestatement-requested-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method: StructureDefinition.differential.element[1].code[0].display: Wrong Display Name 'Device-based Contraception Method requested (ICD-10-WHO)' for http://hl7.org/fhir/sid/icd-10#Z30.9. Valid display is 'Contraceptive management, unspecified' (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-deviceusestatement-requested-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-encounter.json ==
+WARNING: StructureDefinition/who-fp-encounter: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-encounter could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.json ==
+WARNING: StructureDefinition/who-fp-encounter-contraception-issues-and-concerns: StructureDefinition.name: value should not start or finish with whitespace 'WHO-FP Encounter (Contraception Issues and Concerns) '
+WARNING: StructureDefinition/who-fp-encounter-contraception-issues-and-concerns: StructureDefinition.title: value should not start or finish with whitespace 'WHO-FP Encounter (Contraception Issues and Concerns) '
+WARNING: StructureDefinition/who-fp-encounter-contraception-issues-and-concerns: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-encounter-contraception-issues-and-concerns could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-encounter-contraception-issues-and-concerns'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-healthcareservice.json ==
+ERROR: StructureDefinition/who-fp-healthcareservice: StructureDefinition.differential.element[1].code[0].display: Wrong Display Name 'Pregnancy test available (SNOMED-CT)' for http://snomed.info/sct#74036000. Valid display is one of 4 choices: 'Pregnancy detection examination' (en), 'Pregnancy test' (en), 'PT - Pregnancy test' (en) or 'Pregnancy detection examination (procedure)' (en) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-healthcareservice: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-healthcareservice could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-healthcareservice'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-current-medication.json ==
+WARNING: StructureDefinition/who-fp-medicationstatement-current-medication: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-medicationstatement-current-medication could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-current-medication'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-exit-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method: StructureDefinition.snapshot.element[15].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-exit-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-medicationstatement-requested-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method: StructureDefinition.snapshot.element[15].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/medicationbirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-medicationstatement-requested-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-breastfeeding-status.json ==
+ERROR: StructureDefinition/who-fp-observation-breastfeeding-status: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Breastfeeding status (LOINC)' for http://loinc.org#63895-7. Valid display is one of 3 choices: 'Breastfeeding status' (en-US), 'Breastfeeding status' (en-US) or 'Breastfeeding status' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-breastfeeding-status: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Breastfeeding status (LOINC)' for http://loinc.org#63895-7. Valid display is one of 3 choices: 'Breastfeeding status' (en-US), 'Breastfeeding status' (en-US) or 'Breastfeeding status' (en-US) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-observation-breastfeeding-status: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-breastfeeding-status: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-breastfeeding-status could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-breastfeeding-status'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-days-since-last-normal-menses.json ==
+ERROR: StructureDefinition/who-fp-observation-days-since-last-normal-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Days since start of last normal menses (SNOMED-CT)' for http://snomed.info/sct#248957007. Valid display is one of 10 choices: 'Menstruation' (en), 'Catamenia' (en), 'Menstrual flow' (en), 'Menses' (en), 'Periods' (en), 'Menorrhoea' (en), 'Menorrhea' (en), 'Menstruation (qualifier value)' (en), 'Menstruation, function (observable entity)' (en) or 'Menstruation, function' (en) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-days-since-last-normal-menses: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Days since start of last normal menses (SNOMED-CT)' for http://snomed.info/sct#248957007. Valid display is one of 10 choices: 'Menstruation' (en), 'Catamenia' (en), 'Menstrual flow' (en), 'Menses' (en), 'Periods' (en), 'Menorrhoea' (en), 'Menorrhea' (en), 'Menstruation (qualifier value)' (en), 'Menstruation, function (observable entity)' (en) or 'Menstruation, function' (en) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-days-since-last-normal-menses: StructureDefinition.differential.element[2].code[0].display: Wrong Display Name 'Days since start of last normal menses (SNOMED-CT)' for http://snomed.info/sct#248957007. Valid display is one of 10 choices: 'Menstruation' (en), 'Catamenia' (en), 'Menstrual flow' (en), 'Menses' (en), 'Periods' (en), 'Menorrhoea' (en), 'Menorrhea' (en), 'Menstruation (qualifier value)' (en), 'Menstruation, function (observable entity)' (en) or 'Menstruation, function' (en) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-observation-days-since-last-normal-menses: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-days-since-last-normal-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-days-since-last-normal-menses could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-days-since-last-normal-menses'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-intercourse-since-last-normal-menses.json ==
+ERROR: StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Intercourse since last normal menses (SNOMED-CT)' for http://snomed.info/sct#449331006. Valid display is one of 2 choices: 'Date of last sexual intercourse' (en) or 'Date of last sexual intercourse (observable entity)' (en) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Intercourse since last normal menses (SNOMED-CT)' for http://snomed.info/sct#449331006. Valid display is one of 2 choices: 'Date of last sexual intercourse' (en) or 'Date of last sexual intercourse (observable entity)' (en) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses: StructureDefinition.differential.element[2].code[0].display: Wrong Display Name 'Intercourse since last normal menses (SNOMED-CT)' for http://snomed.info/sct#449331006. Valid display is one of 2 choices: 'Date of last sexual intercourse' (en) or 'Date of last sexual intercourse (observable entity)' (en) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-intercourse-since-last-normal-menses'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility.json ==
+WARNING: StructureDefinition/who-fp-observation-medical-eligibility: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-medical-eligibility could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-number.json ==
+WARNING: StructureDefinition/who-fp-observation-medical-eligibility-number: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-medical-eligibility-number could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-number'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-medical-eligibility-text.json ==
+WARNING: StructureDefinition/who-fp-observation-medical-eligibility-text: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-medical-eligibility-text could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-medical-eligibility-text'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-missed-or-late-menses.json ==
+ERROR: StructureDefinition/who-fp-observation-missed-or-late-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].code: Unknown code 'LA 22280-4' in the CodeSystem 'http://loinc.org' version '2.83'
+ERROR: StructureDefinition/who-fp-observation-missed-or-late-menses: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].code: Unknown code 'LA 22280-4' in the CodeSystem 'http://loinc.org' version '2.83'
+ERROR: StructureDefinition/who-fp-observation-missed-or-late-menses: StructureDefinition.differential.element[2].code[0].code: Unknown code 'LA 22280-4' in the CodeSystem 'http://loinc.org' version '2.83'
+WARNING: StructureDefinition/who-fp-observation-missed-or-late-menses: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-missed-or-late-menses: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-missed-or-late-menses could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-missed-or-late-menses'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-pregnancy-intention.json ==
+ERROR: StructureDefinition/who-fp-observation-pregnancy-intention: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Pregnancy intention (LOINC)' for http://loinc.org#86645-9. Valid display is one of 3 choices: 'Pregnancy intention in the next year - Reported' (en-US), 'Pregnancy intention in the next year - Reported' (en-US) or 'Pregnancy intention next year Pt Rpted' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-pregnancy-intention: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Pregnancy intention (LOINC)' for http://loinc.org#86645-9. Valid display is one of 3 choices: 'Pregnancy intention in the next year - Reported' (en-US), 'Pregnancy intention in the next year - Reported' (en-US) or 'Pregnancy intention next year Pt Rpted' (en-US) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-observation-pregnancy-intention: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-pregnancy-intention: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-pregnancy-intention could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-pregnancy-intention'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.json ==
+ERROR: StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Reason for no method at exit (LOINC)' for http://loinc.org#86653-3. Valid display is one of 3 choices: 'Reason for no birth control use - Reported --at exit' (en-US), 'Reason for no birth control use - Reported --at exit' (en-US) or 'Reason no birth control at exit Reported' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Reason for no method at exit (LOINC)' for http://loinc.org#86653-3. Valid display is one of 3 choices: 'Reason for no birth control use - Reported --at exit' (en-US), 'Reason for no birth control use - Reported --at exit' (en-US) or 'Reason no birth control at exit Reported' (en-US) (for the language(s) 'en-US')
+WARNING: StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-no-contraceptive-method-at-exit'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-reason-for-stopping-contraception.json ==
+ERROR: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Reason for stopping contraception method (LOINC)' for http://loinc.org#LL4579-0. Valid display is 'Reason for no birth control' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.snapshot.element[22].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/nobirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Reason for stopping contraception method (LOINC)' for http://loinc.org#LL4579-0. Valid display is 'Reason for no birth control' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.differential.element[3].code[0].display: Wrong Display Name 'Reason for stopping contraception method (LOINC)' for http://loinc.org#LL4579-0. Valid display is 'Reason for no birth control' (en-US) (for the language(s) 'en-US')
+ERROR: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.differential.element[3].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/nobirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-reason-for-stopping-contraception: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-reason-for-stopping-contraception could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-reason-for-stopping-contraception'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-smoking-status.json ==
+WARNING: StructureDefinition/who-fp-observation-smoking-status: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/who-fp-observation-smoking-status: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/who-fp-observation-smoking-status: StructureDefinition.differential.element[2].code[0].system: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+WARNING: StructureDefinition/who-fp-observation-smoking-status: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+WARNING: StructureDefinition/who-fp-observation-smoking-status: StructureDefinition.snapshot.element[14].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-smoking-status could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-smoking-status'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-observation-test-results.json ==
+WARNING: StructureDefinition/who-fp-observation-test-results: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-observation-test-results could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-observation-test-results'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-procedure-exit-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-procedure-exit-contraceptive-method: StructureDefinition.snapshot.element[17].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-procedure-exit-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-procedure-exit-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-procedure-exit-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-exit-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-procedure-requested-contraceptive-method.json ==
+ERROR: StructureDefinition/who-fp-procedure-requested-contraceptive-method: StructureDefinition.snapshot.element[17].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values'
+ERROR: StructureDefinition/who-fp-procedure-requested-contraceptive-method: StructureDefinition.differential.element[1].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.org/fhir/who-int/core/ImplementationGuide/core/ValueSet/procedurebirthcontrolmethods-values'
+WARNING: StructureDefinition/who-fp-procedure-requested-contraceptive-method: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-procedure-requested-contraceptive-method could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-requested-contraceptive-method'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/StructureDefinition-who-fp-procedure-service-provided.json ==
+WARNING: StructureDefinition/who-fp-procedure-service-provided: StructureDefinition: Constraint failed: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: Resource: The resource StructureDefinition/who-fp-procedure-service-provided could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: StructureDefinition.where(url = 'http://fhir.org/guides/who/fp-cds/StructureDefinition/who-fp-procedure-service-provided'): The Implementation Guide contains no examples for this profile
+
+
+== fsh-generated/resources/ValueSet-backupcontraceptivemethod-values.json ==
+WARNING: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[2].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/backupcontraceptivemethod-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Male condom' for http://snomed.info/sct#442450006. Valid display is one of 2 choices: 'Male condom, device' (en) or 'Male condom, device (physical object)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[1].concept[1]: Wrong Display Name 'Female condom' for http://snomed.info/sct#442288006. Valid display is one of 2 choices: 'Female condom, device' (en) or 'Female condom, device (physical object)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[1].concept[2]: Wrong Display Name 'Female condom' for http://snomed.info/sct#228479001. Valid display is one of 2 choices: 'Uses a female condom' (en) or 'Uses a female condom (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+WARNING: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[1].concept[2]: The concept '228479001' has a status of inactive and its use should be reviewed
+INFORMATION: ValueSet/backupcontraceptivemethod-values: ValueSet.compose.include[2].concept[0]: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+ERROR: Resource: The resource ValueSet/backupcontraceptivemethod-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'backupcontraceptivemethod-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-breastfeeding-status-values.json ==
+WARNING: ValueSet/breastfeeding-status-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: ValueSet/breastfeeding-status-values: ValueSet.compose.include[0].concept[0]: The code 'la29254-2' is not valid in the system http://loinc.org (Unknown code 'la29254-2' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/breastfeeding-status-values: ValueSet.compose.include[0].concept[1]: The code 'la29255-9' is not valid in the system http://loinc.org (Unknown code 'la29255-9' in the CodeSystem 'http://loinc.org' version '2.83')
+INFORMATION: ValueSet/breastfeeding-status-values: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Partially' for http://snomed.info/sct#733896006. Valid display is one of 2 choices: 'Breast fed and bottle fed' (en) or 'Breast fed and bottle fed (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/breastfeeding-status-values: ValueSet.compose.include[1].concept[1]: Wrong Display Name 'Partially' for http://snomed.info/sct#169743001. Valid display is one of 6 choices: 'Breastfeeding with supplement' (en), 'Breast-feeding with supplement' (en), 'Breast-feeding with complement' (en), 'Breast-feeding with supplement (finding)' (en), 'Breastfeeding with supplement (finding)' (en) or 'Breastfeeding with complement' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: Resource: The resource ValueSet/breastfeeding-status-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-cigarettes-smoked-per-day-values.json ==
+WARNING: ValueSet/cigarettes-smoked-per-day-values: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/cigarettes-smoked-per-day-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/cigarettes-smoked-per-day-values: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://who.int/cg/CodeSystem/extended-content' is not known, and no terminology service supports it
+ERROR: Resource: The resource ValueSet/cigarettes-smoked-per-day-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'cigarettes-smoked-per-day-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-contraception-issues-and-concerns-values.json ==
+WARNING: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[3].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/contraception-issues-and-concerns-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Missed pills or late injection' for http://snomed.info/sct#315604002. Valid display is one of 3 choices: 'Missed contraceptive pill' (en), 'Missed contraceptive pill (context-dependent category)' (en) or 'Missed contraceptive pill (situation)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[1]: Wrong Display Name 'IUD concerns' for http://snomed.info/sct#243818000. Valid display is one of 5 choices: 'IUCD status' (en), 'Intrauterine contraceptive device (IUCD) status (finding)' (en), 'Intrauterine contraceptive device (IUCD) status' (en), 'Intrauterine contraceptive device status' (en) or 'Intrauterine contraceptive device status (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[2]: Wrong Display Name 'IUD partial expulsion' for http://snomed.info/sct#169489007. Valid display is one of 4 choices: 'IUD partially expelled' (en), 'Contraceptive IUD partially expelled (finding)' (en), 'Contraceptive intrauterine device partially expelled (finding)' (en) or 'Contraceptive intrauterine device partially expelled' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[3]: Wrong Display Name 'IUD complete expulsion' for http://snomed.info/sct#169487009. Valid display is one of 6 choices: 'IUD expelled' (en), 'IUD fallen out' (en), 'Contraceptive IUD expelled (finding)' (en), 'Contraceptive intrauterine device expelled (finding)' (en), 'Contraceptive intrauterine device expelled' (en) or 'Expulsion of intrauterine contraceptive device' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[5]: Wrong Display Name 'Irregular bleeding' for http://snomed.info/sct#301822002. Valid display is one of 2 choices: 'Abnormal vaginal bleeding' (en) or 'Abnormal vaginal bleeding (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[6]: Wrong Display Name 'Spotting or light bleeding' for http://snomed.info/sct#9126005. Valid display is one of 3 choices: 'Menstrual spotting' (en), 'Spotting' (en) or 'Menstrual spotting (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[7]: Wrong Display Name 'Change in timing of monthly bleeding' for http://snomed.info/sct#44991000119100. Valid display is one of 5 choices: 'Abnormal uterine bleeding' (en), 'Abnormal uterine bleeding (disorder)' (en), 'Dysfunctional uterine bleeding' (en), 'Abnormal uterine haemorrhage' (en) or 'Abnormal uterine hemorrhage' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[8]: Wrong Display Name 'Heavy or prolonged bleeding' for http://snomed.info/sct#289539007. Valid display is one of 2 choices: 'Moderate vaginal bleeding' (en) or 'Moderate vaginal bleeding (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[9]: Wrong Display Name 'Unexplained vaginal bleeding' for http://snomed.info/sct#289530006. Valid display is one of 6 choices: 'Vaginal bleeding' (en), 'Finding of vaginal bleeding' (en), 'Finding of vaginal bleeding (finding)' (en), 'Bleeding from vagina (finding)' (en), 'Observations of vaginal bleeding' (en) or 'Bleeding from vagina' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[10]: Wrong Display Name 'Mood changes after start of method' for http://snomed.info/sct#48079002. Valid display is one of 5 choices: 'Disturbance in mood' (en), 'Disturbance in mood, NOS' (en), 'Mood alteration, NOS' (en), 'Mood alteration' (en) or 'Disturbance in mood (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[11]: Wrong Display Name 'Changes in sex drive' for http://snomed.info/sct#365965002. Valid display is one of 3 choices: 'Libido - finding' (en), 'Finding of libido (finding)' (en) or 'Finding of libido' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[12]: Wrong Display Name 'Discomfort or pain with use' for http://snomed.info/sct#247347003. Valid display is one of 2 choices: 'Discomfort' (en) or 'Discomfort (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[13]: Wrong Display Name 'Abscess' for http://snomed.info/sct#12243431000119101. Valid display is one of 3 choices: 'Postprocedural abscess' (en), 'Abscess following procedure (disorder)' (en) or 'Abscess following procedure' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[14]: Wrong Display Name 'Candidiasis' for http://snomed.info/sct#72934000. Valid display is one of 10 choices: 'Candidiasis of vagina' (en), 'Vaginal candidiasis' (en), 'Candidiasis of vagina (disorder)' (en), 'Vaginal thrush' (en), 'Monial infection of vagina' (en), 'Vaginal candidosis' (en), 'Vaginal candida' (en), 'Monilial infection of vagina' (en), 'Candida of vagina' (en) or 'Vaginal Candida' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[18]: Wrong Display Name 'Difficulty inserting/removing/using method' for http://snomed.info/sct#55607006. Valid display is one of 3 choices: 'Problem' (en), 'Problem, NOS' (en) or 'Problem (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[21]: Wrong Display Name 'Weight change' for http://snomed.info/sct#365921005. Valid display is one of 2 choices: 'Weight change finding' (en) or 'Weight change finding (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[0].concept[22]: Wrong Display Name 'Breast tenderness' for http://snomed.info/sct#53430007. Valid display is one of 8 choices: 'Pain of breast' (en), 'Mastodynia' (en), 'Painful breasts' (en), 'Mastalgia' (en), 'Breast pain' (en), 'Pain in the breast' (en), 'Breast painful' (en) or 'Pain of breast (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Amenorrhoea' for http://hl7.org/fhir/sid/icd-10#N91.2. Valid display is 'Amenorrhoea, unspecified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[1]: Wrong Display Name 'Irregular bleeding' for http://hl7.org/fhir/sid/icd-10#N93.9. Valid display is 'Abnormal uterine and vaginal bleeding, unspecified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[2]: Wrong Display Name 'Client suspects pregnancy' for http://hl7.org/fhir/sid/icd-10#Z32.0. Valid display is 'Pregnancy, not (yet) confirmed' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[3]: Wrong Display Name 'Spotting or light bleeding / Unexplained vaginal bleeding' for http://hl7.org/fhir/sid/icd-10#N89.8. Valid display is 'Other specified noninflammatory disorders of vagina' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[4]: Wrong Display Name 'Heavy or prolonged bleeding' for http://hl7.org/fhir/sid/icd-10#N93. Valid display is 'Other abnormal uterine and vaginal bleeding' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[5]: Wrong Display Name 'Mood changes after start of method' for http://hl7.org/fhir/sid/icd-10#F39. Valid display is 'Unspecified mood [affective] disorder' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[6]: The code 'N99.89' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'N99.89' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[7]: The code 'R10.30' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'R10.30' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[8]: Wrong Display Name 'Abscess' for http://hl7.org/fhir/sid/icd-10#T81.4. Valid display is 'Infection following a procedure, not elsewhere classified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[9]: Wrong Display Name 'Candidiasis' for http://hl7.org/fhir/sid/icd-10#B37.3. Valid display is 'Candidiasis of vulva and vagina[N77.1]' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[10]: Wrong Display Name 'Bacterial vaginosis' for http://hl7.org/fhir/sid/icd-10#N76.0. Valid display is 'Acute vaginitis' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[11]: Wrong Display Name 'Bacterial vaginosis' for http://hl7.org/fhir/sid/icd-10#N77.1. Valid display is 'Vaginitis, vulvitis and vulvovaginitis in infectious and parasitic diseases classified elsewhere' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[13]: Wrong Display Name 'Urinary tract infection' for http://hl7.org/fhir/sid/icd-10#N39. Valid display is 'Other disorders of urinary system' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[14]: The code 'Z87.440' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z87.440' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[15]: Wrong Display Name 'Irritation' for http://hl7.org/fhir/sid/icd-10#N98.9. Valid display is 'Complication associated with artificial fertilization, unspecified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[16]: Wrong Display Name 'Allergic reaction' for http://hl7.org/fhir/sid/icd-10#Z88.8. Valid display is 'Personal history of allergy to other drugs, medicaments and biological substances' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[17]: Wrong Display Name 'Acne' for http://hl7.org/fhir/sid/icd-10#L70.9. Valid display is 'Acne, unspecified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[18]: The code 'G44.40' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'G44.40' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[19]: The code 'R11.0' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'R11.0' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[1].concept[20]: Wrong Display Name 'Dizziness' for http://hl7.org/fhir/sid/icd-10#R42. Valid display is 'Dizziness and giddiness' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[2].concept[0]: Wrong Display Name 'Candidiasis' for http://loinc.org#12275-4. Valid display is one of 3 choices: 'Yeast [Presence] in Genital specimen by Wet preparation' (en-US), 'Yeast [Presence] in Genital specimen by Wet preparation' (en-US) or 'Yeast Genital Ql Wet Prep' (en-US) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[2].concept[1]: Wrong Display Name 'Bacterial vaginosis' for http://loinc.org#69568-4. Valid display is one of 3 choices: 'Bacterial vaginosis [Interpretation] in Vaginal fluid Qualitative' (en-US), 'Bacterial vaginosis [Interpretation] in Vaginal fluid Qualitative' (en-US) or 'Bacterial vaginosis Vag-Imp' (en-US) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[2].concept[2]: Wrong Display Name 'Used incorrectly' for http://loinc.org#LA7335-8. Valid display is 'Used inappropriately' (en-US) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[2].concept[3]: Wrong Display Name 'Breast tenderness' for http://loinc.org#LP146997-4. Valid display is 'I have breast sensitivity - tenderness - in the past 7D' (en-US) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraception-issues-and-concerns-values: ValueSet.compose.include[3]: The concepts in the value set include have not been validated because the code system 'http://who.int/cg/CodeSystem/extended-content' is not known, and no terminology service supports it
+ERROR: Resource: The resource ValueSet/contraception-issues-and-concerns-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'contraception-issues-and-concerns-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-contraceptivedeliverymethod-values.json ==
+WARNING: ValueSet/contraceptivedeliverymethod-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/contraceptivedeliverymethod-values: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Provided on site' for http://snomed.info/sct#308335008. Valid display is one of 2 choices: 'Patient encounter procedure' (en) or 'Patient encounter procedure (procedure)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/contraceptivedeliverymethod-values: ValueSet.compose.include[0].concept[1]: Wrong Display Name 'Referral' for http://snomed.info/sct#281100006. Valid display is one of 2 choices: 'Referral to health worker' (en) or 'Referral to health worker (procedure)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: Resource: The resource ValueSet/contraceptivedeliverymethod-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-current-medications-values.json ==
+ERROR: ValueSet/current-medications-values: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/ciel'
+WARNING: ValueSet/current-medications-values: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/current-medications-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/current-medications-values: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://hl7.org/fhir/sid/ciel' is not known, and no terminology service supports it
+INFORMATION: ValueSet/current-medications-values: ValueSet.compose.include[1].concept[0]: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+ERROR: Resource: The resource ValueSet/current-medications-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'current-medications-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-fp-recommended-care-values.json ==
+WARNING: ValueSet/fp-recommended-care-values: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/fp-recommended-care-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/fp-recommended-care-values: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+ERROR: Resource: The resource ValueSet/fp-recommended-care-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'fp-recommended-care-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-iud-insertion-status-values.json ==
+WARNING: ValueSet/iud-insertion-status-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/iud-insertion-status-values: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'IUD Insertion completed' for http://hl7.org/fhir/event-status#completed. Valid display is 'Completed' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/iud-insertion-status-values: ValueSet.compose.include[0].concept[1]: Wrong Display Name 'IUD Insertion not possible' for http://hl7.org/fhir/event-status#not-done. Valid display is 'Not Done' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: Resource: The resource ValueSet/iud-insertion-status-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-medical-eligibility-text-classification-values.json ==
+WARNING: ValueSet/medical-eligibility-text-classification-values: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/medical-eligibility-text-classification-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/medical-eligibility-text-classification-values: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://who.int/cg/CodeSystem/extended-content' is not known, and no terminology service supports it
+ERROR: Resource: The resource ValueSet/medical-eligibility-text-classification-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'medical-eligibility-text-classification-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-medicaleligibilityconditions-values.json ==
+ERROR: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/ciel'
+ERROR: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://hl7.org/fhir/sid/icd-11'
+WARNING: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[2].system: No definition could be found for URL value 'http://who.int/cg/CodeSystem/extended-content'
+WARNING: ValueSet/medicaleligibilityconditions-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system 'http://hl7.org/fhir/sid/ciel' is not known, and no terminology service supports it
+INFORMATION: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system 'http://hl7.org/fhir/sid/icd-11' is not known, and no terminology service supports it
+INFORMATION: ValueSet/medicaleligibilityconditions-values: ValueSet.compose.include[2].concept[0]: A definition for CodeSystem 'http://who.int/cg/CodeSystem/extended-content' could not be found, so the code cannot be validated
+ERROR: Resource: The resource ValueSet/medicaleligibilityconditions-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+WARNING: ValueSet.where(id = 'medicaleligibilityconditions-values'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/sid/ciel' could not be found, so the value set cannot be expanded
+
+
+== fsh-generated/resources/ValueSet-medicaleligibilitynumber-values.json ==
+WARNING: ValueSet/medicaleligibilitynumber-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: Resource: The resource ValueSet/medicaleligibilitynumber-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-medicaleligibilityobservations-values.json ==
+WARNING: ValueSet/medicaleligibilityobservations-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: Resource: The resource ValueSet/medicaleligibilityobservations-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-pregnancy-intention-values.json ==
+WARNING: ValueSet/pregnancy-intention-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: ValueSet/pregnancy-intention-values: ValueSet.compose.include[0].concept[0]: The code 'LA28438-4' is not valid in the system http://loinc.org (Unknown code 'LA28438-4' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: Resource: The resource ValueSet/pregnancy-intention-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-reason-for-family-planning-visit-values.json ==
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.text.div: The URL is not valid because '(URL contains Invalid Character: ' ')': https://loinc.org/LA 27921-8/
+WARNING: ValueSet/reason-for-family-planning-visit-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+INFORMATION: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Stopping contraception' for http://snomed.info/sct#169450001. Valid display is one of 5 choices: 'No contraceptive precautions' (en), 'No contraceptice precautions' (en), 'No contraceptice precautions (finding)' (en), 'No contraceptive precautions (context-dependent category)' (en) or 'No contraceptive precautions (situation)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+WARNING: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[0].concept[1].display: 'Contraception counseling' is no longer considered a correct display for code '408968008' (status = inactive). The correct display is one of Contraception care education,Teach contraception care,Contraception care education (procedure)
+INFORMATION: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[0].concept[2]: Wrong Display Name 'Contraceptive continuation' for http://snomed.info/sct#243816001. Valid display is one of 2 choices: 'Contraception status' (en) or 'Contraception status (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+WARNING: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[0].concept[3]: The concept '275813002' has a status of inactive and its use should be reviewed
+INFORMATION: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[0].concept[4]: Wrong Display Name 'Contraception Method switch' for http://snomed.info/sct#424016000. Valid display is one of 2 choices: 'Change of oral contraceptive prescription' (en) or 'Change of oral contraceptive prescription (procedure)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Contraception counseling' for http://hl7.org/fhir/sid/icd-10#Z30.0. Valid display is 'General counselling and advice on contraception' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[1]: The code 'Z30.01' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z30.01' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+INFORMATION: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[2]: Wrong Display Name 'Contraceptive continuation' for http://hl7.org/fhir/sid/icd-10#Z30. Valid display is 'Contraceptive management' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[3]: The code 'Z30.012' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z30.012' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[4]: The code 'Z30.40' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z30.40' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[5]: The code 'Z30.46' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z30.46' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[1].concept[6]: The code 'Z30.432' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z30.432' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+ERROR: ValueSet/reason-for-family-planning-visit-values: ValueSet.compose.include[2].concept[0]: The code 'LA 27921-8' is not valid in the system http://loinc.org (Unknown code 'LA 27921-8' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: Resource: The resource ValueSet/reason-for-family-planning-visit-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+
+== fsh-generated/resources/ValueSet-reason-for-no-method-at-exit-values.json ==
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.text.div: The URL is not valid because '(URL contains Invalid Character: ' ')': https://loinc.org/LA 27925-9/
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.text.div: The URL is not valid because '(URL contains Invalid Character: ' ')': https://loinc.org/LA 27928-3/
+WARNING: ValueSet/reason-for-no-method-at-exit-values: ValueSet: Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[0].concept[0]: The code '14550-0' is not valid in the system http://loinc.org (Unknown code '14550-0' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[0].concept[1]: The code 'LA 27925-9' is not valid in the system http://loinc.org (Unknown code 'LA 27925-9' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[0].concept[2]: The code '46-8' is not valid in the system http://loinc.org (Unknown code '46-8' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[0].concept[3]: The code '27927-5' is not valid in the system http://loinc.org (Unknown code '27927-5' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[0].concept[4]: The code 'LA 27928-3' is not valid in the system http://loinc.org (Unknown code 'LA 27928-3' in the CodeSystem 'http://loinc.org' version '2.83')
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[0]: The code '454731000124108' is not valid in the system http://snomed.info/sct (Unknown code '454731000124108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20260701' (International Edition))
+INFORMATION: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[1]: Wrong Display Name 'Client choice to not use contraception' for http://snomed.info/sct#445637007. Valid display is one of 3 choices: 'Chooses not to use contraception' (en), 'Deliberate choice not to use contraception (finding)' (en) or 'Deliberate choice not to use contraception' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[2]: The code '454361000124100' is not valid in the system http://snomed.info/sct (Unknown code '454361000124100' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20260701' (International Edition))
+INFORMATION: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[3]: Wrong Display Name 'No method for other reasons' for http://snomed.info/sct#74964007. Valid display is one of 2 choices: 'Other' (en) or 'Other (qualifier value)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[4]: Wrong Display Name 'Out of stock' for http://snomed.info/sct#182856006. Valid display is one of 4 choices: 'Drug not available - out of stock' (en), 'Drug not available - out of stock (finding)' (en), 'Drug not available due to being out of stock (finding)' (en) or 'Drug not available due to being out of stock' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[5]: Wrong Display Name 'Sterile for non-contraceptive reasons' for http://snomed.info/sct#15296000. Valid display is one of 3 choices: 'Sterility' (en), 'Sterility, NOS' (en) or 'Sterility (finding)' (en) (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[1].concept[6]: The code '454411000124108' is not valid in the system http://snomed.info/sct (Unknown code '454411000124108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20260701' (International Edition))
+ERROR: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[2].concept[0]: The code 'Z76.89' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'Z76.89' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
+INFORMATION: ValueSet/reason-for-no-method-at-exit-values: ValueSet.compose.include[2].concept[1]: Wrong Display Name 'Sterile for non-contraceptive reasons' for http://hl7.org/fhir/sid/icd-10#Z31.9. Valid display is 'Procreative management, unspecified' (for the language(s) 'en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: Resource: The resource ValueSet/reason-for-no-method-at-exit-values must have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
+
+

@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-no-method-at-exit-values.displays.json",
+  "title": "Reason for no method at exit values Display Values",
+  "description": "Display values for Reason for no method at exit values ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://loinc.org#14550-0": {
+      "en": "Voluntarily refrains from sexual intercourse"
+    },
+    "http://loinc.org#LA 27925-9": {
+      "en": "Same sex partner"
+    },
+    "http://loinc.org#46-8": {
+      "en": "No method for other reasons"
+    },
+    "http://loinc.org#27927-5": {
+      "en": "Sterile for non-contraceptive reasons"
+    },
+    "http://loinc.org#LA 27928-3": {
+      "en": "Seeking pregnancy"
+    },
+    "http://snomed.info/sct#454731000124108": {
+      "en": "Voluntarily refrains from sexual intercourse"
+    },
+    "http://snomed.info/sct#445637007": {
+      "en": "Client choice to not use contraception"
+    },
+    "http://snomed.info/sct#454361000124100": {
+      "en": "Same sex partner"
+    },
+    "http://snomed.info/sct#74964007": {
+      "en": "No method for other reasons"
+    },
+    "http://snomed.info/sct#182856006": {
+      "en": "Out of stock"
+    },
+    "http://snomed.info/sct#15296000": {
+      "en": "Sterile for non-contraceptive reasons"
+    },
+    "http://snomed.info/sct#454411000124108": {
+      "en": "Seeking pregnancy"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z76.89": {
+      "en": "Out of stock"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z31.9": {
+      "en": "Sterile for non-contraceptive reasons"
+    }
+  },
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:46:46.899560"
+}

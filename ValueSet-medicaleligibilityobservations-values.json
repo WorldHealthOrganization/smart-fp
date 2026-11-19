@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medicaleligibilityobservations-values",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medicaleligibilityobservations-values</b></p><a name=\"medicaleligibilityobservations-values\"> </a><a name=\"hcmedicaleligibilityobservations-values\"> </a><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+  "version" : "0.2.0",
+  "name" : "medicaleligibilityobservations-values",
+  "title" : "Observations affecting Medical Eligibility values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:53:29+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the Observations affecting Medical Eligibility element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true
+}

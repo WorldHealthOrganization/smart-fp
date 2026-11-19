@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.displays.json",
+  "title": "Reason for family planning visit values Display Values",
+  "description": "Display values for Reason for family planning visit values ValueSet codes. Generated from FHIR expansions.",
+  "type": "object",
+  "properties": {
+    "fhir:displays": {
+      "type": "object",
+      "description": "Multilingual display values for ValueSet codes using IRI format to match JSON schema enum values",
+      "patternProperties": {
+        "^https?://.*": {
+          "type": "object",
+          "description": "Display values for a specific IRI-formatted code by language",
+          "properties": {
+            "en": {
+              "type": "string",
+              "description": "English display value"
+            }
+          },
+          "patternProperties": {
+            "^[a-z]{2}(-[A-Z]{2})?$": {
+              "type": "string",
+              "description": "Display value in the specified language (ISO 639-1 code)"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "fhir:displays"
+  ],
+  "additionalProperties": true,
+  "fhir:displays": {
+    "http://snomed.info/sct#169450001": {
+      "en": "Stopping contraception"
+    },
+    "http://snomed.info/sct#408968008": {
+      "en": "Contraception counseling"
+    },
+    "http://snomed.info/sct#243816001": {
+      "en": "Contraceptive continuation"
+    },
+    "http://snomed.info/sct#275813002": {
+      "en": "Emergency contraception"
+    },
+    "http://snomed.info/sct#424016000": {
+      "en": "Contraception Method switch"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.0": {
+      "en": "Contraception counseling"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.01": {
+      "en": "Starting contraception"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30": {
+      "en": "Contraceptive continuation"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.012": {
+      "en": "Emergency contraception"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.40": {
+      "en": "Contraception Issues and concerns"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.46": {
+      "en": "Implant removal"
+    },
+    "http://hl7.org/fhir/sid/icd-10#Z30.432": {
+      "en": "IUD Removal"
+    },
+    "http://loinc.org#LA 27921-8": {
+      "en": "Emergency contraception"
+    }
+  },
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989604"
+}

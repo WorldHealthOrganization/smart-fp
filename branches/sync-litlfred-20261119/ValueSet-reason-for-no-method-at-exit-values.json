@@ -1,0 +1,97 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "reason-for-no-method-at-exit-values",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet reason-for-no-method-at-exit-values</b></p><a name=\"reason-for-no-method-at-exit-values\"> </a><a name=\"hcreason-for-no-method-at-exit-values\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/14550-0/\">14550-0</a></td><td>Voluntarily refrains from sexual intercourse</td></tr><tr><td><a href=\"https://loinc.org/LA 27925-9/\">LA 27925-9</a></td><td>Same sex partner</td></tr><tr><td><a href=\"https://loinc.org/46-8/\">46-8</a></td><td>No method for other reasons</td></tr><tr><td><a href=\"https://loinc.org/27927-5/\">27927-5</a></td><td>Sterile for non-contraceptive reasons</td></tr><tr><td><a href=\"https://loinc.org/LA 27928-3/\">LA 27928-3</a></td><td>Seeking pregnancy</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/454731000124108\">454731000124108</a></td><td>Voluntarily refrains from sexual intercourse</td></tr><tr><td><a href=\"http://snomed.info/id/445637007\">445637007</a></td><td>Client choice to not use contraception</td></tr><tr><td><a href=\"http://snomed.info/id/454361000124100\">454361000124100</a></td><td>Same sex partner</td></tr><tr><td><a href=\"http://snomed.info/id/74964007\">74964007</a></td><td>No method for other reasons</td></tr><tr><td><a href=\"http://snomed.info/id/182856006\">182856006</a></td><td>Out of stock</td></tr><tr><td><a href=\"http://snomed.info/id/15296000\">15296000</a></td><td>Sterile for non-contraceptive reasons</td></tr><tr><td><a href=\"http://snomed.info/id/454411000124108\">454411000124108</a></td><td>Seeking pregnancy</td></tr></table></li><li>Include these codes as defined in <a href=\"http://tx.fhir.org/r4\"><code>http://hl7.org/fhir/sid/icd-10</code></a><span title=\"Version is not explicitly stated. When building this specification, the most recent version 2019-covid-expanded has been used\" class=\"xhtPieceDeEmphasized\"> version ⏿2019-covid-expanded</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z76.4689\">Z76.89</a></td><td>Out of stock</td><td/></tr><tr><td><a href=\"http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z31.469\">Z31.9</a></td><td>Sterile for non-contraceptive reasons</td><td>Procreative management, unspecified</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+  "version" : "0.2.0",
+  "name" : "reason-for-no-method-at-exit-values",
+  "title" : "Reason for no method at exit values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:45:08+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the Reason for no method at exit element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true,
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "14550-0",
+        "display" : "Voluntarily refrains from sexual intercourse"
+      },
+      {
+        "code" : "LA 27925-9",
+        "display" : "Same sex partner"
+      },
+      {
+        "code" : "46-8",
+        "display" : "No method for other reasons"
+      },
+      {
+        "code" : "27927-5",
+        "display" : "Sterile for non-contraceptive reasons"
+      },
+      {
+        "code" : "LA 27928-3",
+        "display" : "Seeking pregnancy"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "454731000124108",
+        "display" : "Voluntarily refrains from sexual intercourse"
+      },
+      {
+        "code" : "445637007",
+        "display" : "Client choice to not use contraception"
+      },
+      {
+        "code" : "454361000124100",
+        "display" : "Same sex partner"
+      },
+      {
+        "code" : "74964007",
+        "display" : "No method for other reasons"
+      },
+      {
+        "code" : "182856006",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "15296000",
+        "display" : "Sterile for non-contraceptive reasons"
+      },
+      {
+        "code" : "454411000124108",
+        "display" : "Seeking pregnancy"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "Z76.89",
+        "display" : "Out of stock"
+      },
+      {
+        "code" : "Z31.9",
+        "display" : "Sterile for non-contraceptive reasons"
+      }]
+    }]
+  }
+}

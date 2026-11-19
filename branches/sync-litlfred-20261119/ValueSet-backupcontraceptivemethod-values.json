@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "backupcontraceptivemethod-values",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet backupcontraceptivemethod-values</b></p><a name=\"backupcontraceptivemethod-values\"> </a><a name=\"hcbackupcontraceptivemethod-values\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/LA27912-7/\">LA27912-7</a></td><td>Male condom</td></tr><tr><td><a href=\"https://loinc.org/LA27914-3/\">LA27914-3</a></td><td>Female condom</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/442450006\">442450006</a></td><td>Male condom</td></tr><tr><td><a href=\"http://snomed.info/id/442288006\">442288006</a></td><td>Female condom</td></tr><tr><td><a href=\"http://snomed.info/id/228479001\">228479001</a></td><td>Female condom</td></tr></table></li><li>Include these codes as defined in <code>http://who.int/cg/CodeSystem/extended-content</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Other</td><td>Other</td></tr></table></li></ul></div>"
+  },
+  "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+  "version" : "0.2.0",
+  "name" : "backupcontraceptivemethod-values",
+  "title" : "Contraception backup method provided values",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-11-19T11:45:08+00:00",
+  "publisher" : "World Health Organization (WHO)",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.who.int"
+    }]
+  }],
+  "description" : "Codes representing possible values for the Contraception backup method provided element",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "immutable" : true,
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA27912-7",
+        "display" : "Male condom"
+      },
+      {
+        "code" : "LA27914-3",
+        "display" : "Female condom"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "442450006",
+        "display" : "Male condom"
+      },
+      {
+        "code" : "442288006",
+        "display" : "Female condom"
+      },
+      {
+        "code" : "228479001",
+        "display" : "Female condom"
+      }]
+    },
+    {
+      "system" : "http://who.int/cg/CodeSystem/extended-content",
+      "concept" : [{
+        "code" : "Other",
+        "display" : "Other"
+      }]
+    }]
+  }
+}

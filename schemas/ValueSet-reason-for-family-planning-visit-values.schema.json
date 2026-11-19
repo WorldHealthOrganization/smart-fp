@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.schema.json",
+  "title": "Reason for family planning visit values Schema",
+  "description": "JSON Schema for Reason for family planning visit values ValueSet codes. Generated from FHIR expansions using IRI format.",
+  "type": "string",
+  "enum": [
+    "http://snomed.info/sct#169450001",
+    "http://snomed.info/sct#408968008",
+    "http://snomed.info/sct#243816001",
+    "http://snomed.info/sct#275813002",
+    "http://snomed.info/sct#424016000",
+    "http://hl7.org/fhir/sid/icd-10#Z30.0",
+    "http://hl7.org/fhir/sid/icd-10#Z30.01",
+    "http://hl7.org/fhir/sid/icd-10#Z30",
+    "http://hl7.org/fhir/sid/icd-10#Z30.012",
+    "http://hl7.org/fhir/sid/icd-10#Z30.40",
+    "http://hl7.org/fhir/sid/icd-10#Z30.46",
+    "http://hl7.org/fhir/sid/icd-10#Z30.432",
+    "http://loinc.org#LA 27921-8"
+  ],
+  "narrative": "This schema validates IRI-formatted codes for the Reason for family planning visit values ValueSet. Each enum value includes the system URI in the format {systemuri}#{code} to match JSON-LD enumeration IRIs. Display values are available at http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.displays.json. For a complete listing of all ValueSets, see artifacts.html#terminology-value-sets.",
+  "fhir:displays": "http://fhir.org/guides/who/fp-cds/ValueSet-reason-for-family-planning-visit-values.displays.json",
+  "fhir:valueSet": "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+  "fhir:version": "0.2.0",
+  "fhir:expansionTimestamp": "2026-11-19T11:54:52.989604"
+}

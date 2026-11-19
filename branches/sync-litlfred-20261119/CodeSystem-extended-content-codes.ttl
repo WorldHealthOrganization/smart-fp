@@ -1,0 +1,96 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/CodeSystem/extended-content-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "extended-content-codes"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem extended-content-codes</b></p><a name=\"extended-content-codes\"> </a><a name=\"hcextended-content-codes\"> </a><p>This case-sensitive code system <code>http://who.int/cg/CodeSystem/extended-content-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Minor surgery without immobilization<a name=\"extended-content-codes-Minorsurgerywithoutimmobilization\"> </a></td><td>Minor surgery without immobilization</td><td>Minor surgery without immobilization</td></tr><tr><td style=\"white-space:nowrap\">Diabetes &gt;20 years duration<a name=\"extended-content-codes-Diabetes.6220yearsduration\"> </a></td><td>Diabetes &gt;20 years duration</td><td>Diabetes &gt;20 years duration</td></tr><tr><td style=\"white-space:nowrap\">Other vascular disease &gt;20 years duration<a name=\"extended-content-codes-Othervasculardisease.6220yearsduration\"> </a></td><td>Other vascular disease &gt;20 years duration</td><td>Other vascular disease &gt;20 years duration</td></tr><tr><td style=\"white-space:nowrap\">Cigarettes smoked per day<a name=\"extended-content-codes-Cigarettessmokedperday\"> </a></td><td>Cigarettes smoked per day</td><td>Cigarettes smoked per day</td></tr><tr><td style=\"white-space:nowrap\">Complicated Valvular heart disease<a name=\"extended-content-codes-ComplicatedValvularheartdisease\"> </a></td><td>Complicated Valvular heart disease</td><td>Complicated Valvular heart disease</td></tr><tr><td style=\"white-space:nowrap\">Uncomplicated Valvular heart disease<a name=\"extended-content-codes-UncomplicatedValvularheartdisease\"> </a></td><td>Uncomplicated Valvular heart disease</td><td>Uncomplicated Valvular heart disease</td></tr><tr><td style=\"white-space:nowrap\">Tuberculosis - Non-pelvic<a name=\"extended-content-codes-Tuberculosis-Non-pelvic\"> </a></td><td>Tuberculosis - Non-pelvic</td><td>Tuberculosis - Non-pelvic</td></tr><tr><td style=\"white-space:nowrap\">Broad-spectrum antibiotics<a name=\"extended-content-codes-Broad-spectrumantibiotics\"> </a></td><td>Broad-spectrum antibiotics</td><td>Medications - Broad-spectrum antibiotics</td></tr><tr><td style=\"white-space:nowrap\">Backup Method Needed<a name=\"extended-content-codes-BackupMethodNeeded\"> </a></td><td>Backup contraception method needed</td><td>Backup contraception method needed</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://who.int/cg/CodeSystem/extended-content-codes"] ;
+  fhir:CodeSystem.version [ fhir:value "0.2.0"] ;
+  fhir:CodeSystem.name [ fhir:value "extended-content_codes"] ;
+  fhir:CodeSystem.title [ fhir:value "Extended Codes CodeSystem codes"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-11-19T11:45:08+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "World Health Organization (WHO)"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.who.int" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Set of codes identified as being needed but not found in existing Code Systems"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ] ;
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Minor surgery without immobilization" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Minor surgery without immobilization" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Minor surgery without immobilization" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Diabetes >20 years duration" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diabetes >20 years duration" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Diabetes >20 years duration" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Other vascular disease >20 years duration" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other vascular disease >20 years duration" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Other vascular disease >20 years duration" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Cigarettes smoked per day" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cigarettes smoked per day" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Cigarettes smoked per day" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Complicated Valvular heart disease" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complicated Valvular heart disease" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Complicated Valvular heart disease" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Uncomplicated Valvular heart disease" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Uncomplicated Valvular heart disease" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Uncomplicated Valvular heart disease" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Tuberculosis - Non-pelvic" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tuberculosis - Non-pelvic" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Tuberculosis - Non-pelvic" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Broad-spectrum antibiotics" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Broad-spectrum antibiotics" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Medications - Broad-spectrum antibiotics" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "Backup Method Needed" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Backup contraception method needed" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Backup contraception method needed" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.org/guides/who/fp-cds/CodeSystem/extended-content-codes.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

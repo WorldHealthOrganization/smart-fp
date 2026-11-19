@@ -1,0 +1,570 @@
+﻿<!-- get modelType --><?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>WHO-FP DeviceUseStatement (Exit Contraceptive Method) - Mappings - WHO Family Planning Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"7.8"}
+    h3,h4,h5,h6{--heading-prefix:"7.8"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="extensions.html">Extensions</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="terminology.html">Terminology</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="index.html" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html" target="_blank">FHIR Spec</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a no-external="true" id="who-logo" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">WHO Family Planning Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - CI Build
+
+
+
+  <img src="assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>WHO-FP DeviceUseStatement (Exit Contraceptive Method)</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 5" class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">WHO Family Planning Implementation Guide, published by World Health Organization (WHO). This guide is not an authorized publication; it is the continuous build for version 0.2.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/WorldHealthOrganization/smart-fp/tree/master">https://github.com/WorldHealthOrganization/smart-fp/tree/master</a> and changes regularly. See the <a href="http://fhir.org/guides/who/fp-cds/history.html">Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/WorldHealthOrganization/smart-fp/commit/bd599f98d40313b9c47eff333f5c68c025455e18"><code>bd599f98</code></a>.</span></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.html">Content</a>
+  </li>
+
+
+
+  <li>
+    <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html">Detailed Descriptions</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">Mappings</a>
+    </li>
+  
+
+
+
+
+
+
+
+  
+    <li>
+      <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method.profile.ttl.html">TTL</a>
+    </li>
+  
+
+
+</ul>
+
+
+<a name="root"> </a>
+<h2 id="root">Resource Profile: WHO-FP DeviceUseStatement (Exit Contraceptive Method) - Mappings</h2>
+
+  <table class="colsd">
+    <tr>
+
+      <td colspan="2">
+        
+          Draft
+          
+            as of 2026-11-19
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p>Mappings for the who-fp-deviceusestatement-exit-contraceptive-method resource profile.</p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <h3>Mappings to Structures in this Implementation Guide</h3>
+<p>No Mappings Found</p>
+<h3>Mappings to other Structures</h3>
+<p>No Mappings Found</p>
+<h3>Other Mappings</h3>
+<table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" id="who-fp-deviceusestatement-exit-contraceptive-methodMo" class="xhtTableBorder0" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" class="xhtRowBorder1" data-fhir="generated-heirarchy"><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/workflow" title="http://hl7.org/fhir/workflow">Workflow Pattern</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="http://siframework.org/cqf" title="http://siframework.org/cqf">Quality Improvement and Clinical Knowledge (QUICK)</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/fhir/fivews" title="http://hl7.org/fhir/fivews">FiveWs Pattern Mapping</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/v2" title="http://hl7.org/v2">HL7 v2 Mapping</a></th><th scope="col" style="" class="hierarchy xhtCellBorder0"><a href="http://hl7.org/v3" title="http://hl7.org/v3">RIM Mapping</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
+<tr fhir="generated-heirarchy" id="o-a" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck1.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="" style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement" title="A record of a device being used by a patient where the record is the result of a report from the patient or another clinician.">DeviceUseStatement</a><a name="o-DeviceUseStatement"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>DeviceUsePerformanceOccurrence</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div><ul><li>Entity. Role</li><li> or Act</li></ul></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-aa" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.id" title="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.">id</a><a name="o-DeviceUseStatement.id"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ab" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.meta" title="The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.">meta</a><a name="o-DeviceUseStatement.meta"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ac" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.implicitRules" title="A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.">implicitRules</a><a name="o-DeviceUseStatement.implicitRules"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ad" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.language" title="The base language in which the resource is written.">language</a><a name="o-DeviceUseStatement.language"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ae" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.text" title="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.">text</a><a name="o-DeviceUseStatement.text"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Act.text?</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-af" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="" style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.contained" title="These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.">contained</a><a name="o-DeviceUseStatement.contained"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>N/A</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ag" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_extension_simple.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.extension" title="May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.">extension</a><a name="o-DeviceUseStatement.extension"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>N/A</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ah" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_modifier_extension_simple.png" alt="" style="background-color: white; background-color: inherit" title="Simple Extension" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.modifierExtension" title="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).">modifierExtension</a><a name="o-DeviceUseStatement.modifierExtension"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>N/A</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ai" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.identifier" title="An external identifier for this statement such as an IRI.">identifier</a><a name="o-DeviceUseStatement.identifier"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.identifier</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>ClinicalStatement.identifier</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.identifier</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-aj" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.basedOn" title="A plan, proposal or order that is fulfilled in whole or in part by this DeviceUseStatement.">basedOn</a><a name="o-DeviceUseStatement.basedOn"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.basedOn</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>ORC in proximity to EVN segment</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>.outboundRelationship[typeCode=FLFS].target</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ak" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.status" title="A code representing the patient or other source's judgment about the state of the device used that this statement is about.  Generally this will be active or completed.">status</a><a name="o-DeviceUseStatement.status"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.status</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>…status</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.status</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>.statusCode</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-al" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.subject" title="The patient who used the device.">subject</a><a name="o-DeviceUseStatement.subject"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.subject</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>ClinicalStatement.subject</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.subject</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-am" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.derivedFrom" title="Allows linking the DeviceUseStatement to the underlying Request, or to other information that supports or is used to derive the DeviceUseStatement.">derivedFrom</a><a name="o-DeviceUseStatement.derivedFrom"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-an" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_choice.gif" alt="" style="background-color: white; background-color: inherit" title="Choice of Types" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.timing[x]" title="How often the device was used.">timing[x]</a><a name="o-DeviceUseStatement.timing_x_"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.occurrence[x]</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>DeviceUse.applicationSchedule</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.done[x]</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ao" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.recordedOn" title="The time at which the statement was made/recorded.">recordedOn</a><a name="o-DeviceUseStatement.recordedOn"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>ClinicalStatement.statementDateTime</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.recorded</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ap" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.source" title="Who reported the device was being used by the patient.">source</a><a name="o-DeviceUseStatement.source"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.performer.actor</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.actor</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-aq" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.device" title="The details of the device used.">device</a><a name="o-DeviceUseStatement.device"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>DeviceUse.device</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.actor</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-ar" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.reasonCode" title="Reason or justification for the use of the device.">reasonCode</a><a name="o-DeviceUseStatement.reasonCode"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.reasonCode</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Action.indication.reason</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.why[x]</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" id="o-as" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.reasonReference" title="Indicates another resource whose existence justifies this DeviceUseStatement.">reasonReference</a><a name="o-DeviceUseStatement.reasonReference"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.reasonReference</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>FiveWs.why[x]</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>EVN.4 or by domain</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>.outboundRelationship[typeCode=RSON].target</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-at" class="xhtRowBorder0 xhtRowEven" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck10.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.bodySite" title="Indicates the anotomic location on the subject's body where the device was used ( i.e. the target).">bodySite</a><a name="o-DeviceUseStatement.bodySite"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.note</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>targetSiteCode</div></td></tr>
+<tr fhir="generated-heirarchy" id="o-au" class="xhtRowBorder0 xhtRowOdd" data-fhir="generated-heirarchy"><td role="rowheader" style="background-image: url(tbl_bck00.png)" class="hierarchy xhtCellBorder0 xhtCellNoWrap"><img src="tbl_spacer.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="" style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="" style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0" class="sr-only">DeviceUseStatement / </span><a href="StructureDefinition-who-fp-deviceusestatement-exit-contraceptive-method-definitions.html#DeviceUseStatement.note" title="Details about the device statement that were not represented at all or sufficiently in one of the attributes provided in a class. These may include for example a comment, an instruction, or a note associated with the statement.">note</a><a name="o-DeviceUseStatement.note"> </a></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>Event.note</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div>ClinicalStatement.additionalText</div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td>
+<td style="" class="hierarchy xhtCellBorder0">
+<div></div></td></tr>
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="6" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table>
+
+    <!-- insert notes if present -->
+  
+
+
+
+</div>
+
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
+
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+<script src="assets/js/tabs.js" type="text/javascript"> </script>
+
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<a name="bottom"> </a>
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.who.int">World Health Organization (WHO)</a>.  Package who.fhir.fp-cds#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 19, 2026 11:53+0000">2026-11-19</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l1238">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="http://fhir.org/guides/who/fp-cds/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    </span>
+  </p>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Analytics Below
+================================================== -->
+
+
+
+
+</body></html>

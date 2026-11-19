@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:46:47.002855Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld#308335008",
+      "name": "Provided on site",
+      "fhir:code": "308335008",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld#281100006",
+      "name": "Referral",
+      "fhir:code": "281100006",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-contraceptivedeliverymethod-values.jsonld#16076005",
+      "name": "Prescription",
+      "fhir:code": "16076005",
+      "fhir:CodeSystem": "http://snomed.info/sct"
+    }
+  ]
+}

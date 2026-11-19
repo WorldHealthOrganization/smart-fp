@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "name": "http://www.w3.org/2000/01/rdf-schema#label",
+    "fhir": "https://smart.who.int/base/DataTypes.jsonld#",
+    "id": "@id",
+    "generatedAt": {
+      "@id": "http://www.w3.org/ns/prov#generatedAtTime",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  },
+  "@id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.jsonld",
+  "@type": "http://www.w3.org/ns/prov#Entity",
+  "generatedAt": "2026-11-19T11:54:53.073055Z",
+  "@graph": [
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.jsonld#LA28438-4",
+      "name": "Yes, I want to become pregnant",
+      "fhir:code": "LA28438-4",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.jsonld#LA26439-2",
+      "name": "I'm OK either way",
+      "fhir:code": "LA26439-2",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.jsonld#LA26440-0",
+      "name": "No, I don't want to become pregnant",
+      "fhir:code": "LA26440-0",
+      "fhir:CodeSystem": "http://loinc.org"
+    },
+    {
+      "id": "http://fhir.org/guides/who/fp-cds/ValueSet-pregnancy-intention-values.jsonld#LA14072-5",
+      "name": "Unsure",
+      "fhir:code": "LA14072-5",
+      "fhir:CodeSystem": "http://loinc.org"
+    }
+  ]
+}

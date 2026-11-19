@@ -1,0 +1,177 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/backupcontraceptivemethod-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "backupcontraceptivemethod-values",
+    "title" : "Contraception backup method provided values",
+    "description" : "Codes representing possible values for the Contraception backup method provided element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content",
+    "http://loinc.org",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-careplan-backup-contraceptive-method.html" : "WHO-FP CarePlan (Backup Contraceptive Method)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/breastfeeding-status-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "breastfeeding-status-values",
+    "title" : "Breastfeeding status values",
+    "description" : "Codes representing possible values for the Breastfeeding status element",
+    "systems" : ["http://loinc.org", "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-observation-breastfeeding-status.html" : "WHO-FP Observation (Breastfeeding Status)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/cigarettes-smoked-per-day-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "cigarettes-smoked-per-day-values",
+    "title" : "Cigarettes smoked per day values",
+    "description" : "Codes representing possible values for the Cigarettes smoked per day element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content"]
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraception-issues-and-concerns-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "contraception-issues-and-concerns-values",
+    "title" : "Contraception Issues and concerns values",
+    "description" : "Codes representing possible values for the Contraception Issues and concerns element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content",
+    "http://hl7.org/fhir/sid/icd-10",
+    "http://loinc.org",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-encounter-contraception-issues-and-concerns.html" : "WHO-FP Encounter (Contraception Issues and Concerns) "
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/contraceptivedeliverymethod-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "contraceptivedeliverymethod-values",
+    "title" : "How contraceptive method is being provided values",
+    "description" : "Codes representing possible values for the How contraceptive method is being provided element",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-deliverymethod.html" : "How contraceptive method is being provided"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/current-medications-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "current-medications-values",
+    "title" : "Current Medications values",
+    "description" : "Codes representing possible values for the Current Medications element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content",
+    "http://hl7.org/fhir/sid/ciel"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-medicationstatement-current-medication.html" : "WHO-FP MedicationStatement (Current Medication)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/fp-recommended-care-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "fp-recommended-care-values",
+    "title" : "FP Recommended Care values",
+    "description" : "Codes representing possible values for the FP Recommended Care element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-careplan-recommendation.html" : "WHO-FP CarePlan (Recommendation)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/iud-insertion-status-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "iud-insertion-status-values",
+    "title" : "IUD Insertion status values",
+    "description" : "Codes representing possible values for the IUD Insertion status element",
+    "systems" : ["http://hl7.org/fhir/event-status"]
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medical-eligibility-text-classification-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "medical-eligibility-text-classification-values",
+    "title" : "Medical eligibility - text classification values",
+    "description" : "Codes representing possible values for the Medical eligibility - text classification element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content"]
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityconditions-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "medicaleligibilityconditions-values",
+    "title" : "Current conditions affecting Medical Eligibility values",
+    "description" : "Codes representing possible values for the Current conditions affecting Medical Eligibility element",
+    "systems" : ["http://who.int/cg/CodeSystem/extended-content",
+    "http://hl7.org/fhir/sid/ciel",
+    "http://hl7.org/fhir/sid/icd-11"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-condition-medical-eligibility.html" : "WHO-FP Condition (Medical Eligibility)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilitynumber-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "medicaleligibilitynumber-values",
+    "title" : "Medical eligibility - number classification values",
+    "description" : "Codes representing possible values for the Medical eligibility - number classification element"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/medicaleligibilityobservations-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "medicaleligibilityobservations-values",
+    "title" : "Observations affecting Medical Eligibility values",
+    "description" : "Codes representing possible values for the Observations affecting Medical Eligibility element",
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-observation-medical-eligibility.html" : "WHO-FP Observation (Medical Eligibility)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/pregnancy-intention-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "pregnancy-intention-values",
+    "title" : "Pregnancy intention values",
+    "description" : "Codes representing possible values for the Pregnancy intention element",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-observation-pregnancy-intention.html" : "WHO-FP Observation (Pregnancy Intention)"
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-family-planning-visit-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "reason-for-family-planning-visit-values",
+    "title" : "Reason for family planning visit values",
+    "description" : "Codes representing possible values for the Reason for family planning visit element",
+    "systems" : ["http://hl7.org/fhir/sid/icd-10",
+    "http://loinc.org",
+    "http://snomed.info/sct"]
+  },
+  {
+    "url" : "http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "reason-for-no-method-at-exit-values",
+    "title" : "Reason for no method at exit values",
+    "description" : "Codes representing possible values for the Reason for no method at exit element",
+    "systems" : ["http://hl7.org/fhir/sid/icd-10",
+    "http://loinc.org",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.html" : "WHO-FP Observation (Reason for no contraceptive method at exit)"
+  }]
+}

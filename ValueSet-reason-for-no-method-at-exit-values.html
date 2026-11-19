@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Reason for no method at exit values - WHO Family Planning Implementation Guide v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"7.46"}
+    h3,h4,h5,h6{--heading-prefix:"7.46"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="extensions.html">Extensions</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="terminology.html">Terminology</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="index.html" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="http://hl7.org/fhir/R4/index.html" target="_blank">FHIR Spec</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option>Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Placeholder for child template header declarations -->
+<div id="project-nav">
+    <a no-external="true" id="who-logo" href="index.html">
+        
+    </a>
+</div>
+
+ <div id="family-nav">
+  <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir">  </a>
+</div> 
+
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">WHO Family Planning Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - CI Build
+
+
+
+  <img src="assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Reason for no method at exit values</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">WHO Family Planning Implementation Guide, published by World Health Organization (WHO). This guide is not an authorized publication; it is the continuous build for version 0.2.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href="https://github.com/WorldHealthOrganization/smart-fp/tree/master">https://github.com/WorldHealthOrganization/smart-fp/tree/master</a> and changes regularly. See the <a href="http://fhir.org/guides/who/fp-cds/history.html">Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/WorldHealthOrganization/smart-fp/commit/bd599f98d40313b9c47eff333f5c68c025455e18"><code>bd599f98</code></a>.</span></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-reason-for-no-method-at-exit-values.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-reason-for-no-method-at-exit-values.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-reason-for-no-method-at-exit-values.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Reason for no method at exit values
+
+  </h2>
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values<button data-clipboard-text="http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button data-clipboard-text="http://fhir.org/guides/who/fp-cds/ValueSet/reason-for-no-method-at-exit-values|0.2.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2026-11-19
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">reason-for-no-method-at-exit-values</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Codes representing possible values for the Reason for no method at exit element</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-who-fp-observation-reason-for-no-contraceptive-method-at-exit.html">WHO-FP Observation (Reason for no contraceptive method at exit)</a></li>
+</ul>
+
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+  <!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div data-fhir="generated"><p class="res-header-id"></p><a name="reason-for-no-method-at-exit-values"> </a><a name="hcreason-for-no-method-at-exit-values"> </a><p>This value set includes codes based on the following rules:</p>
+<ul><li>Include these codes as defined in <a href="http://loinc.org"><code>http://loinc.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="https://loinc.org/14550-0/">14550-0</a></td><td>Voluntarily refrains from sexual intercourse</td></tr><tr><td><a href="https://loinc.org/LA 27925-9/">LA 27925-9</a></td><td>Same sex partner</td></tr><tr><td><a href="https://loinc.org/46-8/">46-8</a></td><td>No method for other reasons</td></tr><tr><td><a href="https://loinc.org/27927-5/">27927-5</a></td><td>Sterile for non-contraceptive reasons</td></tr><tr><td><a href="https://loinc.org/LA 27928-3/">LA 27928-3</a></td><td>Seeking pregnancy</td></tr></table></li>
+<li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span>
+<table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td><a href="http://snomed.info/id/454731000124108">454731000124108</a></td>
+<td>Voluntarily refrains from sexual intercourse</td></tr>
+<tr><td><a href="http://snomed.info/id/445637007">445637007</a></td>
+<td>Client choice to not use contraception</td></tr>
+<tr><td><a href="http://snomed.info/id/454361000124100">454361000124100</a></td>
+<td>Same sex partner</td></tr>
+<tr><td><a href="http://snomed.info/id/74964007">74964007</a></td>
+<td>No method for other reasons</td></tr>
+<tr><td><a href="http://snomed.info/id/182856006">182856006</a></td>
+<td>Out of stock</td></tr>
+<tr><td><a href="http://snomed.info/id/15296000">15296000</a></td>
+<td>Sterile for non-contraceptive reasons</td></tr>
+<tr><td><a href="http://snomed.info/id/454411000124108">454411000124108</a></td>
+<td>Seeking pregnancy</td></tr></table></li>
+<li>Include these codes as defined in <a href="http://tx.fhir.org/r4"><code>http://hl7.org/fhir/sid/icd-10</code></a><span title="Version is not explicitly stated. When building this specification, the most recent version 2019-covid-expanded has been used" class="xhtPieceDeEmphasized"> version ⏿2019-covid-expanded</span>
+<table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+<tr><td><a href="http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z76.4689">Z76.89</a></td>
+<td>Out of stock</td>
+<td></td></tr>
+<tr><td><a href="http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z31.469">Z31.9</a></td>
+<td>Sterile for non-contraceptive reasons</td>
+<td>Procreative management, unspecified</td></tr></table></li></ul></div>
+
+  <p>&nbsp;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div data-fhir="generated"><p class="res-header-id"></p><div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px"><p>Expansion from tx.fhir.org based on:</p><ul><li><a href="http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019">codesystem ICD-10-EN v2019-covid-expanded (CodeSystem)</a><span class="copy-text-inline"><button data-clipboard-text="http://hl7.org/fhir/sid/icd-10|2019-covid-expanded" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button></span></li><li>Loinc v2.83<span class="copy-text-inline"><button data-clipboard-text="http://loinc.org|2.83" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button></span></li><li>SNOMED CT International edition 01-Jul 2026<span class="copy-text-inline"><button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701" title="Click to Copy URL" class="btn-copy" aria-label="copy"> </button></span></li></ul></div><div class="panel panel-warning"><div class="panel-body"><p>Notes about this expansion:</p><ul><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '14550-0', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code 'LA 27925-9', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '46-8', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '27927-5', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code 'LA 27928-3', which is not in the code system 'http://loinc.org|2.83', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '454731000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '454361000124100', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code '454411000124108', which is not in the code system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701', so it is not in the expansion</li><li><span class="text-warning"><b>Warning:</b></span> The value set includes the code 'Z76.89', which is not in the code system 'http://hl7.org/fhir/sid/icd-10|2019-covid-expanded', so it is not in the expansion</li></ul></div></div><p>This value set contains 5 concepts</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-http://snomed.info/sct-445637007"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">&nbsp;&nbsp;<a href="http://snomed.info/id/445637007">445637007</a></td><td>Chooses not to use contraception</td><td></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;445637007&quot;, &quot;display&quot;: &quot;Chooses not to use contraception&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;445637007&quot;/&gt;&lt;display value=&quot;Chooses not to use contraception&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td></tr><tr><td><a name="x-http://snomed.info/sct-74964007"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">&nbsp;&nbsp;<a href="http://snomed.info/id/74964007">74964007</a></td><td>Other</td><td></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;74964007&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;74964007&quot;/&gt;&lt;display value=&quot;Other&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td></tr><tr><td><a name="x-http://snomed.info/sct-182856006"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">&nbsp;&nbsp;<a href="http://snomed.info/id/182856006">182856006</a></td><td>Drug not available - out of stock</td><td></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;182856006&quot;, &quot;display&quot;: &quot;Drug not available - out of stock&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;182856006&quot;/&gt;&lt;display value=&quot;Drug not available - out of stock&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td></tr><tr><td><a name="x-http://snomed.info/sct-15296000"> </a><code>http://snomed.info/sct</code></td><td style="white-space:nowrap">&nbsp;&nbsp;<a href="http://snomed.info/id/15296000">15296000</a></td><td>Sterility</td><td></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;, &quot;code&quot;: &quot;15296000&quot;, &quot;display&quot;: &quot;Sterility&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20260701&quot;/&gt;&lt;code value=&quot;15296000&quot;/&gt;&lt;display value=&quot;Sterility&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td></tr><tr><td><a name="x-http://hl7.org/fhir/sid/icd-10-Z31.9"> </a><code>http://hl7.org/fhir/sid/icd-10</code></td><td style="white-space:nowrap">&nbsp;&nbsp;<a href="http://tx.fhir.org/r4/CodeSystem/tx-icd10-2019#tx-icd10-2019-Z31.469">Z31.9</a></td><td>Procreative management, unspecified</td><td><div><p>Procreative management, unspecified</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/sid/icd-10&quot;, &quot;version&quot;: &quot;2019-covid-expanded&quot;, &quot;code&quot;: &quot;Z31.9&quot;, &quot;display&quot;: &quot;Procreative management, unspecified&quot;}" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/sid/icd-10&quot;/&gt;&lt;version value=&quot;2019-covid-expanded&quot;/&gt;&lt;code value=&quot;Z31.9&quot;/&gt;&lt;display value=&quot;Procreative management, unspecified&quot;/&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy" aria-label="copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-content -->
+
+<script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<a name="bottom"> </a>
+<div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+<div class="container">    <!-- container -->
+
+<div class="inner-wrapper">
+  <p>
+    IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.who.int">World Health Organization (WHO)</a>.  Package who.fhir.fp-cds#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 19, 2026 11:53+0000">2026-11-19</span>
+    <br/>
+    <span style="color: var(--footer-highlight-text-color)"><a name="l912">​</a>
+                Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="http://fhir.org/guides/who/fp-cds/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+    </span>
+  </p>
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-footer -->
+
+<div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+<div class="container">    <!-- container -->
+</div>    <!-- /container -->
+</div>    <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+<script src="assets/js/respond.min.js" type="text/javascript"> </script>
+<script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+<script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+<script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <!-- Analytics Below
+================================================== -->
+
+
+
+
+</body></html>
