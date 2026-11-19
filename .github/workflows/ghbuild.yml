@@ -1,0 +1,19 @@
+# This workflow reuses the openHIE GitHub action for building IGs
+# Initial idea by Carl Leitner, developed by Elliot Silver, available from: https://www.argentixinfo.com/archives/156
+# Change log:
+# v0.1.0
+# 2021-06-18: publish default branches to / , other branches branches/<branch>
+# 2021-11-26: reusable workflow
+
+name: GitHub Pages build
+
+# Controls when the action will run. 
+on:
+  # By hand only (owner decision, 2026-10-06; as on smart-hiv): the harnessed
+  # site (site-publish.yml) owns gh-pages, so no push or pull request runs this.
+  workflow_dispatch:
+
+jobs:
+  # This workflow contains a single job called "build"
+  call_build: 
+    uses: WorldHealthOrganization/smart-base/.github/workflows/ghbuild.yml@main

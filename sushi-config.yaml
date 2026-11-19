@@ -1,0 +1,63 @@
+# Converted from input/fp-cds.xml (the XML ImplementationGuide) with GoFSH.
+# Identity, pages, menu and parameters are the XML IG's own, unchanged.
+id: who.fhir.fp-cds
+canonical: http://fhir.org/guides/who/fp-cds
+url: http://fhir.org/guides/who/fp-cds/ImplementationGuide/who.fhir.fp-cds
+version: 0.2.0
+name: FPCDS
+title: WHO Family Planning Implementation Guide
+status: draft
+experimental: false
+publisher:
+  name: World Health Organization (WHO)
+contact:
+  - telecom:
+      - system: url
+        value: https://www.who.int
+description: This implementation guide defines data element profiles for the World Health Organization (WHO) Family Planning smart guideline.
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001
+packageId: who.fhir.fp-cds
+fhirVersion: 4.0.1
+copyrightYear: 2019+
+releaseLabel: CI Build
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+
+pages:
+  index.md:
+    title: Home
+  profiles.xml:
+    title: Profiles
+  extensions.xml:
+    title: Extensions
+  terminology.xml:
+    title: Terminology
+  downloads.md:
+    title: Downloads
+  sushi-conversion.md:
+    title: Conversion to FSH
+
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  Profiles: profiles.html
+  Extensions: extensions.html
+  Artifact Index: artifacts.html
+  Terminology: terminology.html
+  Downloads: downloads.html
+  Support:
+    FHIR Spec: new-tab {{site.data.fhir.path}}index.html
+
+parameters:
+  find-other-resources: true
+  path-pages: input/pagecontent
+  path-resource:
+    - input/resources/activitydefinition
+    - input/resources/capabilitystatement
+    - input/resources/library
+    - input/resources/measure
+    - input/resources/plandefinition
+    - input/resources/questionnaire
+    - input/vocabulary/codesystem
+    - input/vocabulary/valueset
+  path-suppressed-warnings: input/ignoreWarnings.txt
