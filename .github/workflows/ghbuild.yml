@@ -7,13 +7,20 @@
 
 name: GitHub Pages build
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
-  # By hand only (owner decision, 2026-10-06; as on smart-hiv): the harnessed
-  # site (site-publish.yml) owns gh-pages, so no push or pull request runs this.
+  # WHO keeps its own publishing (owner decision, 2026-11-19): this repository
+  # builds and publishes from `master`, and builds every pull request to it.
+  # The harness's site-publish.yml is not used here.
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
   workflow_dispatch:
 
 jobs:
   # This workflow contains a single job called "build"
-  call_build: 
+  call_build:
+    permissions:
+      contents: write
     uses: WorldHealthOrganization/smart-base/.github/workflows/ghbuild.yml@main
